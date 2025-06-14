@@ -1,0 +1,40 @@
+2025-05-08 21:50:21,748 - overlay - INFO - Fetching all CameraURLs records
+2025-05-08 21:50:21,760 - recording_session - INFO - 🚀 SlowMoWorkers started: 4 threads
+2025-05-08 21:50:21,760 - overlay - INFO - Fetching all CameraURLs records
+2025-05-08 21:50:21,777 - recording_session - INFO - 🎥 Recording thread started for camera 1
+2025-05-08 21:50:21,782 - overlay - INFO - Started recording for camera 1: rtsp://192.168.100.150:8547/h264
+2025-05-08 21:50:21,793 - recording_session - INFO - 🎥 Recording thread started for camera 2
+2025-05-08 21:50:21,793 - overlay - INFO - Started recording for camera 2: rtsp://192.168.100.150:8547/h264
+2025-05-08 21:50:21,807 - recording_session - INFO - 🎥 Recording thread started for camera 3
+2025-05-08 21:50:21,807 - overlay - INFO - Started recording for camera 3: rtsp://192.168.100.150:8547/h264
+2025-05-08 21:50:21,815 - recording_session - INFO - ✅ Audio linked successfully to mux for camera 2
+2025-05-08 21:50:21,815 - recording_session - INFO - ✅ Audio linked successfully to mux for camera 3
+2025-05-08 21:50:21,816 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 2
+2025-05-08 21:50:21,816 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 3
+2025-05-08 21:50:21,816 - recording_session - INFO - ✅ Audio linked successfully to mux for camera 1
+2025-05-08 21:50:21,817 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 1
+2025-05-08 21:50:21,818 - recording_session - INFO - 🎥 Recording thread started for camera 4
+2025-05-08 21:50:21,818 - overlay - INFO - Started recording for camera 4: rtsp://192.168.100.150:8547/h264
+2025-05-08 21:50:21,821 - recording_session - INFO - ✅ Audio linked successfully to mux for camera 4
+2025-05-08 21:50:21,821 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 4
+2025-05-08 21:50:21,835 - recording_session - INFO - ✅ Pipeline set to PLAYING for camera 3
+2025-05-08 21:50:21,836 - recording_session - INFO - ✅ Pipeline set to PLAYING for camera 2
+2025-05-08 21:50:21,862 - recording_session - INFO - ✅ Pipeline set to PLAYING for camera 4
+2025-05-08 21:50:21,896 - recording_session - INFO - ✅ Pipeline set to PLAYING for camera 1
+2025-05-08 21:50:21,983 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-08/1746723021.mp4
+2025-05-08 21:50:21,998 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-08/1746723021.mp4
+2025-05-08 21:50:22,013 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-08/1746723021.mp4
+2025-05-08 21:50:22,031 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-08/1746723021.mp4
+2025-05-08 21:50:22,036 - recording_session - INFO - 🔌 pad-added signal for camera 1
+2025-05-08 21:50:22,037 - recording_session - INFO - 🔗 Linked rtspsrc pad to depay for camera 1
+2025-05-08 21:50:22,037 - recording_session - ERROR - ❌ mux.get_request_pad('video_0') is None for camera 1
+2025-05-08 21:50:22,041 - recording_session - INFO - 🔌 pad-added signal for camera 4
+2025-05-08 21:50:22,042 - recording_session - INFO - 🔗 Linked rtspsrc pad to depay for camera 4
+2025-05-08 21:50:22,043 - recording_session - ERROR - ❌ mux.get_request_pad('video_0') is None for camera 4
+2025-05-08 21:50:22,049 - recording_session - INFO - 🔌 pad-added signal for camera 2
+2025-05-08 21:50:22,050 - recording_session - INFO - 🔗 Linked rtspsrc pad to depay for camera 2
+2025-05-08 21:50:22,050 - recording_session - ERROR - ❌ mux.get_request_pad('video_0') is None for camera 2
+2025-05-08 21:50:22,053 - recording_session - INFO - 🔌 pad-added signal for camera 3
+2025-05-08 21:50:22,054 - recording_session - INFO - 🔗 Linked rtspsrc pad to depay for camera 3
+2025-05-08 21:50:22,054 - recording_session - ERROR - ❌ mux.get_request_pad('video_0') is None for camera 3
+2025-05-08 21:50:38,906 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-08/1746723021.mp4

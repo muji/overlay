@@ -1,0 +1,39 @@
+2025-05-09 00:54:53,486 - overlay - INFO - Fetching all CameraURLs records
+2025-05-09 00:54:53,496 - recording_session - INFO - 🚀 SlowMoWorkers started: 4 threads
+2025-05-09 00:54:53,497 - overlay - INFO - Fetching all CameraURLs records
+2025-05-09 00:54:53,513 - recording_session - INFO - 🎥 Recording thread started for camera 1
+2025-05-09 00:54:53,515 - overlay - INFO - Started recording for camera 1: rtsp://192.168.100.150:8547/h264
+2025-05-09 00:54:53,525 - recording_session - INFO - 🎥 Recording thread started for camera 2
+2025-05-09 00:54:53,525 - overlay - INFO - Started recording for camera 2: rtsp://192.168.100.150:8547/h264
+2025-05-09 00:54:53,535 - recording_session - INFO - 🎥 Recording thread started for camera 3
+2025-05-09 00:54:53,535 - overlay - INFO - Started recording for camera 3: rtsp://192.168.100.150:8547/h264
+2025-05-09 00:54:53,538 - recording_session - ERROR - Pipeline error: type object 'Element' has no attribute 'link_many'
+Traceback (most recent call last):
+  File "/opt/overlay/recording_session.py", line 196, in _run_pipeline
+    if not Gst.Element.link_many(
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'Element' has no attribute 'link_many'. Did you mean: 'link_pads'?
+2025-05-09 00:54:53,538 - recording_session - ERROR - Pipeline error: type object 'Element' has no attribute 'link_many'
+Traceback (most recent call last):
+  File "/opt/overlay/recording_session.py", line 196, in _run_pipeline
+    if not Gst.Element.link_many(
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'Element' has no attribute 'link_many'. Did you mean: 'link_pads'?
+2025-05-09 00:54:53,547 - recording_session - INFO - Pipeline cleaned up for camera 1
+2025-05-09 00:54:53,547 - recording_session - INFO - Pipeline cleaned up for camera 3
+2025-05-09 00:54:53,547 - recording_session - INFO - 🎥 Recording thread started for camera 4
+2025-05-09 00:54:53,548 - overlay - INFO - Started recording for camera 4: rtsp://192.168.100.150:8547/h264
+2025-05-09 00:54:53,548 - recording_session - ERROR - Pipeline error: type object 'Element' has no attribute 'link_many'
+Traceback (most recent call last):
+  File "/opt/overlay/recording_session.py", line 196, in _run_pipeline
+    if not Gst.Element.link_many(
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'Element' has no attribute 'link_many'. Did you mean: 'link_pads'?
+2025-05-09 00:54:53,554 - recording_session - INFO - Pipeline cleaned up for camera 2
+2025-05-09 00:54:53,556 - recording_session - ERROR - Pipeline error: type object 'Element' has no attribute 'link_many'
+Traceback (most recent call last):
+  File "/opt/overlay/recording_session.py", line 196, in _run_pipeline
+    if not Gst.Element.link_many(
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'Element' has no attribute 'link_many'. Did you mean: 'link_pads'?
+2025-05-09 00:54:53,560 - recording_session - INFO - Pipeline cleaned up for camera 4

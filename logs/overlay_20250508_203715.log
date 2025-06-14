@@ -1,0 +1,59 @@
+2025-05-08 20:37:15,352 - overlay - INFO - Fetching all CameraURLs records
+2025-05-08 20:37:15,364 - recording_session - INFO - 🚀 SlowMoWorkers started: 4 threads
+2025-05-08 20:37:15,364 - overlay - INFO - Fetching all CameraURLs records
+2025-05-08 20:37:15,373 - recording_session - INFO - 🎥 Recording thread started for camera 1
+2025-05-08 20:37:15,375 - overlay - INFO - Started recording for camera 1: rtsp://192.168.100.150:8547/h264
+2025-05-08 20:37:15,385 - recording_session - INFO - 🎥 Recording thread started for camera 2
+2025-05-08 20:37:15,385 - overlay - INFO - Started recording for camera 2: rtsp://192.168.100.150:8547/h264
+2025-05-08 20:37:15,392 - recording_session - INFO - 🎥 Recording thread started for camera 3
+2025-05-08 20:37:15,392 - overlay - INFO - Started recording for camera 3: rtsp://192.168.100.150:8547/h264
+2025-05-08 20:37:15,398 - recording_session - INFO - ✅ Audio linked successfully to mux
+2025-05-08 20:37:15,398 - recording_session - INFO - ✅ Audio linked successfully to mux
+2025-05-08 20:37:15,398 - recording_session - INFO - ✅ Audio linked successfully to mux
+2025-05-08 20:37:15,399 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 3
+2025-05-08 20:37:15,399 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 1
+2025-05-08 20:37:15,399 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 2
+2025-05-08 20:37:15,402 - recording_session - INFO - 🎥 Recording thread started for camera 4
+2025-05-08 20:37:15,402 - overlay - INFO - Started recording for camera 4: rtsp://192.168.100.150:8547/h264
+2025-05-08 20:37:15,405 - recording_session - INFO - ✅ Audio linked successfully to mux
+2025-05-08 20:37:15,406 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 4
+2025-05-08 20:37:15,416 - recording_session - INFO - ✅ Pipeline set to PLAYING for camera 2
+2025-05-08 20:37:15,416 - recording_session - INFO - ✅ Pipeline set to PLAYING for camera 1
+2025-05-08 20:37:15,417 - recording_session - INFO - ✅ Pipeline set to PLAYING for camera 3
+2025-05-08 20:37:15,427 - recording_session - INFO - ✅ Pipeline set to PLAYING for camera 4
+2025-05-08 20:37:15,529 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-08/1746718635.mp4
+2025-05-08 20:37:15,539 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-08/1746718635.mp4
+2025-05-08 20:37:15,556 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-08/1746718635.mp4
+2025-05-08 20:37:15,573 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-08/1746718635.mp4
+2025-05-08 20:37:15,590 - recording_session - INFO - 🔌 pad-added signal for camera 3
+2025-05-08 20:37:15,591 - recording_session - INFO - 🔗 Linked rtspsrc pad to depay for camera 3
+2025-05-08 20:37:15,592 - recording_session - INFO - 🔌 pad-added signal for camera 1
+2025-05-08 20:37:15,592 - recording_session - INFO - 🔌 pad-added signal for camera 4
+2025-05-08 20:37:15,593 - recording_session - ERROR - ❌ Video pad linking failure: src or sink pad missing for camera 3
+2025-05-08 20:37:15,593 - recording_session - INFO - 🔗 Linked rtspsrc pad to depay for camera 1
+2025-05-08 20:37:15,593 - recording_session - INFO - 🔗 Linked rtspsrc pad to depay for camera 4
+2025-05-08 20:37:15,594 - recording_session - ERROR - ❌ Video pad linking failure: src or sink pad missing for camera 1
+2025-05-08 20:37:15,594 - recording_session - ERROR - ❌ Video pad linking failure: src or sink pad missing for camera 4
+2025-05-08 20:37:15,606 - recording_session - INFO - 🔌 pad-added signal for camera 2
+2025-05-08 20:37:15,607 - recording_session - INFO - 🔗 Linked rtspsrc pad to depay for camera 2
+2025-05-08 20:37:15,607 - recording_session - ERROR - ❌ Video pad linking failure: src or sink pad missing for camera 2
+2025-05-08 20:38:15,510 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-08/1746718635.mp4
+2025-05-08 20:38:15,519 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-08/1746718695.mp4
+2025-05-08 20:38:15,533 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-08/1746718695.mp4
+2025-05-08 20:38:15,548 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-08/1746718695.mp4
+2025-05-08 20:38:15,564 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-08/1746718695.mp4
+2025-05-08 20:38:15,653 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-08/1746718635.mp4
+2025-05-08 20:38:15,655 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-08/1746718635.mp4
+2025-05-08 20:38:15,748 - ffmpeg_post_process - WARNING - ❌ Failed to get video info: could not convert string to float: ''
+2025-05-08 20:38:15,758 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-08/1746718635.mp4
+2025-05-08 20:38:15,759 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-08/1746718635.mp4
+2025-05-08 20:38:15,851 - ffmpeg_post_process - WARNING - ❌ Failed to get video info: could not convert string to float: ''
+2025-05-08 20:38:15,871 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-08/1746718635.mp4
+2025-05-08 20:38:15,872 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-08/1746718635.mp4
+2025-05-08 20:38:15,948 - ffmpeg_post_process - WARNING - ❌ Failed to get video info: could not convert string to float: ''
+2025-05-08 20:38:15,970 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-08/1746718635.mp4
+2025-05-08 20:38:16,060 - ffmpeg_post_process - WARNING - ❌ Failed to get video info: could not convert string to float: ''
+2025-05-08 20:38:19,490 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-08/1746718695.mp4
+2025-05-08 20:38:19,520 - recording_session - WARNING - Failed to probe file /var/www/html/public/assets/uploads/CAM1/2025-05-08/1746718695.mp4: could not convert string to float: ''
+2025-05-08 20:38:19,521 - recording_session - WARNING - Chunk not ready or too small to process: /var/www/html/public/assets/uploads/CAM1/2025-05-08/1746718695.mp4
+2025-05-08 20:38:19,521 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-08/1746718695.mp4

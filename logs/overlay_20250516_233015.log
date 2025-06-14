@@ -1,0 +1,659 @@
+2025-05-16 23:30:15,486 - overlay - INFO - Fetching all CameraURLs records
+2025-05-16 23:30:15,582 - recording_session - INFO - 🚀 SlowMoWorkers started: 4 threads
+2025-05-16 23:30:15,587 - overlay - INFO - Fetching all CameraURLs records
+2025-05-16 23:30:15,598 - recording_session - INFO - 🎥 Recording thread started for camera 1
+2025-05-16 23:30:15,599 - overlay - INFO - Started recording for camera 1: rtsp://192.168.100.150:8547/h264
+2025-05-16 23:30:15,610 - recording_session - INFO - 🎥 Recording thread started for camera 2
+2025-05-16 23:30:15,611 - overlay - INFO - Started recording for camera 2: rtsp://192.168.100.150:8547/h264
+2025-05-16 23:30:15,618 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 2
+2025-05-16 23:30:15,618 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 1
+2025-05-16 23:30:15,621 - recording_session - INFO - ✅ Pipeline PLAYING for camera 2
+2025-05-16 23:30:15,621 - recording_session - INFO - ✅ Pipeline PLAYING for camera 1
+2025-05-16 23:30:15,629 - recording_session - INFO - 🎥 Recording thread started for camera 3
+2025-05-16 23:30:15,629 - overlay - INFO - Started recording for camera 3: rtsp://192.168.100.150:8547/h264
+2025-05-16 23:30:15,637 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 3
+2025-05-16 23:30:15,640 - recording_session - INFO - ✅ Pipeline PLAYING for camera 3
+2025-05-16 23:30:15,645 - recording_session - INFO - 🎥 Recording thread started for camera 4
+2025-05-16 23:30:15,645 - overlay - INFO - Started recording for camera 4: rtsp://192.168.100.150:8547/h264
+2025-05-16 23:30:15,648 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 4
+2025-05-16 23:30:15,651 - recording_session - INFO - ✅ Pipeline PLAYING for camera 4
+2025-05-16 23:30:15,777 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 1
+2025-05-16 23:30:15,776 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 2
+2025-05-16 23:30:15,781 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 3
+2025-05-16 23:30:15,784 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 4
+2025-05-16 23:30:15,797 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-16/1747420215.mp4
+2025-05-16 23:30:15,812 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-16/1747420215.mp4
+2025-05-16 23:30:15,831 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-16/1747420215.mp4
+2025-05-16 23:30:15,845 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-16/1747420215.mp4
+2025-05-16 23:30:23,849 - overlay - INFO - Fetching all graphics records
+2025-05-16 23:30:23,849 - overlay - INFO - Fetching all CameraURLs records
+2025-05-16 23:30:23,859 - overlay - INFO - Found 1 graphics records
+2025-05-16 23:30:23,860 - overlay - INFO - Found 4 CameraURLs records
+2025-05-16 23:30:23,969 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-16 23:30:23,978 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-16 23:30:24,021 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-16 23:30:37,002 - overlay - INFO - Loaded stream target (ID: 1): srt => srt://origin-v2.vewbie.com:7010
+2025-05-16 23:30:37,128 - overlay - WARNING - mpegtsmux has no audio_%u pad – linking generically
+2025-05-16 23:30:37,129 - overlay - INFO - ✅ Pipeline ready – video + UDP AAC → srt://origin-v2.vewbie.com:7010
+2025-05-16 23:30:37,132 - overlay - INFO - 🧩 Dynamic overlay URL set to: http://103.217.176.16:8080/scorecards/baseball/scorecard/1
+2025-05-16 23:30:37,134 - overlay - INFO - Adding overlay for position: tl
+2025-05-16 23:30:37,135 - overlay - INFO - Screenshot capture started...
+2025-05-16 23:30:37,136 - overlay - INFO - Position set to tl (X: 10, Y: 10)
+2025-05-16 23:30:37,202 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,203 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,203 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,204 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,204 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,204 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,205 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,205 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,205 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,206 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,206 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,206 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,207 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,207 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,207 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,208 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,208 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,208 - overlay - INFO - Pipeline thread started with state transition
+2025-05-16 23:30:37,208 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,208 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,209 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,209 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,209 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,209 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,209 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,209 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,209 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,209 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,209 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,209 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,210 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,210 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,210 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,210 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,210 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,210 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,210 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,210 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,211 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,211 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,211 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,211 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,211 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,211 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,211 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,211 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,211 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,211 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,212 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,212 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,212 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,212 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,212 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,212 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,213 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,213 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,213 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,213 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-16 23:30:37,213 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,213 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,213 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,213 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,214 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,214 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,214 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,214 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,214 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,214 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,214 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,214 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,215 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,215 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,215 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,215 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,215 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,215 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,215 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,215 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,215 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,216 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,216 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,216 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,216 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,216 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,216 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,216 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,217 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,217 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,217 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,217 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,217 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,217 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,217 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,217 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,217 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,218 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,218 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,218 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,218 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,218 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,218 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,218 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,219 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,219 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,219 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,219 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,219 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,219 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,219 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,220 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,220 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,220 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,220 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,220 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,220 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,220 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,220 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,221 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,221 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,221 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,221 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,221 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,221 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,222 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,222 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,222 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,222 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,223 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,223 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,223 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,223 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,223 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,224 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,224 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,224 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,224 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,224 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,224 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,225 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,225 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,225 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,225 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,225 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,225 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,225 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,226 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,226 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,226 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,226 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,226 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,226 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,226 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,227 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,227 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,227 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,227 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,227 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,227 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,228 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,228 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,229 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,229 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,229 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,229 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,229 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,229 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,229 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,230 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,230 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,230 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,230 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,230 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,230 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,230 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,231 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,231 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,231 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,231 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,231 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,231 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,250 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,251 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,252 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,252 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,252 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,252 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,253 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,253 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,253 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,253 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,253 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,253 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,253 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,253 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,253 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,254 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:37,254 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:37,254 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:37,754 - overlay - INFO - 🌐 Opening overlay URL in Playwright: http://103.217.176.16:8080/scorecards/baseball/scorecard/1
+2025-05-16 23:30:38,538 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-16 23:30:38,538 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-16 23:30:38,561 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-16 23:30:39,219 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:39,220 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:39,221 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-16 23:30:39,221 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-16 23:30:39,222 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:39,224 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:39,225 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:39,225 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:39,226 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:39,227 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:39,227 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:39,233 - overlay - INFO - 🧩 on_pad_added called from source3
+2025-05-16 23:30:39,233 - overlay - INFO - 📦 Pad caps: video/x-raw, format=(string)NV12, width=(int)1920, height=(int)1080, interlace-mode=(string)progressive, multiview-mode=(string)mono, multiview-flags=(GstVideoMultiviewFlagsSet)0:ffffffff:/right-view-first/left-flipped/left-flopped/right-flipped/right-flopped/half-aspect/mixed-mono, pixel-aspect-ratio=(fraction)1/1, colorimetry=(string)1:3:5:1, framerate=(fraction)30/1;
+2025-05-16 23:30:39,234 - overlay - INFO - 🔗 Handling pad from source URI: rtsp://192.168.100.150:8547/h264
+2025-05-16 23:30:39,234 - overlay - INFO - ✅ Requested sink pad sink_0 for rtsp://192.168.100.150:8547/h264
+2025-05-16 23:30:39,236 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:39,237 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:39,238 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:39,238 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:39,238 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-16 23:30:39,239 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-16 23:30:39,239 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:39,239 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:39,240 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:39,240 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:39,240 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-16 23:30:39,241 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:39,241 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:39,242 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:39,243 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:39,244 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:39,245 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:39,245 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:39,246 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:39,246 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:39,246 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:39,247 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:39,248 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:39,249 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:39,254 - overlay - INFO - ✅ Successfully linked rtsp://192.168.100.150:8547/h264 to sink_0
+2025-05-16 23:30:39,256 - overlay - WARNING - ⏸️ Pipeline not in PLAYING state, deferring active pad selection
+2025-05-16 23:30:39,257 - overlay - INFO - 🧩 on_pad_added called from source1
+2025-05-16 23:30:39,258 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:39,259 - overlay - INFO - 📦 Pad caps: video/x-raw, format=(string)NV12, width=(int)1920, height=(int)1080, interlace-mode=(string)progressive, multiview-mode=(string)mono, multiview-flags=(GstVideoMultiviewFlagsSet)0:ffffffff:/right-view-first/left-flipped/left-flopped/right-flipped/right-flopped/half-aspect/mixed-mono, pixel-aspect-ratio=(fraction)1/1, colorimetry=(string)1:3:5:1, framerate=(fraction)30/1;
+2025-05-16 23:30:39,259 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:39,260 - overlay - INFO - 🔗 Handling pad from source URI: rtsp://192.168.100.150:8547/h264
+2025-05-16 23:30:39,260 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:39,260 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:39,261 - overlay - INFO - ✅ Requested sink pad sink_1 for rtsp://192.168.100.150:8547/h264
+2025-05-16 23:30:39,261 - overlay - INFO - State changed: NULL -> READY
+2025-05-16 23:30:39,261 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:39,261 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:39,261 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-16 23:30:39,263 - overlay - INFO - 🧩 on_pad_added called from source2
+2025-05-16 23:30:39,263 - overlay - INFO - 🧩 on_pad_added called from source4
+2025-05-16 23:30:39,264 - overlay - INFO - 📦 Pad caps: video/x-raw, format=(string)NV12, width=(int)1920, height=(int)1080, interlace-mode=(string)progressive, multiview-mode=(string)mono, multiview-flags=(GstVideoMultiviewFlagsSet)0:ffffffff:/right-view-first/left-flipped/left-flopped/right-flipped/right-flopped/half-aspect/mixed-mono, pixel-aspect-ratio=(fraction)1/1, colorimetry=(string)1:3:5:1, framerate=(fraction)30/1;
+2025-05-16 23:30:39,264 - overlay - INFO - 📦 Pad caps: video/x-raw, format=(string)NV12, width=(int)1920, height=(int)1080, interlace-mode=(string)progressive, multiview-mode=(string)mono, multiview-flags=(GstVideoMultiviewFlagsSet)0:ffffffff:/right-view-first/left-flipped/left-flopped/right-flipped/right-flopped/half-aspect/mixed-mono, pixel-aspect-ratio=(fraction)1/1, colorimetry=(string)1:3:5:1, framerate=(fraction)30/1;
+2025-05-16 23:30:39,264 - overlay - INFO - 🔗 Handling pad from source URI: rtsp://192.168.100.150:8547/h264
+2025-05-16 23:30:39,264 - overlay - INFO - 🔗 Handling pad from source URI: rtsp://192.168.100.150:8547/h264
+2025-05-16 23:30:39,264 - overlay - INFO - ✅ Requested sink pad sink_2 for rtsp://192.168.100.150:8547/h264
+2025-05-16 23:30:39,265 - overlay - INFO - ✅ Requested sink pad sink_3 for rtsp://192.168.100.150:8547/h264
+2025-05-16 23:30:39,281 - overlay - INFO - ✅ Successfully linked rtsp://192.168.100.150:8547/h264 to sink_2
+2025-05-16 23:30:39,281 - overlay - WARNING - ⏸️ Pipeline not in PLAYING state, deferring active pad selection
+2025-05-16 23:30:39,281 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:39,281 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-16 23:30:39,289 - overlay - INFO - ✅ Successfully linked rtsp://192.168.100.150:8547/h264 to sink_1
+2025-05-16 23:30:39,289 - overlay - WARNING - ⏸️ Pipeline not in PLAYING state, deferring active pad selection
+2025-05-16 23:30:39,289 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:39,289 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-16 23:30:39,306 - overlay - INFO - ✅ Successfully linked rtsp://192.168.100.150:8547/h264 to sink_3
+2025-05-16 23:30:39,306 - overlay - WARNING - ⏸️ Pipeline not in PLAYING state, deferring active pad selection
+2025-05-16 23:30:39,306 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-16 23:30:39,307 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-16 23:30:39,307 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-16 23:30:39,308 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,308 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,308 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,308 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,308 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,309 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,309 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,309 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,309 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,309 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,309 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,309 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,309 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,309 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,309 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,310 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,310 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,310 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,310 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,310 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,310 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,310 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,310 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,310 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,310 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,311 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,311 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,311 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,311 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-16 23:30:39,381 - overlay - INFO - 🔧 Injected transparent background for overlay rendering
+2025-05-16 23:30:39,431 - overlay - INFO - 📸 Screenshot captured: url_shots/b9b2112d-1c43-40e3-9dff-223e1ba496ca.png
+2025-05-16 23:30:39,435 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/b9b2112d-1c43-40e3-9dff-223e1ba496ca.png
+2025-05-16 23:30:40,208 - overlay - INFO - Switching to rtsp://192.168.100.150:8547/h264 (Attempt 1/15)
+2025-05-16 23:30:40,209 - overlay - INFO - Setting camera ID 1 as default
+2025-05-16 23:30:40,213 - overlay - INFO - All cameras' Default fields set to false
+2025-05-16 23:30:40,232 - overlay - INFO - Camera ID 1 set as default
+2025-05-16 23:30:40,507 - overlay - INFO - 📸 Screenshot captured: url_shots/6887cdee-7cfc-47b6-9d92-35951470c234.png
+2025-05-16 23:30:40,511 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/6887cdee-7cfc-47b6-9d92-35951470c234.png
+2025-05-16 23:30:41,593 - overlay - INFO - 📸 Screenshot captured: url_shots/15dd9bf2-ac08-43a4-b2de-42946b409251.png
+2025-05-16 23:30:41,595 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/15dd9bf2-ac08-43a4-b2de-42946b409251.png
+2025-05-16 23:30:42,666 - overlay - INFO - 📸 Screenshot captured: url_shots/651aa0c8-4726-4295-b794-b7e295bc780b.png
+2025-05-16 23:30:42,668 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/651aa0c8-4726-4295-b794-b7e295bc780b.png
+2025-05-16 23:30:43,740 - overlay - INFO - 📸 Screenshot captured: url_shots/437b82e4-52e0-4a75-92ea-15b434ffb535.png
+2025-05-16 23:30:43,741 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/437b82e4-52e0-4a75-92ea-15b434ffb535.png
+2025-05-16 23:30:44,806 - overlay - INFO - 📸 Screenshot captured: url_shots/48971adc-330d-4980-b6f9-eb2dead183b5.png
+2025-05-16 23:30:44,808 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/48971adc-330d-4980-b6f9-eb2dead183b5.png
+2025-05-16 23:30:45,866 - overlay - INFO - 📸 Screenshot captured: url_shots/eba57d9b-91c4-49fb-89ff-95e095d21d99.png
+2025-05-16 23:30:45,868 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/eba57d9b-91c4-49fb-89ff-95e095d21d99.png
+2025-05-16 23:30:46,938 - overlay - INFO - 📸 Screenshot captured: url_shots/9b35dfbc-0a2a-4b03-8d45-16cf7cb9aea1.png
+2025-05-16 23:30:46,940 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/9b35dfbc-0a2a-4b03-8d45-16cf7cb9aea1.png
+2025-05-16 23:30:48,008 - overlay - INFO - 📸 Screenshot captured: url_shots/bbe196d8-67d8-484d-9684-4c9f75de1b07.png
+2025-05-16 23:30:48,010 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/bbe196d8-67d8-484d-9684-4c9f75de1b07.png
+2025-05-16 23:30:48,532 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-16 23:30:48,549 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-16 23:30:49,066 - overlay - INFO - 📸 Screenshot captured: url_shots/35c6d59e-5ace-4e60-959e-1661b3327038.png
+2025-05-16 23:30:49,068 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/35c6d59e-5ace-4e60-959e-1661b3327038.png
+2025-05-16 23:30:50,138 - overlay - INFO - 📸 Screenshot captured: url_shots/3b648ae7-5d90-4bec-a979-abd869160034.png
+2025-05-16 23:30:50,140 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/3b648ae7-5d90-4bec-a979-abd869160034.png
+2025-05-16 23:30:51,204 - overlay - INFO - 📸 Screenshot captured: url_shots/5047e5f0-588b-4450-b6c6-f487c42574bd.png
+2025-05-16 23:30:51,206 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/5047e5f0-588b-4450-b6c6-f487c42574bd.png
+2025-05-16 23:30:52,270 - overlay - INFO - 📸 Screenshot captured: url_shots/c97cc845-096c-4939-a4de-2abfa2addd00.png
+2025-05-16 23:30:52,272 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/c97cc845-096c-4939-a4de-2abfa2addd00.png
+2025-05-16 23:30:53,337 - overlay - INFO - 📸 Screenshot captured: url_shots/bcef635d-315f-4f49-8963-aff87a6ae4be.png
+2025-05-16 23:30:53,339 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/bcef635d-315f-4f49-8963-aff87a6ae4be.png
+2025-05-16 23:30:54,396 - overlay - INFO - 📸 Screenshot captured: url_shots/b1008b37-3e82-40f4-a43c-80b91ba8a365.png
+2025-05-16 23:30:54,398 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/b1008b37-3e82-40f4-a43c-80b91ba8a365.png
+2025-05-16 23:30:55,447 - overlay - INFO - 📸 Screenshot captured: url_shots/052757bc-29d1-4616-b1a2-8c5000ef6b04.png
+2025-05-16 23:30:55,449 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/052757bc-29d1-4616-b1a2-8c5000ef6b04.png
+2025-05-16 23:30:56,496 - overlay - INFO - 📸 Screenshot captured: url_shots/a96891f1-8592-4088-9a23-b52b3371b21b.png
+2025-05-16 23:30:56,498 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/a96891f1-8592-4088-9a23-b52b3371b21b.png
+2025-05-16 23:30:57,547 - overlay - INFO - 📸 Screenshot captured: url_shots/fc69fd21-3714-4a06-a81f-78f5376973d3.png
+2025-05-16 23:30:57,549 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/fc69fd21-3714-4a06-a81f-78f5376973d3.png
+2025-05-16 23:30:58,532 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-16 23:30:58,551 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-16 23:30:58,616 - overlay - INFO - 📸 Screenshot captured: url_shots/4821116d-0619-4bb2-bf70-51aadfd708d7.png
+2025-05-16 23:30:58,618 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/4821116d-0619-4bb2-bf70-51aadfd708d7.png
+2025-05-16 23:30:59,681 - overlay - INFO - 📸 Screenshot captured: url_shots/88035c64-776a-422c-b47c-8a71e48412a4.png
+2025-05-16 23:30:59,683 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/88035c64-776a-422c-b47c-8a71e48412a4.png
+2025-05-16 23:31:00,738 - overlay - INFO - 📸 Screenshot captured: url_shots/e6302835-2506-47cc-b847-4dbaa3ec423c.png
+2025-05-16 23:31:00,740 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/e6302835-2506-47cc-b847-4dbaa3ec423c.png
+2025-05-16 23:31:01,805 - overlay - INFO - 📸 Screenshot captured: url_shots/3b8bace3-cbad-4f7e-b5b7-dfba052d19d9.png
+2025-05-16 23:31:01,807 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/3b8bace3-cbad-4f7e-b5b7-dfba052d19d9.png
+2025-05-16 23:31:02,862 - overlay - INFO - 📸 Screenshot captured: url_shots/dbb536d6-bd4a-4f64-bfdc-cd20270c14a9.png
+2025-05-16 23:31:02,864 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/dbb536d6-bd4a-4f64-bfdc-cd20270c14a9.png
+2025-05-16 23:31:03,920 - overlay - INFO - 📸 Screenshot captured: url_shots/0e59ba7d-532d-43d2-a369-b38db3c85aa4.png
+2025-05-16 23:31:03,922 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/0e59ba7d-532d-43d2-a369-b38db3c85aa4.png
+2025-05-16 23:31:04,988 - overlay - INFO - 📸 Screenshot captured: url_shots/3515b70e-b813-4f67-93c4-bd4836a589ad.png
+2025-05-16 23:31:04,990 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/3515b70e-b813-4f67-93c4-bd4836a589ad.png
+2025-05-16 23:31:06,055 - overlay - INFO - 📸 Screenshot captured: url_shots/372faf77-f232-44a8-a031-374906f4182c.png
+2025-05-16 23:31:06,057 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/372faf77-f232-44a8-a031-374906f4182c.png
+2025-05-16 23:31:07,122 - overlay - INFO - 📸 Screenshot captured: url_shots/36812432-5fea-4b8c-872a-4b2e07a0c4e1.png
+2025-05-16 23:31:07,123 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/36812432-5fea-4b8c-872a-4b2e07a0c4e1.png
+2025-05-16 23:31:08,189 - overlay - INFO - 📸 Screenshot captured: url_shots/8c11cd70-955a-43ce-83e4-1b0adc61c7c6.png
+2025-05-16 23:31:08,191 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/8c11cd70-955a-43ce-83e4-1b0adc61c7c6.png
+2025-05-16 23:31:08,530 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-16 23:31:08,565 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-16 23:31:09,254 - overlay - INFO - 📸 Screenshot captured: url_shots/f16b4155-5bac-4b45-b362-f392726d6e18.png
+2025-05-16 23:31:09,256 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/f16b4155-5bac-4b45-b362-f392726d6e18.png
+2025-05-16 23:31:10,320 - overlay - INFO - 📸 Screenshot captured: url_shots/60f62056-843a-43d0-9382-f07d5006babf.png
+2025-05-16 23:31:10,322 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/60f62056-843a-43d0-9382-f07d5006babf.png
+2025-05-16 23:31:11,386 - overlay - INFO - 📸 Screenshot captured: url_shots/2e4ede7d-28ee-4104-8c26-99ecbf7844b3.png
+2025-05-16 23:31:11,388 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/2e4ede7d-28ee-4104-8c26-99ecbf7844b3.png
+2025-05-16 23:31:12,453 - overlay - INFO - 📸 Screenshot captured: url_shots/92df58e5-005d-41e7-97c2-1d3fd056ddcb.png
+2025-05-16 23:31:12,455 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/92df58e5-005d-41e7-97c2-1d3fd056ddcb.png
+2025-05-16 23:31:13,514 - overlay - INFO - 📸 Screenshot captured: url_shots/44ee48dc-b7bb-4745-ba8e-aeb9cea395d1.png
+2025-05-16 23:31:13,516 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/44ee48dc-b7bb-4745-ba8e-aeb9cea395d1.png
+2025-05-16 23:31:14,587 - overlay - INFO - 📸 Screenshot captured: url_shots/16a7579a-f6e0-4b1d-b727-0db0d969e80d.png
+2025-05-16 23:31:14,589 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/16a7579a-f6e0-4b1d-b727-0db0d969e80d.png
+2025-05-16 23:31:15,646 - overlay - INFO - 📸 Screenshot captured: url_shots/bff9df52-ce62-46c9-ba90-9e87b52ba7a9.png
+2025-05-16 23:31:15,648 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/bff9df52-ce62-46c9-ba90-9e87b52ba7a9.png
+2025-05-16 23:31:16,704 - overlay - INFO - 📸 Screenshot captured: url_shots/b3219f35-d3a8-48ac-9825-162b7dca6abb.png
+2025-05-16 23:31:16,706 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/b3219f35-d3a8-48ac-9825-162b7dca6abb.png
+2025-05-16 23:31:17,770 - overlay - INFO - 📸 Screenshot captured: url_shots/e08738a8-cd79-4390-80b0-edb3bac72c98.png
+2025-05-16 23:31:17,772 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/e08738a8-cd79-4390-80b0-edb3bac72c98.png
+2025-05-16 23:31:18,531 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-16 23:31:18,547 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-16 23:31:18,836 - overlay - INFO - 📸 Screenshot captured: url_shots/f0bafe93-0326-4633-824d-0c1cb8d642d8.png
+2025-05-16 23:31:18,838 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/f0bafe93-0326-4633-824d-0c1cb8d642d8.png
+2025-05-16 23:31:19,904 - overlay - INFO - 📸 Screenshot captured: url_shots/3fea008b-b077-40c2-8fcc-0979fe2a1086.png
+2025-05-16 23:31:19,906 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/3fea008b-b077-40c2-8fcc-0979fe2a1086.png
+2025-05-16 23:31:20,969 - overlay - INFO - 📸 Screenshot captured: url_shots/7ae26634-2542-49f9-b37e-0c9e09040587.png
+2025-05-16 23:31:20,971 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/7ae26634-2542-49f9-b37e-0c9e09040587.png
+2025-05-16 23:31:22,028 - overlay - INFO - 📸 Screenshot captured: url_shots/f46fe8eb-c37b-46e3-a76a-9f339321cb58.png
+2025-05-16 23:31:22,030 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/f46fe8eb-c37b-46e3-a76a-9f339321cb58.png
+2025-05-16 23:31:23,082 - overlay - INFO - 📸 Screenshot captured: url_shots/7c938677-2631-42b5-b8f0-ac14d8165a5f.png
+2025-05-16 23:31:23,084 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/7c938677-2631-42b5-b8f0-ac14d8165a5f.png
+2025-05-16 23:31:24,136 - overlay - INFO - 📸 Screenshot captured: url_shots/2c771fe7-dbd0-482e-b70a-071b6dd5a8f5.png
+2025-05-16 23:31:24,138 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/2c771fe7-dbd0-482e-b70a-071b6dd5a8f5.png
+2025-05-16 23:31:25,195 - overlay - INFO - 📸 Screenshot captured: url_shots/0a48efee-96c9-4c5f-813a-d877bc805dca.png
+2025-05-16 23:31:25,197 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/0a48efee-96c9-4c5f-813a-d877bc805dca.png
+2025-05-16 23:31:26,255 - overlay - INFO - 📸 Screenshot captured: url_shots/e9fd8dd6-d06f-44ee-afde-bf4c82c6aebc.png
+2025-05-16 23:31:26,256 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/e9fd8dd6-d06f-44ee-afde-bf4c82c6aebc.png
+2025-05-16 23:31:27,319 - overlay - INFO - 📸 Screenshot captured: url_shots/c60441c6-b9bb-420c-8d78-3154adc1d5d4.png
+2025-05-16 23:31:27,321 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/c60441c6-b9bb-420c-8d78-3154adc1d5d4.png
+2025-05-16 23:31:28,385 - overlay - INFO - 📸 Screenshot captured: url_shots/30d44f6c-152b-49d0-869b-dad202ac073d.png
+2025-05-16 23:31:28,387 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/30d44f6c-152b-49d0-869b-dad202ac073d.png
+2025-05-16 23:31:28,531 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-16 23:31:28,547 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-16 23:31:29,455 - overlay - INFO - 📸 Screenshot captured: url_shots/ff17801f-6de6-483c-b17e-6768d5fa5e34.png
+2025-05-16 23:31:29,456 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/ff17801f-6de6-483c-b17e-6768d5fa5e34.png
+2025-05-16 23:31:30,513 - overlay - INFO - 📸 Screenshot captured: url_shots/0c1e8baf-fc1f-4800-8b1e-4766b9a8effc.png
+2025-05-16 23:31:30,515 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/0c1e8baf-fc1f-4800-8b1e-4766b9a8effc.png
+2025-05-16 23:31:31,580 - overlay - INFO - 📸 Screenshot captured: url_shots/3f993198-d653-4e2e-929e-11dc4f428baa.png
+2025-05-16 23:31:31,582 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/3f993198-d653-4e2e-929e-11dc4f428baa.png
+2025-05-16 23:31:32,645 - overlay - INFO - 📸 Screenshot captured: url_shots/c05bd963-e56f-40fc-a02f-6ca71f15b031.png
+2025-05-16 23:31:32,647 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/c05bd963-e56f-40fc-a02f-6ca71f15b031.png
+2025-05-16 23:31:33,707 - overlay - INFO - 📸 Screenshot captured: url_shots/73bc3738-de1b-4e1e-b2ad-0044dbe7d0e2.png
+2025-05-16 23:31:33,709 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/73bc3738-de1b-4e1e-b2ad-0044dbe7d0e2.png
+2025-05-16 23:31:34,769 - overlay - INFO - 📸 Screenshot captured: url_shots/586b2de0-0129-4dd4-a456-3930bcb06de9.png
+2025-05-16 23:31:34,771 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/586b2de0-0129-4dd4-a456-3930bcb06de9.png
+2025-05-16 23:31:35,835 - overlay - INFO - 📸 Screenshot captured: url_shots/f99641cb-2a8c-471d-883f-e30ed841b48b.png
+2025-05-16 23:31:35,837 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/f99641cb-2a8c-471d-883f-e30ed841b48b.png
+2025-05-16 23:31:36,902 - overlay - INFO - 📸 Screenshot captured: url_shots/9d2a81d3-5d75-4cd4-ac63-159c1875ebe0.png
+2025-05-16 23:31:36,904 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/9d2a81d3-5d75-4cd4-ac63-159c1875ebe0.png
+2025-05-16 23:31:37,969 - overlay - INFO - 📸 Screenshot captured: url_shots/93cd6f00-f1fe-4241-aa63-161529064dd4.png
+2025-05-16 23:31:37,971 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/93cd6f00-f1fe-4241-aa63-161529064dd4.png
+2025-05-16 23:31:38,531 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-16 23:31:38,545 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-16 23:31:39,037 - overlay - INFO - 📸 Screenshot captured: url_shots/41f2a5d7-b270-47bd-9592-26e1fcc6062d.png
+2025-05-16 23:31:39,039 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/41f2a5d7-b270-47bd-9592-26e1fcc6062d.png
+2025-05-16 23:31:40,095 - overlay - INFO - 📸 Screenshot captured: url_shots/09468d71-1c5f-4c0e-b088-ae20948e64f5.png
+2025-05-16 23:31:40,096 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/09468d71-1c5f-4c0e-b088-ae20948e64f5.png
+2025-05-16 23:31:41,144 - overlay - INFO - 📸 Screenshot captured: url_shots/582b7135-2c71-426d-a3e8-793e43c0ecce.png
+2025-05-16 23:31:41,146 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/582b7135-2c71-426d-a3e8-793e43c0ecce.png
+2025-05-16 23:31:42,194 - overlay - INFO - 📸 Screenshot captured: url_shots/c0bcd975-e46e-49c6-98c9-ec11e04e4b01.png
+2025-05-16 23:31:42,196 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/c0bcd975-e46e-49c6-98c9-ec11e04e4b01.png
+2025-05-16 23:31:43,250 - overlay - INFO - 📸 Screenshot captured: url_shots/1b41fbdd-5af5-4488-8354-983973637b8a.png
+2025-05-16 23:31:43,252 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/1b41fbdd-5af5-4488-8354-983973637b8a.png
+2025-05-16 23:31:44,318 - overlay - INFO - 📸 Screenshot captured: url_shots/819c23ec-3141-410b-b6c9-07af5f8adf93.png
+2025-05-16 23:31:44,320 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/819c23ec-3141-410b-b6c9-07af5f8adf93.png
+2025-05-16 23:31:45,385 - overlay - INFO - 📸 Screenshot captured: url_shots/0859372e-2b50-47e8-bb12-3a8a83e28474.png
+2025-05-16 23:31:45,386 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/0859372e-2b50-47e8-bb12-3a8a83e28474.png
+2025-05-16 23:31:46,451 - overlay - INFO - 📸 Screenshot captured: url_shots/a0c24b89-0156-47c0-9c59-a7695fb4a570.png
+2025-05-16 23:31:46,453 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/a0c24b89-0156-47c0-9c59-a7695fb4a570.png
+2025-05-16 23:31:47,519 - overlay - INFO - 📸 Screenshot captured: url_shots/c4065486-00a3-4919-bdba-45ae21b62b79.png
+2025-05-16 23:31:47,522 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/c4065486-00a3-4919-bdba-45ae21b62b79.png
+2025-05-16 23:31:48,533 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-16 23:31:48,547 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-16 23:31:48,585 - overlay - INFO - 📸 Screenshot captured: url_shots/bb2ddf6d-eea2-44d7-bd1d-2e31e6fc30f8.png
+2025-05-16 23:31:48,586 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/bb2ddf6d-eea2-44d7-bd1d-2e31e6fc30f8.png
+2025-05-16 23:31:49,644 - overlay - INFO - 📸 Screenshot captured: url_shots/8b79fe14-cce6-49f4-8a88-f0e446ac02de.png
+2025-05-16 23:31:49,646 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/8b79fe14-cce6-49f4-8a88-f0e446ac02de.png
+2025-05-16 23:31:50,694 - overlay - INFO - 📸 Screenshot captured: url_shots/bc195f89-1755-41c6-b968-dbb54b8ac283.png
+2025-05-16 23:31:50,696 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/bc195f89-1755-41c6-b968-dbb54b8ac283.png
+2025-05-16 23:31:51,769 - overlay - INFO - 📸 Screenshot captured: url_shots/507e9259-a87d-4671-87ae-2fc07892d589.png
+2025-05-16 23:31:51,773 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/507e9259-a87d-4671-87ae-2fc07892d589.png
+2025-05-16 23:31:52,836 - overlay - INFO - 📸 Screenshot captured: url_shots/a742bdf1-467b-4a79-a18e-566bbda140ea.png
+2025-05-16 23:31:52,839 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/a742bdf1-467b-4a79-a18e-566bbda140ea.png
+2025-05-16 23:31:53,895 - overlay - INFO - 📸 Screenshot captured: url_shots/2529e7b2-b062-4dc0-80d1-bdd6614ab6f9.png
+2025-05-16 23:31:53,899 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/2529e7b2-b062-4dc0-80d1-bdd6614ab6f9.png
+2025-05-16 23:31:54,969 - overlay - INFO - 📸 Screenshot captured: url_shots/f5e70770-8bd0-4bf2-91ac-a8069780816b.png
+2025-05-16 23:31:54,973 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/f5e70770-8bd0-4bf2-91ac-a8069780816b.png
+2025-05-16 23:31:56,035 - overlay - INFO - 📸 Screenshot captured: url_shots/9f8c8418-77ed-423d-bb3d-0bb4c48bb61b.png
+2025-05-16 23:31:56,039 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/9f8c8418-77ed-423d-bb3d-0bb4c48bb61b.png
+2025-05-16 23:31:57,103 - overlay - INFO - 📸 Screenshot captured: url_shots/bb9a1e10-488a-40a9-910f-6b73a3942907.png
+2025-05-16 23:31:57,106 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/bb9a1e10-488a-40a9-910f-6b73a3942907.png
+2025-05-16 23:31:58,169 - overlay - INFO - 📸 Screenshot captured: url_shots/1dc9b83b-0187-4456-b974-74a236ab5e23.png
+2025-05-16 23:31:58,173 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/1dc9b83b-0187-4456-b974-74a236ab5e23.png
+2025-05-16 23:31:58,532 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-16 23:31:58,548 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-16 23:31:59,229 - overlay - INFO - 📸 Screenshot captured: url_shots/6d1e9768-90d2-4562-a9bb-1fe2edf6fed8.png
+2025-05-16 23:31:59,233 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/6d1e9768-90d2-4562-a9bb-1fe2edf6fed8.png
+2025-05-16 23:32:00,296 - overlay - INFO - 📸 Screenshot captured: url_shots/015eef43-8bc6-4e2a-aea2-635dbd907276.png
+2025-05-16 23:32:00,299 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/015eef43-8bc6-4e2a-aea2-635dbd907276.png
+2025-05-16 23:32:01,363 - overlay - INFO - 📸 Screenshot captured: url_shots/747fd0a3-887f-4d68-b1c1-82552dbcf162.png
+2025-05-16 23:32:01,367 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/747fd0a3-887f-4d68-b1c1-82552dbcf162.png
+2025-05-16 23:32:02,435 - overlay - INFO - 📸 Screenshot captured: url_shots/91653c65-1688-4f02-bf9d-3f219a3eead3.png
+2025-05-16 23:32:02,438 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/91653c65-1688-4f02-bf9d-3f219a3eead3.png
+2025-05-16 23:32:03,502 - overlay - INFO - 📸 Screenshot captured: url_shots/008309fc-4ebe-4a19-ae5b-15a341c88112.png
+2025-05-16 23:32:03,505 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/008309fc-4ebe-4a19-ae5b-15a341c88112.png
+2025-05-16 23:32:04,560 - overlay - INFO - 📸 Screenshot captured: url_shots/af5bf395-93e1-4020-8edf-45b854d87546.png
+2025-05-16 23:32:04,564 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/af5bf395-93e1-4020-8edf-45b854d87546.png
+2025-05-16 23:32:05,627 - overlay - INFO - 📸 Screenshot captured: url_shots/befba93f-5c81-4bc7-9f6a-d45100c68b27.png
+2025-05-16 23:32:05,630 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/befba93f-5c81-4bc7-9f6a-d45100c68b27.png
+2025-05-16 23:32:06,702 - overlay - INFO - 📸 Screenshot captured: url_shots/c9290b62-9680-4182-86f5-4aceb3714bd9.png
+2025-05-16 23:32:06,706 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/c9290b62-9680-4182-86f5-4aceb3714bd9.png
+2025-05-16 23:32:07,763 - overlay - INFO - 📸 Screenshot captured: url_shots/888185cf-64df-4d8f-b8dd-e483287daa22.png
+2025-05-16 23:32:07,766 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/888185cf-64df-4d8f-b8dd-e483287daa22.png
+2025-05-16 23:32:08,533 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-16 23:32:08,548 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-16 23:32:08,837 - overlay - INFO - 📸 Screenshot captured: url_shots/67023b05-9934-4b2b-8b09-806aa70ce8e4.png
+2025-05-16 23:32:08,840 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/67023b05-9934-4b2b-8b09-806aa70ce8e4.png
+2025-05-16 23:32:09,902 - overlay - INFO - 📸 Screenshot captured: url_shots/c9aa9ef8-0182-4354-a8a3-3bbd8e595770.png
+2025-05-16 23:32:09,905 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/c9aa9ef8-0182-4354-a8a3-3bbd8e595770.png
+2025-05-16 23:32:10,970 - overlay - INFO - 📸 Screenshot captured: url_shots/475b9d4c-a012-405d-aab0-80a0bdde9ad8.png
+2025-05-16 23:32:10,973 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/475b9d4c-a012-405d-aab0-80a0bdde9ad8.png
+2025-05-16 23:32:12,037 - overlay - INFO - 📸 Screenshot captured: url_shots/67dfb5c8-81c0-4cba-bf74-f546f7016209.png
+2025-05-16 23:32:12,040 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/67dfb5c8-81c0-4cba-bf74-f546f7016209.png
+2025-05-16 23:32:13,095 - overlay - INFO - 📸 Screenshot captured: url_shots/13f998fc-b78d-48a8-a46e-999c6629e39e.png
+2025-05-16 23:32:13,099 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/13f998fc-b78d-48a8-a46e-999c6629e39e.png
+2025-05-16 23:32:14,162 - overlay - INFO - 📸 Screenshot captured: url_shots/71b8d77d-c9d7-4963-a1aa-b2828c2d6173.png
+2025-05-16 23:32:14,166 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/71b8d77d-c9d7-4963-a1aa-b2828c2d6173.png
+2025-05-16 23:32:15,236 - overlay - INFO - 📸 Screenshot captured: url_shots/de339f92-0775-4b88-ad3a-4288f2dad2c1.png
+2025-05-16 23:32:15,240 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/de339f92-0775-4b88-ad3a-4288f2dad2c1.png
+2025-05-16 23:32:16,303 - overlay - INFO - 📸 Screenshot captured: url_shots/6a2c2243-c953-4d68-be6a-86840d6817e2.png
+2025-05-16 23:32:16,306 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/6a2c2243-c953-4d68-be6a-86840d6817e2.png
+2025-05-16 23:32:17,369 - overlay - INFO - 📸 Screenshot captured: url_shots/70d129d6-d496-43eb-b053-769f26a0d87e.png
+2025-05-16 23:32:17,372 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/70d129d6-d496-43eb-b053-769f26a0d87e.png
+2025-05-16 23:32:18,429 - overlay - INFO - 📸 Screenshot captured: url_shots/866e8aee-b180-422e-8fd9-874860f34d4d.png
+2025-05-16 23:32:18,431 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/866e8aee-b180-422e-8fd9-874860f34d4d.png
+2025-05-16 23:32:18,532 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-16 23:32:18,550 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-16 23:32:19,502 - overlay - INFO - 📸 Screenshot captured: url_shots/f32ca68f-da83-4935-a0fd-e3211327f707.png
+2025-05-16 23:32:19,505 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/f32ca68f-da83-4935-a0fd-e3211327f707.png
+2025-05-16 23:32:20,568 - overlay - INFO - 📸 Screenshot captured: url_shots/035330ed-3015-4045-b33e-6e9a0a85fb14.png
+2025-05-16 23:32:20,572 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/035330ed-3015-4045-b33e-6e9a0a85fb14.png
+2025-05-16 23:32:21,634 - overlay - INFO - 📸 Screenshot captured: url_shots/ea66aef8-c433-4aab-acde-7a70674924a2.png
+2025-05-16 23:32:21,637 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/ea66aef8-c433-4aab-acde-7a70674924a2.png
+2025-05-16 23:32:22,702 - overlay - INFO - 📸 Screenshot captured: url_shots/5170555c-2ae3-4714-82ac-0ce254985baf.png
+2025-05-16 23:32:22,705 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/5170555c-2ae3-4714-82ac-0ce254985baf.png
+2025-05-16 23:32:23,768 - overlay - INFO - 📸 Screenshot captured: url_shots/020b4071-113e-49cf-ba99-45d2d48126f5.png
+2025-05-16 23:32:23,772 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/020b4071-113e-49cf-ba99-45d2d48126f5.png
+2025-05-16 23:32:24,850 - overlay - INFO - 📸 Screenshot captured: url_shots/119ae2c9-133e-4015-8b7d-da2e87abf87b.png
+2025-05-16 23:32:24,854 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/119ae2c9-133e-4015-8b7d-da2e87abf87b.png
+2025-05-16 23:32:25,919 - overlay - INFO - 📸 Screenshot captured: url_shots/ce3d0527-d375-4028-9c63-5a7cbc7398e8.png
+2025-05-16 23:32:25,922 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/ce3d0527-d375-4028-9c63-5a7cbc7398e8.png
+2025-05-16 23:32:26,978 - overlay - INFO - 📸 Screenshot captured: url_shots/18f59034-b3b1-47bc-9bbe-898685d063c9.png
+2025-05-16 23:32:26,981 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/18f59034-b3b1-47bc-9bbe-898685d063c9.png
+2025-05-16 23:32:28,052 - overlay - INFO - 📸 Screenshot captured: url_shots/c017f4c1-c542-431e-82ec-32f78cc5d6af.png
+2025-05-16 23:32:28,055 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/c017f4c1-c542-431e-82ec-32f78cc5d6af.png
+2025-05-16 23:32:28,532 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-16 23:32:28,547 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-16 23:32:29,119 - overlay - INFO - 📸 Screenshot captured: url_shots/66608c3e-6bb4-49c1-b4b4-e6343834b306.png
+2025-05-16 23:32:29,123 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/66608c3e-6bb4-49c1-b4b4-e6343834b306.png
+2025-05-16 23:32:30,185 - overlay - INFO - 📸 Screenshot captured: url_shots/8365b3fc-0263-496d-8078-411c9226979d.png
+2025-05-16 23:32:30,188 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/8365b3fc-0263-496d-8078-411c9226979d.png
+2025-05-16 23:32:31,250 - overlay - INFO - 📸 Screenshot captured: url_shots/abf5a41b-f440-4e99-8bd1-57a9570befbd.png
+2025-05-16 23:32:31,254 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/abf5a41b-f440-4e99-8bd1-57a9570befbd.png
+2025-05-16 23:32:32,311 - overlay - INFO - 📸 Screenshot captured: url_shots/d11abbc8-7bbc-4a1c-aaff-84c15a8247f7.png
+2025-05-16 23:32:32,314 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/d11abbc8-7bbc-4a1c-aaff-84c15a8247f7.png
+2025-05-16 23:32:33,376 - overlay - INFO - 📸 Screenshot captured: url_shots/d15fc5e1-1aaa-469f-8d65-79608b24ba23.png
+2025-05-16 23:32:33,380 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/d15fc5e1-1aaa-469f-8d65-79608b24ba23.png
+2025-05-16 23:32:34,452 - overlay - INFO - 📸 Screenshot captured: url_shots/bbcae96b-0972-4cda-b02c-4194d3b9d413.png
+2025-05-16 23:32:34,455 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/bbcae96b-0972-4cda-b02c-4194d3b9d413.png
+2025-05-16 23:32:35,512 - overlay - INFO - 📸 Screenshot captured: url_shots/b02cbc31-ef7c-4ba6-9286-6903b74ab8c0.png
+2025-05-16 23:32:35,515 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/b02cbc31-ef7c-4ba6-9286-6903b74ab8c0.png
+2025-05-16 23:32:36,578 - overlay - INFO - 📸 Screenshot captured: url_shots/e257f2fa-45ec-41b6-a45b-e09670e6cc30.png
+2025-05-16 23:32:36,582 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/e257f2fa-45ec-41b6-a45b-e09670e6cc30.png
+2025-05-16 23:32:37,652 - overlay - INFO - 📸 Screenshot captured: url_shots/12c41a65-48df-4d32-9cfd-a3e582853333.png
+2025-05-16 23:32:37,655 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/12c41a65-48df-4d32-9cfd-a3e582853333.png
+2025-05-16 23:32:38,531 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-16 23:32:38,549 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-16 23:32:38,710 - overlay - INFO - 📸 Screenshot captured: url_shots/eb3309da-d31f-4516-a0dd-8f684fe0e4ea.png
+2025-05-16 23:32:38,714 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/eb3309da-d31f-4516-a0dd-8f684fe0e4ea.png
+2025-05-16 23:32:39,777 - overlay - INFO - 📸 Screenshot captured: url_shots/cd7f55ab-028c-43d0-8ce2-7f56f859d53e.png
+2025-05-16 23:32:39,780 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/cd7f55ab-028c-43d0-8ce2-7f56f859d53e.png
+2025-05-16 23:32:40,842 - overlay - INFO - 📸 Screenshot captured: url_shots/d2441d26-5a1f-4b82-8662-d4cc24636024.png
+2025-05-16 23:32:40,846 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/d2441d26-5a1f-4b82-8662-d4cc24636024.png
+2025-05-16 23:32:41,916 - overlay - INFO - 📸 Screenshot captured: url_shots/40e006ca-a403-457f-bd01-a5e0025c050d.png
+2025-05-16 23:32:41,919 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/40e006ca-a403-457f-bd01-a5e0025c050d.png
+2025-05-16 23:32:42,386 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-16/1747420215.mp4
+2025-05-16 23:32:42,415 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-16/1747420362.mp4
+2025-05-16 23:32:42,459 - recording_session - WARNING - Failed to probe file /var/www/html/public/assets/uploads/CAM1/2025-05-16/1747420215.mp4: could not convert string to float: ''
+2025-05-16 23:32:42,460 - recording_session - WARNING - Chunk not ready or too small to process: /var/www/html/public/assets/uploads/CAM1/2025-05-16/1747420215.mp4
+2025-05-16 23:32:42,460 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-16/1747420215.mp4
+2025-05-16 23:32:42,468 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-16/1747420362.mp4
+2025-05-16 23:32:42,472 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-16 23:32:42,489 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-16/1747420362.mp4
+2025-05-16 23:32:42,509 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-16/1747420362.mp4
+2025-05-16 23:32:42,523 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-16 23:32:42,544 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-16 23:32:42,559 - recording_session - WARNING - Failed to probe file /var/www/html/public/assets/uploads/CAM2/2025-05-16/1747420215.mp4: could not convert string to float: ''
+2025-05-16 23:32:42,559 - recording_session - WARNING - Chunk not ready or too small to process: /var/www/html/public/assets/uploads/CAM2/2025-05-16/1747420215.mp4
+2025-05-16 23:32:42,559 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-16/1747420215.mp4
+2025-05-16 23:32:42,572 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-16 23:32:42,631 - recording_session - WARNING - Failed to probe file /var/www/html/public/assets/uploads/CAM4/2025-05-16/1747420215.mp4: could not convert string to float: ''
+2025-05-16 23:32:42,632 - recording_session - WARNING - Chunk not ready or too small to process: /var/www/html/public/assets/uploads/CAM4/2025-05-16/1747420215.mp4
+2025-05-16 23:32:42,632 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-16/1747420215.mp4
+2025-05-16 23:32:42,704 - recording_session - WARNING - Failed to probe file /var/www/html/public/assets/uploads/CAM3/2025-05-16/1747420215.mp4: could not convert string to float: ''
+2025-05-16 23:32:42,704 - recording_session - WARNING - Chunk not ready or too small to process: /var/www/html/public/assets/uploads/CAM3/2025-05-16/1747420215.mp4
+2025-05-16 23:32:42,705 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-16/1747420362.mp4
+2025-05-16 23:32:42,776 - recording_session - WARNING - Failed to probe file /var/www/html/public/assets/uploads/CAM1/2025-05-16/1747420362.mp4: could not convert string to float: ''
+2025-05-16 23:32:42,777 - recording_session - WARNING - Chunk not ready or too small to process: /var/www/html/public/assets/uploads/CAM1/2025-05-16/1747420362.mp4
+2025-05-16 23:32:42,777 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-16/1747420362.mp4
+2025-05-16 23:32:42,848 - recording_session - WARNING - Failed to probe file /var/www/html/public/assets/uploads/CAM2/2025-05-16/1747420362.mp4: could not convert string to float: ''
+2025-05-16 23:32:42,848 - recording_session - WARNING - Chunk not ready or too small to process: /var/www/html/public/assets/uploads/CAM2/2025-05-16/1747420362.mp4
+2025-05-16 23:32:42,849 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-16/1747420362.mp4
+2025-05-16 23:32:42,945 - recording_session - WARNING - Failed to probe file /var/www/html/public/assets/uploads/CAM4/2025-05-16/1747420362.mp4: could not convert string to float: ''
+2025-05-16 23:32:42,946 - recording_session - WARNING - Chunk not ready or too small to process: /var/www/html/public/assets/uploads/CAM4/2025-05-16/1747420362.mp4
+2025-05-16 23:32:42,947 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-16/1747420362.mp4
+2025-05-16 23:32:42,949 - overlay - INFO - Stopping pipeline...
+2025-05-16 23:32:43,042 - recording_session - WARNING - Failed to probe file /var/www/html/public/assets/uploads/CAM3/2025-05-16/1747420362.mp4: could not convert string to float: ''
+2025-05-16 23:32:43,043 - recording_session - WARNING - Chunk not ready or too small to process: /var/www/html/public/assets/uploads/CAM3/2025-05-16/1747420362.mp4
+2025-05-16 23:32:43,043 - overlay - INFO - State changed: PLAYING -> PAUSED
+2025-05-16 23:32:43,044 - overlay - INFO - State changed: PLAYING -> PAUSED
+2025-05-16 23:32:43,045 - overlay - INFO - State changed: PLAYING -> PAUSED
+2025-05-16 23:32:43,045 - overlay - INFO - State changed: PLAYING -> PAUSED
+2025-05-16 23:32:43,046 - overlay - INFO - State changed: PLAYING -> PAUSED
+2025-05-16 23:32:43,046 - overlay - INFO - State changed: PLAYING -> PAUSED
+2025-05-16 23:32:43,047 - overlay - INFO - State changed: PLAYING -> PAUSED
+2025-05-16 23:32:43,047 - overlay - INFO - State changed: PLAYING -> PAUSED
+2025-05-16 23:32:43,047 - overlay - INFO - State changed: PLAYING -> PAUSED
+2025-05-16 23:32:43,048 - overlay - INFO - State changed: PLAYING -> PAUSED
+2025-05-16 23:32:43,048 - overlay - INFO - State changed: PLAYING -> PAUSED
+2025-05-16 23:32:43,049 - overlay - INFO - State changed: PLAYING -> PAUSED
+2025-05-16 23:32:43,049 - overlay - INFO - State changed: PLAYING -> PAUSED
+2025-05-16 23:32:43,050 - overlay - INFO - State changed: PLAYING -> PAUSED
+2025-05-16 23:32:43,050 - overlay - INFO - State changed: PLAYING -> PAUSED
+2025-05-16 23:32:43,051 - overlay - INFO - State changed: PLAYING -> PAUSED
+2025-05-16 23:32:43,051 - overlay - INFO - State changed: PLAYING -> PAUSED
+2025-05-16 23:32:43,052 - recording_session - INFO - Finalizing chunk: /tmp/fallback.mp4
+2025-05-16 23:32:43,127 - overlay - INFO - Pipeline fully stopped and resources released

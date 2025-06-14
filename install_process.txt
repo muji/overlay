@@ -1,0 +1,56 @@
+
+
+
+sudo apt install gstreamer1.0* -y
+sudo apt install gstreamer1.0-tools  gstreamer1.0-x
+
+sudo apt update
+sudo apt install python3-pip
+
+
+
+cd /usr/lib/python3.12
+
+sudo rm EXTERNALLY-MANAGED
+pip3 install fastapi uvicorn SQLAlchemy playwright python-multipart
+
+
+install mediamtx
+
+wget https://github.com/bluenviron/mediamtx/releases/download/v1.11.3/mediamtx_v1.11.3_linux_arm64v8.tar.gz
+
+sudo mv mediamtx /usr/local/bin/
+
+sudo chmod +x /usr/local/bin/mediamtx
+
+export PATH=$PATH:/usr/local/bin
+source ~/.bashrc  
+
+
+sudo mkdir -p /etc/mediamtx
+sudo mv mediamtx.yml /etc/mediamtx/
+
+How run :
+mediamtx /etc/mediamtx/mediamtx.yml
+
+
+WEBSERVER :  
+sudo apt install nginx
+sudo nano /etc/nginx/sites-available/default
+change port 80 to 8080
+sudo usermod -aG www-data pete
+sudo chown -R www-data:www-data /var/www/
+sudo chmod -R 775 /var/www/
+
+sudo systemctl restart nginx
+
+
+sudo mkdir -p /var/www/html/public/assets/uploads
+
+sudo chown -R www-data:www-data /var/www/html/public/assets/uploads
+
+sudo chmod -R 755 /var/www/html/public/assets/uploads
+
+
+
+

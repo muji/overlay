@@ -1,0 +1,820 @@
+2025-04-27 14:21:23,447 - overlay - INFO - Fetching all CameraURLs records
+2025-04-27 14:21:23,464 - recording_session - INFO - 🚀 SlowMoWorker started
+2025-04-27 14:21:23,479 - overlay - INFO - Fetching all CameraURLs records
+2025-04-27 14:21:23,489 - recording_session - INFO - 🧹 Cleanup done. Deleted 0 files.
+2025-04-27 14:21:23,500 - recording_session - INFO - 🎥 Recording thread started for camera 1
+2025-04-27 14:21:23,500 - overlay - INFO - Started recording for camera 1: rtsp://192.168.100.150:8547/h264
+2025-04-27 14:21:23,520 - recording_session - INFO - 🎥 Recording thread started for camera 2
+2025-04-27 14:21:23,520 - overlay - INFO - Started recording for camera 2: rtsp://192.168.100.150:8547/h264
+2025-04-27 14:21:23,532 - recording_session - INFO - 🎥 Recording thread started for camera 3
+2025-04-27 14:21:23,532 - overlay - INFO - Started recording for camera 3: rtsp://192.168.100.150:8547/h264
+2025-04-27 14:21:23,536 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 1
+2025-04-27 14:21:23,536 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 2
+2025-04-27 14:21:23,537 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 3
+2025-04-27 14:21:23,538 - recording_session - INFO - ✅ Pipeline set to PLAYING for camera 1
+2025-04-27 14:21:23,564 - recording_session - INFO - ✅ Pipeline set to PLAYING for camera 3
+2025-04-27 14:21:23,564 - recording_session - INFO - ✅ Pipeline set to PLAYING for camera 2
+2025-04-27 14:21:23,566 - recording_session - INFO - 🎥 Recording thread started for camera 4
+2025-04-27 14:21:23,567 - overlay - INFO - Started recording for camera 4: rtsp://192.168.100.150:8547/h264
+2025-04-27 14:21:23,590 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 4
+2025-04-27 14:21:23,593 - recording_session - INFO - ✅ Pipeline set to PLAYING for camera 4
+2025-04-27 14:21:23,723 - recording_session - INFO - 🔌 pad-added signal for camera 1
+2025-04-27 14:21:23,724 - recording_session - INFO - 🔗 Linked rtspsrc pad to depay for camera 1
+2025-04-27 14:21:23,727 - recording_session - INFO - 🔌 pad-added signal for camera 2
+2025-04-27 14:21:23,728 - recording_session - INFO - 🔗 Linked rtspsrc pad to depay for camera 2
+2025-04-27 14:21:23,746 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745683.mp4
+2025-04-27 14:21:23,751 - recording_session - INFO - 🔌 pad-added signal for camera 3
+2025-04-27 14:21:23,751 - recording_session - INFO - 🔗 Linked rtspsrc pad to depay for camera 3
+2025-04-27 14:21:23,759 - recording_session - INFO - 🔌 pad-added signal for camera 4
+2025-04-27 14:21:23,772 - recording_session - INFO - 🔗 Linked rtspsrc pad to depay for camera 4
+2025-04-27 14:21:23,775 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745683.mp4
+2025-04-27 14:21:23,785 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745683.mp4
+2025-04-27 14:21:23,812 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-04-27/1745745683.mp4
+2025-04-27 14:21:24,498 - recording_session - INFO - 📊 RAM Usage: 9.3% | CPU: 7.9%
+2025-04-27 14:21:36,005 - overlay - INFO - Fetching gamestats with ID: 1
+2025-04-27 14:21:36,020 - overlay - INFO - Fetching graphics with ID: 1
+2025-04-27 14:21:55,500 - recording_session - INFO - 📊 RAM Usage: 9.3% | CPU: 4.2%
+2025-04-27 14:22:23,711 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745683.mp4
+2025-04-27 14:22:23,722 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745743.mp4
+2025-04-27 14:22:23,735 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745743.mp4
+2025-04-27 14:22:23,757 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-04-27/1745745743.mp4
+2025-04-27 14:22:23,777 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745743.mp4
+2025-04-27 14:22:23,862 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745683.mp4
+2025-04-27 14:22:23,863 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745683.mp4
+2025-04-27 14:22:23,948 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745683.mp4
+2025-04-27 14:22:24,035 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745683.mp4
+2025-04-27 14:22:24,036 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745683.mp4
+2025-04-27 14:22:24,212 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745683.mp4
+2025-04-27 14:22:24,213 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-04-27/1745745683.mp4
+2025-04-27 14:22:24,341 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-04-27/1745745683.mp4
+2025-04-27 14:22:25,799 - overlay - INFO - Fetching all graphics records
+2025-04-27 14:22:25,800 - overlay - INFO - Fetching all CameraURLs records
+2025-04-27 14:22:25,803 - overlay - INFO - Found 4 CameraURLs records
+2025-04-27 14:22:25,805 - overlay - INFO - Found 1 graphics records
+2025-04-27 14:22:25,908 - overlay - INFO - Fetching gamestats with ID: 1
+2025-04-27 14:22:25,910 - overlay - INFO - Fetching graphics with ID: 1
+2025-04-27 14:22:25,957 - overlay - INFO - Fetching graphics with ID: 1
+2025-04-27 14:22:26,501 - recording_session - INFO - 📊 RAM Usage: 9.8% | CPU: 63.2%
+2025-04-27 14:22:28,079 - overlay - INFO - Fetching streamtargets with ID: 1
+2025-04-27 14:22:28,082 - overlay - INFO - Loaded stream target (ID: 1): srt => srt://origin-v2.vewbie.com:7010
+2025-04-27 14:22:28,082 - overlay - INFO - Creating pipeline for srt stream to: srt://origin-v2.vewbie.com:7010
+2025-04-27 14:22:28,167 - overlay - INFO - 🧩 Dynamic overlay URL set to: http://103.217.176.16:8080/scorecards/baseball/scorecard/1
+2025-04-27 14:22:28,167 - overlay - INFO - Adding overlay for position: tl
+2025-04-27 14:22:28,168 - overlay - INFO - Screenshot capture started...
+2025-04-27 14:22:28,171 - overlay - INFO - Position set to tl (X: 10, Y: 10)
+2025-04-27 14:22:28,335 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,336 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,337 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,337 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,338 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,338 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,339 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,339 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,339 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,339 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,340 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,340 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,340 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,341 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,341 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,341 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,342 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,342 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,344 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,345 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,345 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,345 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,345 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,345 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,345 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,345 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,345 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,345 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,345 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,346 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,346 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,346 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,346 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,346 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,346 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,346 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,346 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,346 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,347 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,347 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,347 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,347 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,347 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,347 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,347 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,347 - overlay - INFO - Pipeline thread started with state transition
+2025-04-27 14:22:28,348 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,348 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,348 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,348 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,348 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,348 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,348 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,348 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,348 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,349 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,349 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,349 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,349 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,349 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,349 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,349 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,349 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,350 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,350 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,350 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,350 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,350 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,350 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,350 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,350 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,350 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,350 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,350 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,351 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,351 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,351 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,351 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,351 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,351 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,351 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,374 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,375 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,375 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,376 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,376 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,377 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,377 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,377 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,377 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,377 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,377 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,377 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,378 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,378 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,378 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,378 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,378 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,379 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,379 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,379 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,379 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,379 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,379 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,379 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,379 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,379 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,380 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,380 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,380 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,380 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,380 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,380 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,380 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,380 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,380 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,380 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,380 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,381 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,381 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,381 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,381 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,381 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,381 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,381 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,382 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,382 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,385 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,385 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,386 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,387 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,388 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,389 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,389 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,390 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,391 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,391 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,394 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,395 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,395 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,395 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,396 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,396 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,396 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,396 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,396 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,396 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,396 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,397 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,397 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,397 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,397 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,397 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,397 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,397 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,397 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,397 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,397 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,398 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,398 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,398 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,409 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,410 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,412 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,412 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,413 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,413 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,413 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,414 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,414 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,414 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,414 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,415 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,415 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,415 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,416 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,416 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,417 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,417 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,417 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,418 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,418 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,418 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:28,419 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:28,419 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:28,929 - overlay - INFO - 🌐 Opening overlay URL in Playwright: http://103.217.176.16:8080/scorecards/baseball/scorecard/1
+2025-04-27 14:22:30,030 - overlay - INFO - 🔧 Injected transparent background for overlay rendering
+2025-04-27 14:22:30,108 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:30,388 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:30,389 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:30,389 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-04-27 14:22:30,389 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,389 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:30,389 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:30,389 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-04-27 14:22:30,390 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:30,390 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:30,390 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-04-27 14:22:30,390 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,390 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,390 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:30,390 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:30,390 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-04-27 14:22:30,390 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,395 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:30,396 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,398 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:30,398 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,399 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:30,399 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,400 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:30,400 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:30,401 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:30,401 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,402 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:30,403 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,403 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,403 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:30,404 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,406 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:30,408 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:30,408 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,408 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,409 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,410 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:30,410 - overlay - INFO - State changed: NULL -> READY
+2025-04-27 14:22:30,410 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,410 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,412 - overlay - INFO - 🔌 New pad added from source3 with caps: video/x-raw, format=(string)NV12, width=(int)1920, height=(int)1080, interlace-mode=(string)progressive, multiview-mode=(string)mono, multiview-flags=(GstVideoMultiviewFlagsSet)0:ffffffff:/right-view-first/left-flipped/left-flopped/right-flipped/right-flopped/half-aspect/mixed-mono, pixel-aspect-ratio=(fraction)1/1, colorimetry=(string)1:3:5:1, framerate=(fraction)30/1;
+2025-04-27 14:22:30,413 - overlay - INFO - ✅ Requested sink pad sink_0 for rtsp://192.168.100.150:8547/h264
+2025-04-27 14:22:30,415 - overlay - INFO - ✅ Successfully linked rtsp://192.168.100.150:8547/h264 to sink_0
+2025-04-27 14:22:30,415 - overlay - WARNING - ⏸️ Pipeline not in PLAYING state, deferring active pad selection
+2025-04-27 14:22:30,416 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,416 - overlay - INFO - 🔌 New pad added from source2 with caps: video/x-raw, format=(string)NV12, width=(int)1920, height=(int)1080, interlace-mode=(string)progressive, multiview-mode=(string)mono, multiview-flags=(GstVideoMultiviewFlagsSet)0:ffffffff:/right-view-first/left-flipped/left-flopped/right-flipped/right-flopped/half-aspect/mixed-mono, pixel-aspect-ratio=(fraction)1/1, colorimetry=(string)1:3:5:1, framerate=(fraction)30/1;
+2025-04-27 14:22:30,416 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-04-27 14:22:30,416 - overlay - INFO - ✅ Requested sink pad sink_1 for rtsp://192.168.100.150:8547/h264
+2025-04-27 14:22:30,418 - overlay - INFO - ✅ Successfully linked rtsp://192.168.100.150:8547/h264 to sink_1
+2025-04-27 14:22:30,419 - overlay - WARNING - ⏸️ Pipeline not in PLAYING state, deferring active pad selection
+2025-04-27 14:22:30,419 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,419 - overlay - INFO - 🔌 New pad added from source1 with caps: video/x-raw, format=(string)NV12, width=(int)1920, height=(int)1080, interlace-mode=(string)progressive, multiview-mode=(string)mono, multiview-flags=(GstVideoMultiviewFlagsSet)0:ffffffff:/right-view-first/left-flipped/left-flopped/right-flipped/right-flopped/half-aspect/mixed-mono, pixel-aspect-ratio=(fraction)1/1, colorimetry=(string)1:3:5:1, framerate=(fraction)30/1;
+2025-04-27 14:22:30,420 - overlay - INFO - 🔌 New pad added from source4 with caps: video/x-raw, format=(string)NV12, width=(int)1920, height=(int)1080, interlace-mode=(string)progressive, multiview-mode=(string)mono, multiview-flags=(GstVideoMultiviewFlagsSet)0:ffffffff:/right-view-first/left-flipped/left-flopped/right-flipped/right-flopped/half-aspect/mixed-mono, pixel-aspect-ratio=(fraction)1/1, colorimetry=(string)1:3:5:1, framerate=(fraction)30/1;
+2025-04-27 14:22:30,421 - overlay - INFO - ✅ Requested sink pad sink_2 for rtsp://192.168.100.150:8547/h264
+2025-04-27 14:22:30,423 - overlay - INFO - ✅ Requested sink pad sink_3 for rtsp://192.168.100.150:8547/h264
+2025-04-27 14:22:30,428 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-04-27 14:22:30,429 - overlay - INFO - ✅ Successfully linked rtsp://192.168.100.150:8547/h264 to sink_2
+2025-04-27 14:22:30,429 - overlay - WARNING - ⏸️ Pipeline not in PLAYING state, deferring active pad selection
+2025-04-27 14:22:30,430 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,439 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-04-27 14:22:30,430 - overlay - INFO - ✅ Successfully linked rtsp://192.168.100.150:8547/h264 to sink_3
+2025-04-27 14:22:30,446 - overlay - WARNING - ⏸️ Pipeline not in PLAYING state, deferring active pad selection
+2025-04-27 14:22:30,447 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,447 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-04-27 14:22:30,538 - overlay - INFO - State changed: READY -> PAUSED
+2025-04-27 14:22:30,539 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,540 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,540 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,540 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,540 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,540 - overlay - INFO - Pipeline successfully started
+2025-04-27 14:22:30,541 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,541 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:30,541 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,541 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,541 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,542 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,542 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,542 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,542 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,542 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,542 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,542 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,542 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,542 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,542 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,543 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,543 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,543 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,543 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,543 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,543 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,543 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,543 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,543 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,543 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:30,543 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-04-27 14:22:31,348 - overlay - INFO - Switching to rtsp://192.168.100.150:8547/h264 (Attempt 1/15)
+2025-04-27 14:22:31,349 - overlay - INFO - Setting camera ID 2 as default
+2025-04-27 14:22:31,363 - overlay - INFO - All cameras' Default fields set to false
+2025-04-27 14:22:31,394 - overlay - INFO - Camera ID 2 set as default
+2025-04-27 14:22:31,595 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:31,595 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:32,663 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:32,664 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:33,729 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:33,730 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:34,788 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:34,788 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:35,372 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745683.mp4
+2025-04-27 14:22:35,837 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:35,837 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:36,516 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745683.mp4
+2025-04-27 14:22:36,888 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:36,888 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:37,942 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:37,943 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:38,989 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:38,991 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:40,053 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:40,053 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:41,108 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:41,108 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:42,171 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:42,171 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:43,229 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:43,229 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:44,301 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:44,302 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:45,360 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:45,361 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:46,426 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:46,426 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:47,499 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:47,500 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:48,556 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:48,556 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:49,508 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745683.mp4
+2025-04-27 14:22:49,609 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:49,610 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:50,654 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745683.mp4
+2025-04-27 14:22:50,677 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:50,678 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:51,748 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:51,749 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:52,806 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:52,806 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:53,855 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:53,855 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:54,910 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:54,911 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:55,988 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:55,988 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:57,039 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:57,041 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:57,503 - recording_session - INFO - 📊 RAM Usage: 10.8% | CPU: 80.8%
+2025-04-27 14:22:58,106 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:58,106 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:59,162 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:22:59,163 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:00,226 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:00,226 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:01,287 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:01,288 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:02,338 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:02,339 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:03,380 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745683.mp4
+2025-04-27 14:23:03,393 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:03,394 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:04,444 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:04,445 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:04,489 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-04-27/1745745683.mp4
+2025-04-27 14:23:05,512 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:05,513 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:06,581 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:06,581 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:07,647 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:07,647 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:08,712 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:08,712 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:09,770 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:09,770 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:10,823 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:10,824 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:11,877 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:11,877 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:12,936 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:12,936 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:13,992 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:13,992 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:15,043 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:15,044 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:16,117 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:16,118 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:16,956 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-04-27/1745745683.mp4
+2025-04-27 14:23:17,175 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:17,175 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:18,225 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:18,225 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:19,275 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:19,275 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:20,325 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:20,325 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:21,367 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:21,367 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:22,417 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:22,417 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:23,475 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:23,475 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:23,695 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745743.mp4
+2025-04-27 14:23:23,709 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-04-27/1745745803.mp4
+2025-04-27 14:23:23,729 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745803.mp4
+2025-04-27 14:23:23,742 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745803.mp4
+2025-04-27 14:23:23,762 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745803.mp4
+2025-04-27 14:23:23,805 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745743.mp4
+2025-04-27 14:23:23,806 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745743.mp4
+2025-04-27 14:23:23,921 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745743.mp4
+2025-04-27 14:23:23,922 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-04-27/1745745743.mp4
+2025-04-27 14:23:24,038 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-04-27/1745745743.mp4
+2025-04-27 14:23:24,039 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745743.mp4
+2025-04-27 14:23:24,068 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745743.mp4
+2025-04-27 14:23:24,170 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745743.mp4
+2025-04-27 14:23:24,519 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:24,519 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:25,590 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:25,591 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:26,657 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:26,657 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:27,729 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:27,729 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:28,505 - recording_session - INFO - 📊 RAM Usage: 10.9% | CPU: 85.2%
+2025-04-27 14:23:28,791 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:28,792 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:29,851 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:29,851 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:30,912 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:30,912 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:31,969 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:31,970 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:33,046 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:33,046 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:34,105 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:34,105 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:35,169 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:35,170 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:36,228 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:36,229 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:37,216 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745743.mp4
+2025-04-27 14:23:37,292 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:37,292 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:38,325 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745743.mp4
+2025-04-27 14:23:38,360 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:38,360 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:39,416 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:39,418 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:40,473 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:40,474 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:41,547 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:41,548 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:42,621 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:42,622 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:43,689 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:43,690 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:44,766 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:44,766 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:45,824 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:45,825 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:46,888 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:46,888 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:47,957 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:47,957 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:49,011 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:49,011 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:50,077 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:50,077 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:51,135 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:51,136 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:51,391 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745743.mp4
+2025-04-27 14:23:52,190 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:52,191 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:52,496 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-04-27/1745745743.mp4
+2025-04-27 14:23:53,234 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:53,235 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:54,289 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:54,290 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:55,353 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:55,354 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:56,432 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:56,432 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:57,495 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:57,496 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:58,551 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:58,551 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:59,506 - recording_session - INFO - 📊 RAM Usage: 10.9% | CPU: 76.0%
+2025-04-27 14:23:59,616 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:23:59,617 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:00,678 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:00,679 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:01,747 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:01,747 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:02,807 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:02,808 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:03,865 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:03,866 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:04,915 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:04,916 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:05,713 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-04-27/1745745743.mp4
+2025-04-27 14:24:05,964 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:05,965 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:06,819 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745743.mp4
+2025-04-27 14:24:07,030 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:07,030 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:08,084 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:08,085 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:09,150 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:09,150 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:10,213 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:10,213 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:11,271 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:11,272 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:12,318 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:12,319 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:13,366 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:13,366 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:14,432 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:14,432 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:15,490 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:15,491 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:16,563 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:16,563 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:17,616 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:17,619 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:18,675 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:18,675 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:19,742 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:19,742 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:20,202 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745743.mp4
+2025-04-27 14:24:20,780 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:20,781 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:21,839 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:21,839 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:22,882 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:22,882 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:23,690 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745803.mp4
+2025-04-27 14:24:23,701 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745863.mp4
+2025-04-27 14:24:23,715 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-04-27/1745745863.mp4
+2025-04-27 14:24:23,736 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745863.mp4
+2025-04-27 14:24:23,754 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745863.mp4
+2025-04-27 14:24:23,804 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745803.mp4
+2025-04-27 14:24:23,804 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745803.mp4
+2025-04-27 14:24:23,917 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745803.mp4
+2025-04-27 14:24:23,919 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745803.mp4
+2025-04-27 14:24:23,933 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:23,933 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:24,055 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745803.mp4
+2025-04-27 14:24:24,056 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-04-27/1745745803.mp4
+2025-04-27 14:24:24,188 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-04-27/1745745803.mp4
+2025-04-27 14:24:24,312 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745803.mp4
+2025-04-27 14:24:24,983 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:24,983 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:26,062 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:26,063 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:27,128 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:27,129 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:28,197 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:28,198 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:29,256 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:29,256 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:30,315 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:30,316 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:30,507 - recording_session - INFO - 📊 RAM Usage: 11.0% | CPU: 78.0%
+2025-04-27 14:24:31,392 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:31,393 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:32,450 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:32,451 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:33,515 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:33,516 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:34,573 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:34,573 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:35,635 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:35,636 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:36,701 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:36,702 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:37,623 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745803.mp4
+2025-04-27 14:24:37,755 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:37,756 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:38,728 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745803.mp4
+2025-04-27 14:24:38,814 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:38,814 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:39,877 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:39,877 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:40,945 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:40,945 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:42,000 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:42,001 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:43,065 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:43,066 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:44,115 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:44,116 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:45,182 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:45,183 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:46,234 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:46,234 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:47,302 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:47,303 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:48,363 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:48,364 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:49,426 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:49,426 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:50,495 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:50,496 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:51,548 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:51,548 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:51,712 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745803.mp4
+2025-04-27 14:24:52,605 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:52,605 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:52,824 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745803.mp4
+2025-04-27 14:24:53,661 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:53,661 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:54,726 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:54,726 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:55,795 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:55,795 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:56,862 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:56,863 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:57,920 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:57,921 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:58,994 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:24:58,994 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:00,050 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:00,051 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:01,121 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:01,121 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:01,508 - recording_session - INFO - 📊 RAM Usage: 11.0% | CPU: 80.2%
+2025-04-27 14:25:02,190 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:02,190 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:03,248 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:03,248 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:04,309 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:04,310 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:05,364 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:05,365 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:05,790 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745803.mp4
+2025-04-27 14:25:06,413 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:06,414 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:06,898 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-04-27/1745745803.mp4
+2025-04-27 14:25:07,470 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:07,471 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:08,541 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:08,542 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:09,610 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:09,611 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:10,668 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:10,669 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:11,727 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:11,728 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:12,780 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:12,780 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:13,835 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:13,837 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:14,914 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:14,916 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:15,983 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:15,984 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:17,050 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:17,051 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:18,121 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:18,121 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:19,191 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:19,192 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:30,394 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:30,400 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:30,487 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745863.mp4
+2025-04-27 14:25:30,494 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745930.mp4
+2025-04-27 14:25:30,508 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745930.mp4
+2025-04-27 14:25:30,514 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-04-27/1745745803.mp4
+2025-04-27 14:25:30,524 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-04-27/1745745930.mp4
+2025-04-27 14:25:30,551 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745930.mp4
+2025-04-27 14:25:30,606 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745863.mp4
+2025-04-27 14:25:30,607 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745863.mp4
+2025-04-27 14:25:30,719 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745863.mp4
+2025-04-27 14:25:30,720 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745863.mp4
+2025-04-27 14:25:30,846 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745863.mp4
+2025-04-27 14:25:30,847 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-04-27/1745745863.mp4
+2025-04-27 14:25:30,960 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-04-27/1745745863.mp4
+2025-04-27 14:25:35,113 - recording_session - INFO - 📊 RAM Usage: 10.7% | CPU: 20.5%
+2025-04-27 14:25:35,193 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:35,194 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:35,208 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745863.mp4
+2025-04-27 14:25:41,700 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:41,701 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:42,764 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:42,764 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:43,820 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:43,820 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:44,880 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:44,880 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:45,946 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:45,947 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:46,998 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:46,999 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:48,072 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:48,072 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:48,093 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-04-27/1745745863.mp4
+2025-04-27 14:25:49,138 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:49,139 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:49,205 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745863.mp4
+2025-04-27 14:25:50,197 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:50,198 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:51,277 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:51,279 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:52,342 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:52,343 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:53,408 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:53,409 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:54,474 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:54,474 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:55,541 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:55,542 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:56,611 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:56,612 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:57,683 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:57,684 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:58,746 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:58,747 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:59,797 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:25:59,800 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:00,848 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:00,849 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:01,923 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:01,923 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:02,060 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-04-27/1745745863.mp4
+2025-04-27 14:26:02,969 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:02,969 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:03,167 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745863.mp4
+2025-04-27 14:26:04,018 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:04,018 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:05,093 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:05,094 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:06,115 - recording_session - INFO - 📊 RAM Usage: 11.1% | CPU: 81.6%
+2025-04-27 14:26:06,149 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:06,149 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:07,196 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:07,197 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:08,245 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:08,247 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:09,299 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:09,300 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:10,362 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:10,363 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:11,413 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:11,413 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:12,462 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:12,463 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:13,518 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:13,518 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:14,589 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:14,590 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:15,646 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:15,646 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:16,033 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-04-27/1745745863.mp4
+2025-04-27 14:26:16,702 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:16,703 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:17,142 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-04-27/1745745863.mp4
+2025-04-27 14:26:17,781 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:17,781 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:18,829 - overlay - INFO - 📸 Screenshot captured: /var/www/html/assets/image/scoreboard-img6.png
+2025-04-27 14:26:18,829 - overlay - INFO - 🖼️ Updated overlay with PNG: /var/www/html/assets/image/scoreboard-img6.png

@@ -1,0 +1,334 @@
+2025-05-15 17:12:31,698 - overlay - INFO - Fetching all CameraURLs records
+2025-05-15 17:12:31,708 - recording_session - INFO - 🚀 SlowMoWorkers started: 4 threads
+2025-05-15 17:12:31,709 - overlay - INFO - Fetching all CameraURLs records
+2025-05-15 17:12:31,719 - recording_session - INFO - 🎥 Recording thread started for camera 1
+2025-05-15 17:12:31,722 - overlay - INFO - Started recording for camera 1: rtsp://192.168.100.150:8547/h264
+2025-05-15 17:12:31,736 - recording_session - INFO - 🎥 Recording thread started for camera 2
+2025-05-15 17:12:31,736 - overlay - INFO - Started recording for camera 2: rtsp://192.168.100.150:8547/h264
+2025-05-15 17:12:31,747 - recording_session - INFO - 🎥 Recording thread started for camera 3
+2025-05-15 17:12:31,748 - overlay - INFO - Started recording for camera 3: rtsp://192.168.100.150:8547/h264
+2025-05-15 17:12:31,757 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 2
+2025-05-15 17:12:31,758 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 1
+2025-05-15 17:12:31,758 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 3
+2025-05-15 17:12:31,759 - recording_session - INFO - 🎥 Recording thread started for camera 4
+2025-05-15 17:12:31,759 - overlay - INFO - Started recording for camera 4: rtsp://192.168.100.150:8547/h264
+2025-05-15 17:12:31,765 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 4
+2025-05-15 17:12:31,775 - recording_session - INFO - ✅ Pipeline PLAYING for camera 2
+2025-05-15 17:12:31,776 - recording_session - INFO - ✅ Pipeline PLAYING for camera 1
+2025-05-15 17:12:31,785 - recording_session - INFO - ✅ Pipeline PLAYING for camera 3
+2025-05-15 17:12:31,796 - recording_session - INFO - ✅ Pipeline PLAYING for camera 4
+2025-05-15 17:12:31,963 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 3
+2025-05-15 17:12:31,966 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 1
+2025-05-15 17:12:31,976 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 2
+2025-05-15 17:12:31,977 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 4
+2025-05-15 17:12:31,980 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311151.mp4
+2025-05-15 17:12:31,989 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311151.mp4
+2025-05-15 17:12:32,006 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311151.mp4
+2025-05-15 17:12:32,032 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311151.mp4
+2025-05-15 17:12:51,501 - overlay - INFO - Fetching all graphics records
+2025-05-15 17:12:51,502 - overlay - INFO - Fetching all CameraURLs records
+2025-05-15 17:12:51,506 - overlay - INFO - Found 1 graphics records
+2025-05-15 17:12:51,510 - overlay - INFO - Found 4 CameraURLs records
+2025-05-15 17:12:51,621 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:12:51,621 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:12:51,670 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:12:57,570 - overlay - INFO - Loaded stream target (ID: 1): srt => srt://origin-v2.vewbie.com:7010
+2025-05-15 17:12:57,570 - overlay - INFO - Creating pipeline for srt stream to: srt://origin-v2.vewbie.com:7010
+2025-05-15 17:12:57,747 - overlay - INFO - 🧩 Dynamic overlay URL set to: http://103.217.176.16:8080/scorecards/baseball/scorecard/1
+2025-05-15 17:12:57,748 - overlay - INFO - Adding overlay for position: tl
+2025-05-15 17:12:57,750 - overlay - INFO - Screenshot capture started...
+2025-05-15 17:12:57,754 - overlay - INFO - Position set to tl (X: 10, Y: 10)
+2025-05-15 17:12:58,091 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,091 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,091 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,092 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,092 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,092 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,092 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,092 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,092 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,092 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,092 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,092 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,093 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,093 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,093 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,093 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,093 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,093 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,093 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,093 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,093 - overlay - INFO - Pipeline thread started with state transition
+2025-05-15 17:12:58,093 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,094 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,094 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,094 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,094 - overlay - INFO - State changed: NULL -> READY
+2025-05-15 17:12:58,094 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,094 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,094 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,094 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,095 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,095 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,095 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,095 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,095 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,095 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,095 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,095 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,095 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,095 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,095 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,095 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,096 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,096 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,096 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,096 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,096 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,096 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,096 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,096 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-15 17:12:58,096 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,096 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,096 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,097 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,097 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,097 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,097 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,097 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,097 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,097 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,097 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,097 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,097 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,097 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,097 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,098 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,098 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,098 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,098 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,098 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,098 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,098 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,098 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-15 17:12:58,452 - overlay - INFO - 🌐 Opening overlay URL in Playwright: http://103.217.176.16:8080/scorecards/baseball/scorecard/1
+2025-05-15 17:12:59,717 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:12:59,718 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:12:59,732 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:13:01,094 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 1/15)
+2025-05-15 17:13:01,594 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 2/15)
+2025-05-15 17:13:01,687 - overlay - INFO - 🔧 Injected transparent background for overlay rendering
+2025-05-15 17:13:01,771 - overlay - INFO - 📸 Screenshot captured: url_shots/e97719a9-4e82-4fad-9356-e2d74a30ed8d.png
+2025-05-15 17:13:02,095 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 3/15)
+2025-05-15 17:13:02,595 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 4/15)
+2025-05-15 17:13:03,096 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 5/15)
+2025-05-15 17:13:03,597 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 6/15)
+2025-05-15 17:13:04,097 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 7/15)
+2025-05-15 17:13:04,598 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 8/15)
+2025-05-15 17:13:05,098 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 9/15)
+2025-05-15 17:13:05,599 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 10/15)
+2025-05-15 17:13:06,099 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 11/15)
+2025-05-15 17:13:06,600 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 12/15)
+2025-05-15 17:13:07,101 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 13/15)
+2025-05-15 17:13:07,601 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 14/15)
+2025-05-15 17:13:08,102 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 15/15)
+2025-05-15 17:13:08,602 - overlay - ERROR - Pad for rtsp://192.168.100.150:8547/h264 not found after 15 retries
+2025-05-15 17:13:08,603 - overlay - INFO - Setting camera ID 1 as default
+2025-05-15 17:13:08,608 - overlay - ERROR - Fallback pad not found. Unable to switch stream.
+2025-05-15 17:13:08,608 - overlay - INFO - Setting camera ID 1 as default
+2025-05-15 17:13:08,616 - overlay - INFO - All cameras' Default fields set to false
+2025-05-15 17:13:08,635 - overlay - INFO - Camera ID 1 set as default
+2025-05-15 17:13:09,716 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:13:09,736 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:13:19,717 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:13:19,734 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:13:29,716 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:13:29,731 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:13:32,762 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311151.mp4
+2025-05-15 17:13:32,776 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311212.mp4
+2025-05-15 17:13:32,798 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311212.mp4
+2025-05-15 17:13:32,813 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311212.mp4
+2025-05-15 17:13:32,831 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311212.mp4
+2025-05-15 17:13:33,002 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311151.mp4
+2025-05-15 17:13:33,002 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311151.mp4
+2025-05-15 17:13:33,208 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311151.mp4
+2025-05-15 17:13:33,209 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311151.mp4
+2025-05-15 17:13:33,427 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311151.mp4
+2025-05-15 17:13:33,428 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311151.mp4
+2025-05-15 17:13:33,437 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311151.mp4
+2025-05-15 17:13:33,439 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311151.mp4
+2025-05-15 17:13:33,669 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311151.mp4
+2025-05-15 17:13:39,715 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:13:39,736 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:13:49,714 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:13:49,724 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:13:58,202 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311151.mp4
+2025-05-15 17:13:58,416 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311151.mp4
+2025-05-15 17:13:58,634 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311151.mp4
+2025-05-15 17:13:58,821 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311151.mp4
+2025-05-15 17:13:59,715 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:13:59,732 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:14:09,716 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:14:09,739 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:14:19,712 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:14:19,728 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:14:23,504 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311151.mp4
+2025-05-15 17:14:23,823 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311151.mp4
+2025-05-15 17:14:29,716 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:14:29,733 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:14:32,761 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311212.mp4
+2025-05-15 17:14:32,773 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311272.mp4
+2025-05-15 17:14:32,790 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311272.mp4
+2025-05-15 17:14:32,808 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311272.mp4
+2025-05-15 17:14:32,833 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311272.mp4
+2025-05-15 17:14:32,952 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311212.mp4
+2025-05-15 17:14:32,952 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311212.mp4
+2025-05-15 17:14:33,086 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311212.mp4
+2025-05-15 17:14:33,102 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311212.mp4
+2025-05-15 17:14:33,102 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311212.mp4
+2025-05-15 17:14:33,260 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311212.mp4
+2025-05-15 17:14:33,260 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311212.mp4
+2025-05-15 17:14:33,393 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311212.mp4
+2025-05-15 17:14:33,439 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311212.mp4
+2025-05-15 17:14:39,712 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:14:39,725 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:14:49,712 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:14:49,721 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:14:58,310 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311212.mp4
+2025-05-15 17:14:58,406 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311212.mp4
+2025-05-15 17:14:58,536 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311212.mp4
+2025-05-15 17:14:59,712 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:14:59,719 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:15:09,712 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:15:09,723 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:15:19,712 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:15:19,720 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:15:21,135 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311212.mp4
+2025-05-15 17:15:21,249 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311212.mp4
+2025-05-15 17:15:29,712 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:15:29,723 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:15:32,752 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311272.mp4
+2025-05-15 17:15:32,760 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311332.mp4
+2025-05-15 17:15:32,781 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311332.mp4
+2025-05-15 17:15:32,792 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311332.mp4
+2025-05-15 17:15:32,810 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311332.mp4
+2025-05-15 17:15:32,900 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311272.mp4
+2025-05-15 17:15:32,900 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311272.mp4
+2025-05-15 17:15:33,032 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311272.mp4
+2025-05-15 17:15:33,049 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311272.mp4
+2025-05-15 17:15:33,050 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311272.mp4
+2025-05-15 17:15:33,183 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311272.mp4
+2025-05-15 17:15:33,203 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311272.mp4
+2025-05-15 17:15:33,203 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311272.mp4
+2025-05-15 17:15:33,413 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311272.mp4
+2025-05-15 17:15:33,429 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311272.mp4
+2025-05-15 17:15:39,715 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:15:39,728 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:15:45,643 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311212.mp4
+2025-05-15 17:15:49,712 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:15:49,722 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:15:58,686 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311272.mp4
+2025-05-15 17:15:59,714 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:15:59,727 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:16:09,713 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:16:09,724 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:16:10,730 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311272.mp4
+2025-05-15 17:16:19,714 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:16:19,730 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:16:21,846 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311272.mp4
+2025-05-15 17:16:21,978 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311272.mp4
+2025-05-15 17:16:29,711 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:16:29,720 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:16:31,103 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311332.mp4
+2025-05-15 17:16:31,112 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311391.mp4
+2025-05-15 17:16:31,137 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311391.mp4
+2025-05-15 17:16:31,149 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311391.mp4
+2025-05-15 17:16:31,167 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311391.mp4
+2025-05-15 17:16:31,256 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311332.mp4
+2025-05-15 17:16:31,257 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311332.mp4
+2025-05-15 17:16:31,407 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311332.mp4
+2025-05-15 17:16:31,408 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311332.mp4
+2025-05-15 17:16:31,559 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311332.mp4
+2025-05-15 17:16:31,559 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311332.mp4
+2025-05-15 17:16:31,709 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311332.mp4
+2025-05-15 17:16:31,821 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311332.mp4
+2025-05-15 17:16:31,879 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311332.mp4
+2025-05-15 17:16:39,714 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:16:39,730 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:16:45,938 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311272.mp4
+2025-05-15 17:16:46,063 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311332.mp4
+2025-05-15 17:16:49,717 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:16:49,734 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:16:56,516 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311332.mp4
+2025-05-15 17:16:59,714 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:16:59,730 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:17:09,716 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:17:09,734 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:17:10,903 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311332.mp4
+2025-05-15 17:17:11,034 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311332.mp4
+2025-05-15 17:17:19,714 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:17:19,734 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:17:22,141 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311332.mp4
+2025-05-15 17:17:29,714 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:17:29,725 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:17:31,088 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311391.mp4
+2025-05-15 17:17:31,097 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311451.mp4
+2025-05-15 17:17:31,110 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311451.mp4
+2025-05-15 17:17:31,121 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311451.mp4
+2025-05-15 17:17:31,132 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311451.mp4
+2025-05-15 17:17:31,235 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311391.mp4
+2025-05-15 17:17:31,235 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311391.mp4
+2025-05-15 17:17:31,382 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311391.mp4
+2025-05-15 17:17:31,393 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311391.mp4
+2025-05-15 17:17:31,393 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311391.mp4
+2025-05-15 17:17:31,525 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311391.mp4
+2025-05-15 17:17:31,580 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311391.mp4
+2025-05-15 17:17:31,581 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311391.mp4
+2025-05-15 17:17:31,759 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311391.mp4
+2025-05-15 17:17:31,895 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311391.mp4
+2025-05-15 17:17:35,164 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311332.mp4
+2025-05-15 17:17:39,717 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:17:39,729 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:17:49,714 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:17:49,726 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:17:51,617 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:17:51,628 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:17:57,567 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311391.mp4
+2025-05-15 17:17:57,694 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311391.mp4
+2025-05-15 17:17:59,716 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:17:59,730 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:18:01,499 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311391.mp4
+2025-05-15 17:18:09,713 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:18:09,727 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:18:19,714 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:18:19,727 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:18:23,766 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311391.mp4
+2025-05-15 17:18:27,699 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311391.mp4
+2025-05-15 17:18:29,715 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-15 17:18:29,728 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-15 17:18:31,088 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311451.mp4
+2025-05-15 17:18:31,098 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311511.mp4
+2025-05-15 17:18:31,110 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311511.mp4
+2025-05-15 17:18:31,122 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311511.mp4
+2025-05-15 17:18:31,144 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311511.mp4
+2025-05-15 17:18:31,253 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311451.mp4
+2025-05-15 17:18:31,253 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311451.mp4
+2025-05-15 17:18:31,386 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311451.mp4
+2025-05-15 17:18:31,394 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311451.mp4
+2025-05-15 17:18:31,394 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311451.mp4
+2025-05-15 17:18:31,531 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311451.mp4
+2025-05-15 17:18:31,532 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311451.mp4
+2025-05-15 17:18:31,644 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311451.mp4
+2025-05-15 17:18:31,686 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-15/1747311451.mp4
+2025-05-15 17:18:31,714 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311451.mp4
+2025-05-15 17:18:36,348 - ffmpeg_post_process - ERROR - ❌ Hardware encoding failed (code 255)
+2025-05-15 17:18:36,348 - ffmpeg_post_process - WARNING - 🔁 Retrying slow motion for /var/www/html/public/assets/uploads/CAM2/2025-05-15/1747311451.mp4 (attempt 1)
+2025-05-15 17:18:36,350 - ffmpeg_post_process - ERROR - ❌ Hardware encoding failed (code 255)
+2025-05-15 17:18:36,350 - ffmpeg_post_process - WARNING - 🔁 Retrying slow motion for /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311451.mp4 (attempt 1)
+2025-05-15 17:18:36,444 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311511.mp4
+2025-05-15 17:18:36,470 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311451.mp4
+2025-05-15 17:18:36,474 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-15/1747311451.mp4
+2025-05-15 17:18:36,532 - ffmpeg_post_process - ERROR - ❌ Hardware encoding failed (code -2)
+2025-05-15 17:18:36,533 - ffmpeg_post_process - WARNING - 🔁 Retrying slow motion for /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311451.mp4 (attempt 2)
+2025-05-15 17:18:36,534 - recording_session - WARNING - Failed to probe file /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311511.mp4: could not convert string to float: ''
+2025-05-15 17:18:36,534 - recording_session - WARNING - Chunk not ready or too small to process: /var/www/html/public/assets/uploads/CAM1/2025-05-15/1747311511.mp4

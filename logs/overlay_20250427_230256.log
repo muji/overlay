@@ -1,0 +1,27 @@
+2025-04-27 23:02:56,637 - overlay - INFO - Fetching all CameraURLs records
+2025-04-27 23:02:56,651 - recording_session - INFO - 🚀 SlowMoWorker started
+2025-04-27 23:02:56,652 - overlay - INFO - Fetching all CameraURLs records
+2025-04-27 23:02:56,683 - recording_session - INFO - 🧹 Cleanup done. Deleted 0 files.
+2025-04-27 23:02:56,685 - recording_session - INFO - 🎥 Recording thread started for camera 1
+2025-04-27 23:02:56,685 - overlay - INFO - Started recording for camera 1: rtsp://192.168.100.150:8547/h264
+2025-04-27 23:02:56,698 - recording_session - INFO - 🎥 Recording thread started for camera 2
+2025-04-27 23:02:56,698 - overlay - INFO - Started recording for camera 2: rtsp://192.168.100.150:8547/h264
+2025-04-27 23:02:56,702 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 1
+2025-04-27 23:02:56,703 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 2
+2025-04-27 23:02:56,704 - recording_session - INFO - ✅ Pipeline set to PLAYING for camera 1
+2025-04-27 23:02:56,704 - recording_session - INFO - ✅ Pipeline set to PLAYING for camera 2
+2025-04-27 23:02:56,714 - recording_session - INFO - 🎥 Recording thread started for camera 3
+2025-04-27 23:02:56,720 - overlay - INFO - Started recording for camera 3: rtsp://192.168.100.150:8547/h264
+2025-04-27 23:02:56,725 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 3
+2025-04-27 23:02:56,726 - recording_session - INFO - ✅ Pipeline set to PLAYING for camera 3
+2025-04-27 23:02:56,732 - recording_session - INFO - 🎥 Recording thread started for camera 4
+2025-04-27 23:02:56,732 - overlay - INFO - Started recording for camera 4: rtsp://192.168.100.150:8547/h264
+2025-04-27 23:02:56,735 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 4
+2025-04-27 23:02:56,739 - recording_session - INFO - ✅ Pipeline set to PLAYING for camera 4
+2025-04-27 23:02:56,782 - recording_session - INFO - 🔌 pad-added signal for camera 2
+2025-04-27 23:02:56,783 - recording_session - INFO - 🔗 Linked rtspsrc pad to depay for camera 2
+2025-04-27 23:02:56,791 - recording_session - INFO - 🔌 pad-added signal for camera 3
+2025-04-27 23:02:56,792 - recording_session - INFO - 🔗 Linked rtspsrc pad to depay for camera 3
+2025-04-27 23:02:56,802 - recording_session - INFO - 🔌 pad-added signal for camera 4
+2025-04-27 23:02:56,804 - recording_session - INFO - 🔗 Linked rtspsrc pad to depay for camera 4
+2025-04-27 23:02:56,817 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path

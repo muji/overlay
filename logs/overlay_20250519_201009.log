@@ -1,0 +1,392 @@
+2025-05-19 20:10:09,853 - overlay - INFO - Fetching all CameraURLs records
+2025-05-19 20:10:09,935 - recording_session - INFO - 🚀 SlowMoWorkers started: 4 threads
+2025-05-19 20:10:09,935 - overlay - INFO - Fetching all CameraURLs records
+2025-05-19 20:10:09,951 - recording_session - INFO - 🎥 Recording thread started for camera 1
+2025-05-19 20:10:09,953 - overlay - INFO - Started recording for camera 1: rtsp://192.168.100.150:8547/h264
+2025-05-19 20:10:09,962 - recording_session - INFO - 🎥 Recording thread started for camera 2
+2025-05-19 20:10:09,962 - overlay - INFO - Started recording for camera 2: rtsp://192.168.100.150:8547/h264
+2025-05-19 20:10:09,975 - recording_session - INFO - 🎥 Recording thread started for camera 3
+2025-05-19 20:10:09,976 - overlay - INFO - Started recording for camera 3: rtsp://192.168.100.150:8547/h264
+2025-05-19 20:10:09,983 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 1
+2025-05-19 20:10:09,984 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 3
+2025-05-19 20:10:09,984 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 2
+2025-05-19 20:10:09,986 - recording_session - INFO - 🎥 Recording thread started for camera 4
+2025-05-19 20:10:09,987 - recording_session - INFO - ✅ Pipeline PLAYING for camera 1
+2025-05-19 20:10:09,987 - overlay - INFO - Started recording for camera 4: rtsp://192.168.100.150:8547/h264
+2025-05-19 20:10:09,995 - recording_session - INFO - ✅ Pipeline PLAYING for camera 2
+2025-05-19 20:10:09,998 - recording_session - INFO - ✅ Pipeline PLAYING for camera 3
+2025-05-19 20:10:10,007 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 4
+2025-05-19 20:10:10,011 - recording_session - INFO - ✅ Pipeline PLAYING for camera 4
+2025-05-19 20:10:10,144 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 1
+2025-05-19 20:10:10,146 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 2
+2025-05-19 20:10:10,146 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 3
+2025-05-19 20:10:10,150 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 4
+2025-05-19 20:10:10,162 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-19/1747667410.mp4
+2025-05-19 20:10:10,177 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-19/1747667410.mp4
+2025-05-19 20:10:10,197 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-19/1747667410.mp4
+2025-05-19 20:10:10,216 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-19/1747667410.mp4
+2025-05-19 20:10:21,880 - overlay - INFO - Fetching all graphics records
+2025-05-19 20:10:21,883 - overlay - INFO - Fetching all CameraURLs records
+2025-05-19 20:10:21,884 - overlay - INFO - Found 1 graphics records
+2025-05-19 20:10:21,888 - overlay - INFO - Found 4 CameraURLs records
+2025-05-19 20:10:22,001 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-19 20:10:22,001 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-19 20:10:22,055 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-19 20:10:23,996 - overlay - INFO - Loaded stream target (ID: 1): srt => srt://origin-v2.vewbie.com:7010
+2025-05-19 20:10:23,996 - overlay - INFO - Creating pipeline for srt stream to: srt://origin-v2.vewbie.com:7010
+2025-05-19 20:10:24,129 - overlay - WARNING - mpegtsmux has no audio_%u pad – linking generically
+2025-05-19 20:10:24,133 - overlay - INFO - 🧩 Dynamic overlay URL set to: http://103.217.176.16:8080/scorecards/baseball/scorecard/1
+2025-05-19 20:10:24,135 - overlay - INFO - Adding overlay for position: tl
+2025-05-19 20:10:24,136 - overlay - INFO - Screenshot capture started...
+2025-05-19 20:10:24,138 - overlay - INFO - Position set to tl (X: 10, Y: 10)
+2025-05-19 20:10:24,456 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,457 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,457 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,457 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,457 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,458 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,458 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,458 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,458 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,458 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,458 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,458 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,458 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,458 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,459 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,459 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,459 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,459 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,459 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,459 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,459 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,459 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,459 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,460 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,460 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,460 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,463 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,463 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,463 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,464 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,464 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,465 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,465 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,466 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,466 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,466 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,467 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,467 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,468 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,468 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,468 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,469 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,469 - overlay - INFO - Pipeline thread started with state transition
+2025-05-19 20:10:24,469 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,470 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,470 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,471 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,471 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,471 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,472 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,472 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,472 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,473 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,473 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,473 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,474 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,474 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,475 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,475 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,476 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,476 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,476 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,477 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,477 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,477 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,478 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-19 20:10:24,479 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,479 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,480 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,480 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,480 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,481 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,481 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,482 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,482 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,482 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,482 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,483 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,483 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,483 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,484 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,484 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,485 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,485 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,485 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,485 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,486 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,486 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,486 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,487 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,487 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,487 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,488 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,488 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,489 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,489 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,489 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,490 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,491 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,491 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,491 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,492 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,492 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,492 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,492 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,492 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,492 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,492 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,492 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,492 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,492 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,493 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,493 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,493 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,493 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,493 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,493 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,493 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,493 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,493 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,493 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,494 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,494 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,494 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,494 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,494 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,494 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,494 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,494 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,494 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,494 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,495 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,495 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,495 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,495 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,495 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,495 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,495 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,495 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,495 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,495 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,496 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,496 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,496 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,496 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,496 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,496 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,496 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,496 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,496 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,496 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,497 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,497 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,497 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,497 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,497 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,497 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,498 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,498 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,498 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,498 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,498 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,498 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,498 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,498 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,498 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,498 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,499 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,499 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,500 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,500 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,500 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,500 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,500 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,500 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,500 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,500 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,501 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,501 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,501 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,501 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,501 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,501 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,501 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,501 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,501 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,519 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,519 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,519 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,520 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,520 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,520 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,520 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,521 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,521 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,521 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,521 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,521 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,521 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,521 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,521 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,521 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,521 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,522 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,522 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,522 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,522 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,522 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:24,522 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:24,522 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:24,800 - overlay - INFO - 🌐 Opening overlay URL in Playwright: http://103.217.176.16:8080/scorecards/baseball/scorecard/1
+2025-05-19 20:10:25,597 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-19 20:10:25,597 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-19 20:10:25,614 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-19 20:10:26,431 - overlay - INFO - 🔧 Injected transparent background for overlay rendering
+2025-05-19 20:10:26,491 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:26,492 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:26,492 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:26,492 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-19 20:10:26,492 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:26,492 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-19 20:10:26,493 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-19 20:10:26,493 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:26,493 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:26,493 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:26,493 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:26,493 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-19 20:10:26,493 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:26,493 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:26,493 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:26,494 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-19 20:10:26,494 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:26,497 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:26,498 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:26,498 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:26,498 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:26,498 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:26,499 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:26,500 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:26,500 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:26,501 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:26,501 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:26,505 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:26,506 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:26,507 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:26,507 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:26,507 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:26,508 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:26,508 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:26,509 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:26,512 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:26,514 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:26,515 - overlay - INFO - 🧩 on_pad_added called from source4
+2025-05-19 20:10:26,517 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:26,518 - overlay - INFO - 📦 Pad caps: video/x-raw, format=(string)NV12, width=(int)1920, height=(int)1080, interlace-mode=(string)progressive, multiview-mode=(string)mono, multiview-flags=(GstVideoMultiviewFlagsSet)0:ffffffff:/right-view-first/left-flipped/left-flopped/right-flipped/right-flopped/half-aspect/mixed-mono, pixel-aspect-ratio=(fraction)1/1, colorimetry=(string)1:3:5:1, framerate=(fraction)30/1;
+2025-05-19 20:10:26,519 - overlay - INFO - 🔗 Handling pad from source URI: rtsp://192.168.100.150:8547/h264
+2025-05-19 20:10:26,522 - overlay - INFO - ✅ Requested sink pad sink_0 for rtsp://192.168.100.150:8547/h264
+2025-05-19 20:10:26,524 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:26,526 - overlay - INFO - State changed: NULL -> READY
+2025-05-19 20:10:26,526 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:26,525 - overlay - INFO - 🧩 on_pad_added called from source1
+2025-05-19 20:10:26,531 - overlay - INFO - 📦 Pad caps: video/x-raw, format=(string)NV12, width=(int)1920, height=(int)1080, interlace-mode=(string)progressive, multiview-mode=(string)mono, multiview-flags=(GstVideoMultiviewFlagsSet)0:ffffffff:/right-view-first/left-flipped/left-flopped/right-flipped/right-flopped/half-aspect/mixed-mono, pixel-aspect-ratio=(fraction)1/1, colorimetry=(string)1:3:5:1, framerate=(fraction)30/1;
+2025-05-19 20:10:26,532 - overlay - INFO - 🔗 Handling pad from source URI: rtsp://192.168.100.150:8547/h264
+2025-05-19 20:10:26,532 - overlay - INFO - ✅ Requested sink pad sink_1 for rtsp://192.168.100.150:8547/h264
+2025-05-19 20:10:26,535 - overlay - INFO - 📸 Screenshot captured: url_shots/c062730c-1688-47ed-a9fa-f7c6c9cf5a74.png
+2025-05-19 20:10:26,542 - overlay - INFO - 🧩 on_pad_added called from source2
+2025-05-19 20:10:26,542 - overlay - INFO - 📦 Pad caps: video/x-raw, format=(string)NV12, width=(int)1920, height=(int)1080, interlace-mode=(string)progressive, multiview-mode=(string)mono, multiview-flags=(GstVideoMultiviewFlagsSet)0:ffffffff:/right-view-first/left-flipped/left-flopped/right-flipped/right-flopped/half-aspect/mixed-mono, pixel-aspect-ratio=(fraction)1/1, colorimetry=(string)1:3:5:1, framerate=(fraction)30/1;
+2025-05-19 20:10:26,543 - overlay - INFO - 🔗 Handling pad from source URI: rtsp://192.168.100.150:8547/h264
+2025-05-19 20:10:26,543 - overlay - INFO - ✅ Requested sink pad sink_2 for rtsp://192.168.100.150:8547/h264
+2025-05-19 20:10:26,546 - overlay - INFO - 🧩 on_pad_added called from source3
+2025-05-19 20:10:26,547 - overlay - INFO - 📦 Pad caps: video/x-raw, format=(string)NV12, width=(int)1920, height=(int)1080, interlace-mode=(string)progressive, multiview-mode=(string)mono, multiview-flags=(GstVideoMultiviewFlagsSet)0:ffffffff:/right-view-first/left-flipped/left-flopped/right-flipped/right-flopped/half-aspect/mixed-mono, pixel-aspect-ratio=(fraction)1/1, colorimetry=(string)1:3:5:1, framerate=(fraction)30/1;
+2025-05-19 20:10:26,547 - overlay - INFO - 🔗 Handling pad from source URI: rtsp://192.168.100.150:8547/h264
+2025-05-19 20:10:26,547 - overlay - INFO - ✅ Requested sink pad sink_3 for rtsp://192.168.100.150:8547/h264
+2025-05-19 20:10:26,547 - overlay - INFO - ✅ Successfully linked rtsp://192.168.100.150:8547/h264 to sink_0
+2025-05-19 20:10:26,547 - overlay - WARNING - ⏸️ Pipeline not in PLAYING state, deferring active pad selection
+2025-05-19 20:10:26,548 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:26,548 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-19 20:10:26,564 - overlay - INFO - ✅ Successfully linked rtsp://192.168.100.150:8547/h264 to sink_1
+2025-05-19 20:10:26,564 - overlay - WARNING - ⏸️ Pipeline not in PLAYING state, deferring active pad selection
+2025-05-19 20:10:26,564 - overlay - INFO - ✅ Successfully linked rtsp://192.168.100.150:8547/h264 to sink_3
+2025-05-19 20:10:26,564 - overlay - WARNING - ⏸️ Pipeline not in PLAYING state, deferring active pad selection
+2025-05-19 20:10:26,565 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:26,565 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-19 20:10:26,565 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:26,565 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-19 20:10:26,573 - overlay - INFO - ✅ Successfully linked rtsp://192.168.100.150:8547/h264 to sink_2
+2025-05-19 20:10:26,573 - overlay - WARNING - ⏸️ Pipeline not in PLAYING state, deferring active pad selection
+2025-05-19 20:10:26,573 - overlay - INFO - State changed: READY -> PAUSED
+2025-05-19 20:10:26,574 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-19 20:10:26,574 - overlay - INFO - State changed: PAUSED -> PAUSED
+2025-05-19 20:10:26,575 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,575 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,575 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,575 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,576 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,576 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,576 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,576 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,576 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,576 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,576 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,576 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,576 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,576 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,577 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,577 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,577 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,577 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,577 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,577 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,577 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,577 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,577 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,577 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,578 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,578 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,578 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,578 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,578 - overlay - INFO - State changed: PAUSED -> PLAYING
+2025-05-19 20:10:26,579 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/c062730c-1688-47ed-a9fa-f7c6c9cf5a74.png
+2025-05-19 20:10:27,470 - overlay - INFO - Switching to rtsp://192.168.100.150:8547/h264 (Attempt 1/15)
+2025-05-19 20:10:27,471 - overlay - INFO - Setting camera ID 2 as default
+2025-05-19 20:10:27,484 - overlay - INFO - All cameras' Default fields set to false
+2025-05-19 20:10:27,515 - overlay - INFO - Camera ID 2 set as default
+2025-05-19 20:10:27,646 - overlay - INFO - 📸 Screenshot captured: url_shots/67c047f4-1c95-4224-ab90-6122db513322.png
+2025-05-19 20:10:27,650 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/67c047f4-1c95-4224-ab90-6122db513322.png
+2025-05-19 20:10:28,721 - overlay - INFO - 📸 Screenshot captured: url_shots/775d95b3-df9f-4e4b-ab9f-3376e3da64b7.png
+2025-05-19 20:10:28,724 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/775d95b3-df9f-4e4b-ab9f-3376e3da64b7.png
+2025-05-19 20:10:29,778 - overlay - INFO - 📸 Screenshot captured: url_shots/a06844df-c928-4c4b-9d08-40aba637ec38.png
+2025-05-19 20:10:29,781 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/a06844df-c928-4c4b-9d08-40aba637ec38.png
+2025-05-19 20:10:30,831 - overlay - INFO - 📸 Screenshot captured: url_shots/971716cf-1995-43ee-adc5-136f0064fa1b.png
+2025-05-19 20:10:30,834 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/971716cf-1995-43ee-adc5-136f0064fa1b.png
+2025-05-19 20:10:31,886 - overlay - INFO - 📸 Screenshot captured: url_shots/98e7546b-f03f-415b-a424-aaf61e67fc74.png
+2025-05-19 20:10:31,889 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/98e7546b-f03f-415b-a424-aaf61e67fc74.png
+2025-05-19 20:10:32,954 - overlay - INFO - 📸 Screenshot captured: url_shots/6340c0d0-f19e-4529-8a4a-64135a158a9f.png
+2025-05-19 20:10:32,955 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/6340c0d0-f19e-4529-8a4a-64135a158a9f.png
+2025-05-19 20:10:34,019 - overlay - INFO - 📸 Screenshot captured: url_shots/1e1400e9-cff5-49b7-bde9-6ef294020833.png
+2025-05-19 20:10:34,023 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/1e1400e9-cff5-49b7-bde9-6ef294020833.png
+2025-05-19 20:10:35,070 - overlay - INFO - 📸 Screenshot captured: url_shots/a9f7f003-05e8-411d-858a-fb410dbd6e7e.png
+2025-05-19 20:10:35,073 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/a9f7f003-05e8-411d-858a-fb410dbd6e7e.png
+2025-05-19 20:10:35,587 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-19 20:10:35,597 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-19 20:10:36,138 - overlay - INFO - 📸 Screenshot captured: url_shots/a733d302-1743-419e-896f-761fa06d6c57.png
+2025-05-19 20:10:36,139 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/a733d302-1743-419e-896f-761fa06d6c57.png
+2025-05-19 20:10:37,180 - overlay - INFO - 📸 Screenshot captured: url_shots/c29e86cb-af92-43f2-800f-d78702583652.png
+2025-05-19 20:10:37,182 - overlay - INFO - 🖼️ Updated overlay with PNG: url_shots/c29e86cb-af92-43f2-800f-d78702583652.png
+2025-05-19 20:10:38,092 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-19/1747667410.mp4
+2025-05-19 20:10:38,211 - overlay - INFO - Stopping pipeline...
+2025-05-19 20:10:38,226 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-19/1747667410.mp4
+2025-05-19 20:10:38,226 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-19/1747667410.mp4
+2025-05-19 20:10:38,343 - overlay - INFO - Pipeline fully stopped and resources released

@@ -1,0 +1,410 @@
+2025-05-11 15:57:36,706 - overlay - INFO - Fetching all CameraURLs records
+2025-05-11 15:57:36,714 - recording_session - INFO - 🚀 SlowMoWorkers started: 4 threads
+2025-05-11 15:57:36,714 - overlay - INFO - Fetching all CameraURLs records
+2025-05-11 15:57:36,736 - recording_session - INFO - 🎥 Recording thread started for camera 1
+2025-05-11 15:57:36,736 - overlay - INFO - Started recording for camera 1: rtsp://192.168.100.150:8547/h264
+2025-05-11 15:57:36,747 - recording_session - INFO - 🎥 Recording thread started for camera 2
+2025-05-11 15:57:36,747 - overlay - INFO - Started recording for camera 2: rtsp://192.168.100.150:8547/h264
+2025-05-11 15:57:36,757 - recording_session - INFO - 🎥 Recording thread started for camera 3
+2025-05-11 15:57:36,757 - overlay - INFO - Started recording for camera 3: rtsp://192.168.100.150:8547/h264
+2025-05-11 15:57:36,761 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 3
+2025-05-11 15:57:36,761 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 2
+2025-05-11 15:57:36,761 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 1
+2025-05-11 15:57:36,767 - recording_session - INFO - 🎥 Recording thread started for camera 4
+2025-05-11 15:57:36,767 - overlay - INFO - Started recording for camera 4: rtsp://192.168.100.150:8547/h264
+2025-05-11 15:57:36,780 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 4
+2025-05-11 15:57:36,801 - recording_session - INFO - ✅ Pipeline PLAYING for camera 1
+2025-05-11 15:57:36,801 - recording_session - INFO - ✅ Pipeline PLAYING for camera 2
+2025-05-11 15:57:36,802 - recording_session - INFO - ✅ Pipeline PLAYING for camera 3
+2025-05-11 15:57:36,803 - recording_session - INFO - ✅ Pipeline PLAYING for camera 4
+2025-05-11 15:57:37,004 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 1
+2025-05-11 15:57:37,004 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 3
+2025-05-11 15:57:37,005 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 2
+2025-05-11 15:57:37,005 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 4
+2025-05-11 15:57:37,018 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961057.mp4
+2025-05-11 15:57:37,039 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961057.mp4
+2025-05-11 15:57:37,057 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961057.mp4
+2025-05-11 15:57:37,072 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961057.mp4
+2025-05-11 15:57:42,630 - overlay - INFO - Fetching all graphics records
+2025-05-11 15:57:42,630 - overlay - INFO - Fetching all CameraURLs records
+2025-05-11 15:57:42,633 - overlay - INFO - Found 1 graphics records
+2025-05-11 15:57:42,636 - overlay - INFO - Found 4 CameraURLs records
+2025-05-11 15:57:42,796 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-11 15:57:42,800 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-11 15:57:42,858 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-11 15:57:47,734 - overlay - INFO - Loaded stream target (ID: 1): srt => srt://origin-v2.vewbie.com:7010
+2025-05-11 15:57:47,735 - overlay - INFO - Creating pipeline for srt stream to: srt://origin-v2.vewbie.com:7010
+2025-05-11 15:57:47,742 - overlay - ERROR - Unexpected error: type object 'Element' has no attribute 'link_many'
+2025-05-11 15:58:37,189 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961057.mp4
+2025-05-11 15:58:37,200 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961117.mp4
+2025-05-11 15:58:37,222 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961117.mp4
+2025-05-11 15:58:37,244 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961117.mp4
+2025-05-11 15:58:37,262 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961117.mp4
+2025-05-11 15:58:37,433 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961057.mp4
+2025-05-11 15:58:37,435 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961057.mp4
+2025-05-11 15:58:37,648 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961057.mp4
+2025-05-11 15:58:37,649 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961057.mp4
+2025-05-11 15:58:37,652 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961057.mp4
+2025-05-11 15:58:37,869 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961057.mp4
+2025-05-11 15:58:37,890 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961057.mp4
+2025-05-11 15:58:37,890 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961057.mp4
+2025-05-11 15:58:38,109 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961057.mp4
+2025-05-11 15:58:38,477 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961057.mp4
+2025-05-11 15:59:03,016 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961057.mp4
+2025-05-11 15:59:03,174 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961057.mp4
+2025-05-11 15:59:03,385 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961057.mp4
+2025-05-11 15:59:28,292 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961057.mp4
+2025-05-11 15:59:28,519 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961057.mp4
+2025-05-11 15:59:37,176 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961117.mp4
+2025-05-11 15:59:37,185 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961177.mp4
+2025-05-11 15:59:37,201 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961177.mp4
+2025-05-11 15:59:37,212 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961177.mp4
+2025-05-11 15:59:37,232 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961177.mp4
+2025-05-11 15:59:37,354 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961117.mp4
+2025-05-11 15:59:37,355 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961117.mp4
+2025-05-11 15:59:37,518 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961117.mp4
+2025-05-11 15:59:37,522 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961117.mp4
+2025-05-11 15:59:37,523 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961117.mp4
+2025-05-11 15:59:37,670 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961117.mp4
+2025-05-11 15:59:37,683 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961117.mp4
+2025-05-11 15:59:37,683 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961117.mp4
+2025-05-11 15:59:37,855 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961117.mp4
+2025-05-11 15:59:37,876 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961117.mp4
+2025-05-11 16:00:03,066 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961117.mp4
+2025-05-11 16:00:03,583 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961117.mp4
+2025-05-11 16:00:03,724 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961117.mp4
+2025-05-11 16:00:28,813 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961117.mp4
+2025-05-11 16:00:29,475 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961117.mp4
+2025-05-11 16:00:37,155 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961177.mp4
+2025-05-11 16:00:37,164 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961237.mp4
+2025-05-11 16:00:37,178 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961237.mp4
+2025-05-11 16:00:37,195 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961237.mp4
+2025-05-11 16:00:37,214 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961237.mp4
+2025-05-11 16:00:37,334 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961177.mp4
+2025-05-11 16:00:37,334 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961177.mp4
+2025-05-11 16:00:37,510 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961177.mp4
+2025-05-11 16:00:37,510 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961177.mp4
+2025-05-11 16:00:37,714 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961177.mp4
+2025-05-11 16:00:37,715 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961177.mp4
+2025-05-11 16:00:37,736 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961177.mp4
+2025-05-11 16:00:37,860 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961177.mp4
+2025-05-11 16:00:37,890 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961177.mp4
+2025-05-11 16:00:37,960 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961177.mp4
+2025-05-11 16:01:03,475 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961177.mp4
+2025-05-11 16:01:03,482 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961177.mp4
+2025-05-11 16:01:03,630 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961177.mp4
+2025-05-11 16:01:29,364 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961177.mp4
+2025-05-11 16:01:29,538 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961177.mp4
+2025-05-11 16:01:37,149 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961237.mp4
+2025-05-11 16:01:37,161 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961297.mp4
+2025-05-11 16:01:37,177 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961297.mp4
+2025-05-11 16:01:37,191 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961297.mp4
+2025-05-11 16:01:37,209 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961297.mp4
+2025-05-11 16:01:37,336 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961237.mp4
+2025-05-11 16:01:37,336 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961237.mp4
+2025-05-11 16:01:37,526 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961237.mp4
+2025-05-11 16:01:37,527 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961237.mp4
+2025-05-11 16:01:37,699 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961237.mp4
+2025-05-11 16:01:37,712 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961237.mp4
+2025-05-11 16:01:37,725 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961237.mp4
+2025-05-11 16:01:37,726 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961237.mp4
+2025-05-11 16:01:37,894 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961237.mp4
+2025-05-11 16:02:03,300 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961237.mp4
+2025-05-11 16:02:03,441 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961237.mp4
+2025-05-11 16:02:03,523 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961237.mp4
+2025-05-11 16:02:25,976 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961237.mp4
+2025-05-11 16:02:26,103 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961237.mp4
+2025-05-11 16:02:37,149 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961297.mp4
+2025-05-11 16:02:37,160 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961357.mp4
+2025-05-11 16:02:37,172 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961357.mp4
+2025-05-11 16:02:37,185 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961357.mp4
+2025-05-11 16:02:37,203 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961357.mp4
+2025-05-11 16:02:37,309 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961297.mp4
+2025-05-11 16:02:37,309 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961297.mp4
+2025-05-11 16:02:37,452 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961297.mp4
+2025-05-11 16:02:37,496 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961297.mp4
+2025-05-11 16:02:37,496 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961297.mp4
+2025-05-11 16:02:37,725 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961297.mp4
+2025-05-11 16:02:37,726 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961297.mp4
+2025-05-11 16:02:37,934 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961297.mp4
+2025-05-11 16:02:38,187 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961297.mp4
+2025-05-11 16:02:42,800 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-11 16:02:42,809 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-11 16:02:50,410 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961237.mp4
+2025-05-11 16:03:03,220 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961297.mp4
+2025-05-11 16:03:03,361 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961297.mp4
+2025-05-11 16:03:16,340 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961297.mp4
+2025-05-11 16:03:27,494 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961297.mp4
+2025-05-11 16:03:27,629 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961297.mp4
+2025-05-11 16:03:37,131 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961357.mp4
+2025-05-11 16:03:37,141 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961417.mp4
+2025-05-11 16:03:37,152 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961417.mp4
+2025-05-11 16:03:37,164 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961417.mp4
+2025-05-11 16:03:37,176 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961417.mp4
+2025-05-11 16:03:37,294 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961357.mp4
+2025-05-11 16:03:37,294 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961357.mp4
+2025-05-11 16:03:37,462 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961357.mp4
+2025-05-11 16:03:37,462 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961357.mp4
+2025-05-11 16:03:37,494 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961357.mp4
+2025-05-11 16:03:37,611 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961357.mp4
+2025-05-11 16:03:37,635 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961357.mp4
+2025-05-11 16:03:37,636 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961357.mp4
+2025-05-11 16:03:37,830 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961357.mp4
+2025-05-11 16:03:37,998 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961357.mp4
+2025-05-11 16:03:52,268 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961297.mp4
+2025-05-11 16:03:52,413 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961357.mp4
+2025-05-11 16:04:03,388 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961357.mp4
+2025-05-11 16:04:17,810 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961357.mp4
+2025-05-11 16:04:29,548 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961357.mp4
+2025-05-11 16:04:37,126 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961417.mp4
+2025-05-11 16:04:37,136 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961477.mp4
+2025-05-11 16:04:37,151 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961477.mp4
+2025-05-11 16:04:37,169 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961477.mp4
+2025-05-11 16:04:37,184 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961477.mp4
+2025-05-11 16:04:37,298 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961417.mp4
+2025-05-11 16:04:37,299 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961417.mp4
+2025-05-11 16:04:37,461 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961417.mp4
+2025-05-11 16:04:37,462 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961417.mp4
+2025-05-11 16:04:37,462 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961417.mp4
+2025-05-11 16:04:37,628 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961417.mp4
+2025-05-11 16:04:37,628 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961417.mp4
+2025-05-11 16:04:37,781 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961417.mp4
+2025-05-11 16:04:37,837 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961417.mp4
+2025-05-11 16:04:38,072 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961417.mp4
+2025-05-11 16:04:42,822 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961357.mp4
+2025-05-11 16:04:42,965 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961417.mp4
+2025-05-11 16:05:03,799 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961417.mp4
+2025-05-11 16:05:09,229 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961417.mp4
+2025-05-11 16:05:30,392 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961417.mp4
+2025-05-11 16:05:35,109 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961417.mp4
+2025-05-11 16:05:35,483 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961477.mp4
+2025-05-11 16:05:35,493 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961535.mp4
+2025-05-11 16:05:35,507 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961535.mp4
+2025-05-11 16:05:35,522 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961535.mp4
+2025-05-11 16:05:35,547 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961535.mp4
+2025-05-11 16:05:35,660 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961477.mp4
+2025-05-11 16:05:35,660 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961477.mp4
+2025-05-11 16:05:35,806 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961477.mp4
+2025-05-11 16:05:35,814 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961477.mp4
+2025-05-11 16:05:35,815 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961477.mp4
+2025-05-11 16:05:35,962 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961477.mp4
+2025-05-11 16:05:35,994 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961477.mp4
+2025-05-11 16:05:35,995 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961477.mp4
+2025-05-11 16:05:36,142 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961477.mp4
+2025-05-11 16:05:36,203 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961477.mp4
+2025-05-11 16:06:01,558 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961477.mp4
+2025-05-11 16:06:01,913 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961477.mp4
+2025-05-11 16:06:24,196 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961477.mp4
+2025-05-11 16:06:24,327 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961477.mp4
+2025-05-11 16:06:35,476 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961535.mp4
+2025-05-11 16:06:35,486 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961595.mp4
+2025-05-11 16:06:35,507 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961595.mp4
+2025-05-11 16:06:35,519 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961595.mp4
+2025-05-11 16:06:35,534 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961595.mp4
+2025-05-11 16:06:35,652 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961535.mp4
+2025-05-11 16:06:35,653 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961535.mp4
+2025-05-11 16:06:35,823 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961535.mp4
+2025-05-11 16:06:35,824 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961535.mp4
+2025-05-11 16:06:35,986 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961535.mp4
+2025-05-11 16:06:36,004 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961535.mp4
+2025-05-11 16:06:36,004 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961535.mp4
+2025-05-11 16:06:36,194 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961535.mp4
+2025-05-11 16:06:36,224 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961535.mp4
+2025-05-11 16:06:36,351 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961535.mp4
+2025-05-11 16:06:47,925 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961477.mp4
+2025-05-11 16:07:02,359 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961535.mp4
+2025-05-11 16:07:02,511 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961535.mp4
+2025-05-11 16:07:14,821 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961535.mp4
+2025-05-11 16:07:29,200 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961535.mp4
+2025-05-11 16:07:35,469 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961655.mp4
+2025-05-11 16:07:35,471 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961595.mp4
+2025-05-11 16:07:35,481 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961655.mp4
+2025-05-11 16:07:35,492 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961655.mp4
+2025-05-11 16:07:35,513 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961655.mp4
+2025-05-11 16:07:35,656 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961595.mp4
+2025-05-11 16:07:35,657 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961595.mp4
+2025-05-11 16:07:35,803 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961595.mp4
+2025-05-11 16:07:35,853 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961595.mp4
+2025-05-11 16:07:35,854 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961595.mp4
+2025-05-11 16:07:36,017 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961595.mp4
+2025-05-11 16:07:36,026 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961595.mp4
+2025-05-11 16:07:36,028 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961595.mp4
+2025-05-11 16:07:36,220 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961595.mp4
+2025-05-11 16:07:36,224 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961595.mp4
+2025-05-11 16:07:40,558 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961535.mp4
+2025-05-11 16:07:42,797 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-11 16:07:42,809 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-11 16:08:02,738 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961595.mp4
+2025-05-11 16:08:07,598 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961595.mp4
+2025-05-11 16:08:27,290 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961595.mp4
+2025-05-11 16:08:27,424 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961595.mp4
+2025-05-11 16:08:35,453 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961655.mp4
+2025-05-11 16:08:35,462 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961715.mp4
+2025-05-11 16:08:35,475 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961715.mp4
+2025-05-11 16:08:35,488 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961715.mp4
+2025-05-11 16:08:35,506 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961715.mp4
+2025-05-11 16:08:35,614 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961655.mp4
+2025-05-11 16:08:35,614 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961655.mp4
+2025-05-11 16:08:35,789 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961655.mp4
+2025-05-11 16:08:35,790 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961655.mp4
+2025-05-11 16:08:35,963 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961655.mp4
+2025-05-11 16:08:35,964 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961655.mp4
+2025-05-11 16:08:36,144 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961655.mp4
+2025-05-11 16:08:36,251 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961655.mp4
+2025-05-11 16:08:51,863 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961595.mp4
+2025-05-11 16:08:52,010 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961655.mp4
+2025-05-11 16:09:03,111 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961655.mp4
+2025-05-11 16:09:03,257 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961655.mp4
+2025-05-11 16:09:19,099 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961655.mp4
+2025-05-11 16:09:19,240 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961655.mp4
+2025-05-11 16:09:30,501 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961655.mp4
+2025-05-11 16:09:35,451 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961715.mp4
+2025-05-11 16:09:35,461 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961775.mp4
+2025-05-11 16:09:35,472 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961775.mp4
+2025-05-11 16:09:35,485 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961775.mp4
+2025-05-11 16:09:35,502 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961775.mp4
+2025-05-11 16:09:35,630 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961715.mp4
+2025-05-11 16:09:35,630 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961715.mp4
+2025-05-11 16:09:35,823 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961715.mp4
+2025-05-11 16:09:35,825 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961715.mp4
+2025-05-11 16:09:35,902 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961715.mp4
+2025-05-11 16:09:35,998 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961715.mp4
+2025-05-11 16:09:35,999 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961715.mp4
+2025-05-11 16:09:36,187 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961715.mp4
+2025-05-11 16:09:36,372 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961715.mp4
+2025-05-11 16:09:45,444 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961655.mp4
+2025-05-11 16:09:45,595 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961715.mp4
+2025-05-11 16:10:03,547 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961715.mp4
+2025-05-11 16:10:03,708 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961715.mp4
+2025-05-11 16:10:13,286 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961715.mp4
+2025-05-11 16:10:31,543 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961715.mp4
+2025-05-11 16:10:35,441 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961775.mp4
+2025-05-11 16:10:35,452 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961835.mp4
+2025-05-11 16:10:35,466 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961835.mp4
+2025-05-11 16:10:35,478 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961835.mp4
+2025-05-11 16:10:35,505 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961835.mp4
+2025-05-11 16:10:35,609 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961775.mp4
+2025-05-11 16:10:35,610 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961775.mp4
+2025-05-11 16:10:35,752 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961775.mp4
+2025-05-11 16:10:35,775 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961775.mp4
+2025-05-11 16:10:35,775 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961775.mp4
+2025-05-11 16:10:35,958 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961775.mp4
+2025-05-11 16:10:35,958 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961775.mp4
+2025-05-11 16:10:36,136 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961775.mp4
+2025-05-11 16:10:36,311 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961775.mp4
+2025-05-11 16:10:40,180 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961715.mp4
+2025-05-11 16:10:40,325 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961775.mp4
+2025-05-11 16:11:03,469 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961775.mp4
+2025-05-11 16:11:08,002 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961775.mp4
+2025-05-11 16:11:28,514 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961775.mp4
+2025-05-11 16:11:28,656 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961775.mp4
+2025-05-11 16:11:35,434 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961835.mp4
+2025-05-11 16:11:35,443 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961895.mp4
+2025-05-11 16:11:35,454 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961895.mp4
+2025-05-11 16:11:35,471 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961895.mp4
+2025-05-11 16:11:35,487 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961895.mp4
+2025-05-11 16:11:35,602 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961835.mp4
+2025-05-11 16:11:35,602 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961835.mp4
+2025-05-11 16:11:35,768 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961835.mp4
+2025-05-11 16:11:35,769 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961835.mp4
+2025-05-11 16:11:35,909 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961835.mp4
+2025-05-11 16:11:35,969 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961835.mp4
+2025-05-11 16:11:35,970 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961835.mp4
+2025-05-11 16:11:36,152 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961835.mp4
+2025-05-11 16:11:36,347 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961835.mp4
+2025-05-11 16:11:54,416 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961775.mp4
+2025-05-11 16:11:54,559 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961835.mp4
+2025-05-11 16:12:03,462 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961835.mp4
+2025-05-11 16:12:03,616 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961835.mp4
+2025-05-11 16:12:22,455 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961835.mp4
+2025-05-11 16:12:31,285 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961835.mp4
+2025-05-11 16:12:35,407 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961895.mp4
+2025-05-11 16:12:35,417 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961955.mp4
+2025-05-11 16:12:35,432 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961955.mp4
+2025-05-11 16:12:35,445 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961955.mp4
+2025-05-11 16:12:35,472 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961955.mp4
+2025-05-11 16:12:35,575 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961895.mp4
+2025-05-11 16:12:35,575 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961895.mp4
+2025-05-11 16:12:35,743 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961895.mp4
+2025-05-11 16:12:35,744 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961895.mp4
+2025-05-11 16:12:35,899 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961895.mp4
+2025-05-11 16:12:35,907 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961895.mp4
+2025-05-11 16:12:35,907 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961895.mp4
+2025-05-11 16:12:36,084 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961895.mp4
+2025-05-11 16:12:36,114 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961895.mp4
+2025-05-11 16:12:36,255 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961895.mp4
+2025-05-11 16:12:42,802 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-11 16:12:42,810 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-11 16:12:49,506 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961835.mp4
+2025-05-11 16:12:49,661 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961895.mp4
+2025-05-11 16:13:03,547 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961895.mp4
+2025-05-11 16:13:17,813 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961895.mp4
+2025-05-11 16:13:33,170 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961895.mp4
+2025-05-11 16:13:35,411 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961955.mp4
+2025-05-11 16:13:35,421 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746962015.mp4
+2025-05-11 16:13:35,434 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746962015.mp4
+2025-05-11 16:13:35,446 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746962015.mp4
+2025-05-11 16:13:35,464 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746962015.mp4
+2025-05-11 16:13:35,566 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961955.mp4
+2025-05-11 16:13:35,567 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961955.mp4
+2025-05-11 16:13:35,744 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961955.mp4
+2025-05-11 16:13:35,745 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961955.mp4
+2025-05-11 16:13:35,899 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961955.mp4
+2025-05-11 16:13:35,900 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961955.mp4
+2025-05-11 16:13:36,038 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961955.mp4
+2025-05-11 16:13:36,056 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961955.mp4
+2025-05-11 16:13:36,316 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961955.mp4
+2025-05-11 16:13:46,782 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961895.mp4
+2025-05-11 16:13:46,927 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961955.mp4
+2025-05-11 16:14:04,133 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746961955.mp4
+2025-05-11 16:14:15,185 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746961955.mp4
+2025-05-11 16:14:15,326 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961955.mp4
+2025-05-11 16:14:32,702 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746961955.mp4
+2025-05-11 16:14:35,397 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746962015.mp4
+2025-05-11 16:14:35,409 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746962075.mp4
+2025-05-11 16:14:35,425 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746962075.mp4
+2025-05-11 16:14:35,442 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746962075.mp4
+2025-05-11 16:14:35,463 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746962075.mp4
+2025-05-11 16:14:35,556 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746962015.mp4
+2025-05-11 16:14:35,558 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746962015.mp4
+2025-05-11 16:14:35,726 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746962015.mp4
+2025-05-11 16:14:35,727 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746962015.mp4
+2025-05-11 16:14:35,876 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746962015.mp4
+2025-05-11 16:14:35,902 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746962015.mp4
+2025-05-11 16:14:35,902 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746962015.mp4
+2025-05-11 16:14:35,981 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746962015.mp4
+2025-05-11 16:14:36,088 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746962015.mp4
+2025-05-11 16:14:43,589 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746961955.mp4
+2025-05-11 16:14:43,769 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746962015.mp4
+2025-05-11 16:15:04,397 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746962015.mp4
+2025-05-11 16:15:12,291 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746962015.mp4
+2025-05-11 16:15:30,561 - ffmpeg_post_process - INFO - ✅ Slow motion generated and recorded for /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746962015.mp4
+2025-05-11 16:15:30,686 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746962015.mp4
+2025-05-11 16:15:33,764 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746962075.mp4
+2025-05-11 16:15:33,773 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746962133.mp4
+2025-05-11 16:15:33,814 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746962133.mp4
+2025-05-11 16:15:33,862 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746962133.mp4
+2025-05-11 16:15:33,888 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746962133.mp4
+2025-05-11 16:15:33,920 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746962075.mp4
+2025-05-11 16:15:33,920 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746962075.mp4
+2025-05-11 16:15:34,077 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746962075.mp4
+2025-05-11 16:15:34,077 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746962075.mp4
+2025-05-11 16:15:34,263 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746962075.mp4
+2025-05-11 16:15:34,264 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746962075.mp4
+2025-05-11 16:15:34,301 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746962075.mp4
+2025-05-11 16:15:34,443 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746962075.mp4
+2025-05-11 16:15:34,568 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746962075.mp4
+2025-05-11 16:15:36,298 - ffmpeg_post_process - ERROR - ❌ Hardware encoding failed (code 255)
+2025-05-11 16:15:36,299 - ffmpeg_post_process - WARNING - 🔁 Retrying slow motion for /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746962075.mp4 (attempt 1)
+2025-05-11 16:15:36,340 - ffmpeg_post_process - ERROR - ❌ Hardware encoding failed (code 255)
+2025-05-11 16:15:36,340 - ffmpeg_post_process - WARNING - 🔁 Retrying slow motion for /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746962015.mp4 (attempt 1)
+2025-05-11 16:15:36,409 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746962133.mp4
+2025-05-11 16:15:36,434 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746962075.mp4
+2025-05-11 16:15:36,445 - ffmpeg_post_process - ERROR - ❌ Hardware encoding failed (code -2)
+2025-05-11 16:15:36,445 - ffmpeg_post_process - WARNING - 🔁 Retrying slow motion for /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746962075.mp4 (attempt 1)
+2025-05-11 16:15:36,447 - recording_session - WARNING - Failed to probe file /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746962133.mp4: could not convert string to float: ''
+2025-05-11 16:15:36,447 - recording_session - WARNING - Chunk not ready or too small to process: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746962133.mp4
+2025-05-11 16:15:36,448 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746962133.mp4
+2025-05-11 16:15:36,449 - ffmpeg_post_process - WARNING - ❌ Failed to get video info: could not convert string to float: ''
+2025-05-11 16:15:36,460 - ffmpeg_post_process - ERROR - ❌ Hardware encoding failed (code 255)
+2025-05-11 16:15:36,460 - ffmpeg_post_process - WARNING - 🔁 Retrying slow motion for /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746962075.mp4 (attempt 1)

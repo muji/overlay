@@ -1,0 +1,131 @@
+2025-05-17 10:56:03,765 - overlay - INFO - Fetching all CameraURLs records
+2025-05-17 10:56:03,842 - recording_session - INFO - 🚀 SlowMoWorkers started: 4 threads
+2025-05-17 10:56:03,845 - overlay - INFO - Fetching all CameraURLs records
+2025-05-17 10:56:03,860 - recording_session - INFO - 🎥 Recording thread started for camera 1
+2025-05-17 10:56:03,861 - overlay - INFO - Started recording for camera 1: rtsp://192.168.100.150:8547/h264
+2025-05-17 10:56:03,870 - recording_session - INFO - 🎥 Recording thread started for camera 2
+2025-05-17 10:56:03,870 - overlay - INFO - Started recording for camera 2: rtsp://192.168.100.150:8547/h264
+2025-05-17 10:56:03,874 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 1
+2025-05-17 10:56:03,876 - recording_session - INFO - ✅ Pipeline PLAYING for camera 1
+2025-05-17 10:56:03,877 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 2
+2025-05-17 10:56:03,890 - recording_session - INFO - ✅ Pipeline PLAYING for camera 2
+2025-05-17 10:56:03,890 - recording_session - INFO - 🎥 Recording thread started for camera 3
+2025-05-17 10:56:03,891 - overlay - INFO - Started recording for camera 3: rtsp://192.168.100.150:8547/h264
+2025-05-17 10:56:03,903 - recording_session - INFO - 🎥 Recording thread started for camera 4
+2025-05-17 10:56:03,906 - overlay - INFO - Started recording for camera 4: rtsp://192.168.100.150:8547/h264
+2025-05-17 10:56:03,911 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 3
+2025-05-17 10:56:03,911 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 4
+2025-05-17 10:56:03,914 - recording_session - INFO - ✅ Pipeline PLAYING for camera 3
+2025-05-17 10:56:03,915 - recording_session - INFO - ✅ Pipeline PLAYING for camera 4
+2025-05-17 10:56:04,040 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 1
+2025-05-17 10:56:04,045 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 2
+2025-05-17 10:56:04,053 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 4
+2025-05-17 10:56:04,054 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 3
+2025-05-17 10:56:04,060 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-17/1747461364.mp4
+2025-05-17 10:56:04,070 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-17/1747461364.mp4
+2025-05-17 10:56:04,089 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-17/1747461364.mp4
+2025-05-17 10:56:04,111 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-17/1747461364.mp4
+2025-05-17 10:56:18,056 - overlay - INFO - Fetching all graphics records
+2025-05-17 10:56:18,057 - overlay - INFO - Fetching all CameraURLs records
+2025-05-17 10:56:18,066 - overlay - INFO - Found 1 graphics records
+2025-05-17 10:56:18,067 - overlay - INFO - Found 4 CameraURLs records
+2025-05-17 10:56:18,178 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-17 10:56:18,179 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-17 10:56:18,242 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-17 10:56:21,755 - overlay - INFO - Loaded stream target (ID: 1): srt => srt://origin-v2.vewbie.com:7010
+2025-05-17 10:56:21,765 - overlay - ERROR - Unexpected error: object of type `GstVideoRate' does not have property `caps'
+2025-05-17 11:01:18,501 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-17 11:01:18,510 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-17 11:06:18,504 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-17 11:06:18,519 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-17 11:09:19,254 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-17/1747461364.mp4
+2025-05-17 11:09:19,266 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-17/1747462159.mp4
+2025-05-17 11:09:19,302 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:19,339 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:19,364 - recording_session - WARNING - Failed to probe file /var/www/html/public/assets/uploads/CAM1/2025-05-17/1747461364.mp4: could not convert string to float: ''
+2025-05-17 11:09:19,364 - recording_session - WARNING - Chunk not ready or too small to process: /var/www/html/public/assets/uploads/CAM1/2025-05-17/1747461364.mp4
+2025-05-17 11:09:19,366 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-17/1747462159.mp4
+2025-05-17 11:09:19,374 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:19,394 - recording_session - WARNING - Failed to probe file /var/www/html/public/assets/uploads/CAM1/2025-05-17/1747462159.mp4: could not convert string to float: ''
+2025-05-17 11:09:19,394 - recording_session - WARNING - Chunk not ready or too small to process: /var/www/html/public/assets/uploads/CAM1/2025-05-17/1747462159.mp4
+2025-05-17 11:09:19,396 - recording_session - INFO - Finalizing chunk: /tmp/fallback.mp4
+2025-05-17 11:09:19,424 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:19,471 - recording_session - WARNING - Failed to probe file /tmp/fallback.mp4: could not convert string to float: ''
+2025-05-17 11:09:19,471 - recording_session - WARNING - Chunk not ready or too small to process: /tmp/fallback.mp4
+2025-05-17 11:09:19,472 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:19,473 - recording_session - INFO - Finalizing chunk: /tmp/fallback.mp4
+2025-05-17 11:09:19,513 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:19,552 - recording_session - WARNING - Failed to probe file /tmp/fallback.mp4: could not convert string to float: ''
+2025-05-17 11:09:19,553 - recording_session - WARNING - Chunk not ready or too small to process: /tmp/fallback.mp4
+2025-05-17 11:09:19,554 - recording_session - INFO - Finalizing chunk: /tmp/fallback.mp4
+2025-05-17 11:09:19,568 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:19,607 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:19,628 - recording_session - WARNING - Failed to probe file /tmp/fallback.mp4: could not convert string to float: ''
+2025-05-17 11:09:19,628 - recording_session - WARNING - Chunk not ready or too small to process: /tmp/fallback.mp4
+2025-05-17 11:09:19,630 - recording_session - INFO - Finalizing chunk: /tmp/fallback.mp4
+2025-05-17 11:09:19,690 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-17/1747462159.mp4
+2025-05-17 11:09:19,717 - recording_session - WARNING - Failed to probe file /tmp/fallback.mp4: could not convert string to float: ''
+2025-05-17 11:09:19,718 - recording_session - WARNING - Chunk not ready or too small to process: /tmp/fallback.mp4
+2025-05-17 11:09:19,718 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-17/1747461364.mp4
+2025-05-17 11:09:19,731 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:19,766 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:19,791 - recording_session - WARNING - Failed to probe file /var/www/html/public/assets/uploads/CAM2/2025-05-17/1747461364.mp4: could not convert string to float: ''
+2025-05-17 11:09:19,792 - recording_session - WARNING - Chunk not ready or too small to process: /var/www/html/public/assets/uploads/CAM2/2025-05-17/1747461364.mp4
+2025-05-17 11:09:19,794 - recording_session - INFO - Finalizing chunk: /tmp/fallback.mp4
+2025-05-17 11:09:19,813 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:19,863 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:19,868 - recording_session - WARNING - Failed to probe file /tmp/fallback.mp4: could not convert string to float: ''
+2025-05-17 11:09:19,868 - recording_session - WARNING - Chunk not ready or too small to process: /tmp/fallback.mp4
+2025-05-17 11:09:19,869 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-17/1747462159.mp4
+2025-05-17 11:09:19,912 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:19,942 - recording_session - WARNING - Failed to probe file /var/www/html/public/assets/uploads/CAM2/2025-05-17/1747462159.mp4: could not convert string to float: ''
+2025-05-17 11:09:19,943 - recording_session - WARNING - Chunk not ready or too small to process: /var/www/html/public/assets/uploads/CAM2/2025-05-17/1747462159.mp4
+2025-05-17 11:09:19,945 - recording_session - INFO - Finalizing chunk: /tmp/fallback.mp4
+2025-05-17 11:09:19,954 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:20,009 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:20,017 - recording_session - WARNING - Failed to probe file /tmp/fallback.mp4: could not convert string to float: ''
+2025-05-17 11:09:20,018 - recording_session - WARNING - Chunk not ready or too small to process: /tmp/fallback.mp4
+2025-05-17 11:09:20,018 - recording_session - INFO - Finalizing chunk: /tmp/fallback.mp4
+2025-05-17 11:09:20,056 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-17/1747462160.mp4
+2025-05-17 11:09:20,069 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-17/1747462160.mp4
+2025-05-17 11:09:20,091 - recording_session - WARNING - Failed to probe file /tmp/fallback.mp4: could not convert string to float: ''
+2025-05-17 11:09:20,091 - recording_session - WARNING - Chunk not ready or too small to process: /tmp/fallback.mp4
+2025-05-17 11:09:20,092 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-17/1747461364.mp4
+2025-05-17 11:09:20,133 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:20,184 - recording_session - WARNING - Failed to probe file /var/www/html/public/assets/uploads/CAM3/2025-05-17/1747461364.mp4: could not convert string to float: ''
+2025-05-17 11:09:20,184 - recording_session - WARNING - Chunk not ready or too small to process: /var/www/html/public/assets/uploads/CAM3/2025-05-17/1747461364.mp4
+2025-05-17 11:09:20,187 - recording_session - INFO - Finalizing chunk: /tmp/fallback.mp4
+2025-05-17 11:09:20,200 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:20,247 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:20,275 - recording_session - WARNING - Failed to probe file /tmp/fallback.mp4: could not convert string to float: ''
+2025-05-17 11:09:20,275 - recording_session - WARNING - Chunk not ready or too small to process: /tmp/fallback.mp4
+2025-05-17 11:09:20,276 - recording_session - INFO - Finalizing chunk: /tmp/fallback.mp4
+2025-05-17 11:09:20,294 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:20,326 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:20,349 - recording_session - WARNING - Failed to probe file /tmp/fallback.mp4: could not convert string to float: ''
+2025-05-17 11:09:20,349 - recording_session - WARNING - Chunk not ready or too small to process: /tmp/fallback.mp4
+2025-05-17 11:09:20,350 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-17/1747462160.mp4
+2025-05-17 11:09:20,366 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:20,401 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:20,424 - recording_session - WARNING - Failed to probe file /var/www/html/public/assets/uploads/CAM3/2025-05-17/1747462160.mp4: could not convert string to float: ''
+2025-05-17 11:09:20,425 - recording_session - WARNING - Chunk not ready or too small to process: /var/www/html/public/assets/uploads/CAM3/2025-05-17/1747462160.mp4
+2025-05-17 11:09:20,426 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-17/1747461364.mp4
+2025-05-17 11:09:20,455 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-17/1747462160.mp4
+2025-05-17 11:09:20,458 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:20,501 - recording_session - WARNING - Failed to probe file /var/www/html/public/assets/uploads/CAM4/2025-05-17/1747461364.mp4: could not convert string to float: ''
+2025-05-17 11:09:20,501 - recording_session - WARNING - Chunk not ready or too small to process: /var/www/html/public/assets/uploads/CAM4/2025-05-17/1747461364.mp4
+2025-05-17 11:09:20,503 - recording_session - INFO - Finalizing chunk: /tmp/fallback.mp4
+2025-05-17 11:09:20,527 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:20,573 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:20,576 - recording_session - WARNING - Failed to probe file /tmp/fallback.mp4: could not convert string to float: ''
+2025-05-17 11:09:20,577 - recording_session - WARNING - Chunk not ready or too small to process: /tmp/fallback.mp4
+2025-05-17 11:09:20,577 - recording_session - INFO - Finalizing chunk: /tmp/fallback.mp4
+2025-05-17 11:09:20,621 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:20,651 - recording_session - WARNING - Failed to probe file /tmp/fallback.mp4: could not convert string to float: ''
+2025-05-17 11:09:20,652 - recording_session - WARNING - Chunk not ready or too small to process: /tmp/fallback.mp4
+2025-05-17 11:09:20,652 - recording_session - INFO - Finalizing chunk: /tmp/fallback.mp4
+2025-05-17 11:09:20,666 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:20,704 - recording_session - ERROR - ❌ Format location error: UNIQUE constraint failed: chunks.chunk_path
+2025-05-17 11:09:20,727 - recording_session - WARNING - Failed to probe file /tmp/fallback.mp4: could not convert string to float: ''
+2025-05-17 11:09:20,727 - recording_session - WARNING - Chunk not ready or too small to process: /tmp/fallback.mp4
+2025-05-17 11:09:20,727 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-17/1747462160.mp4

@@ -1,0 +1,38 @@
+2025-05-11 14:58:30,024 - overlay - INFO - Fetching all CameraURLs records
+2025-05-11 14:58:30,032 - recording_session - INFO - 🚀 SlowMoWorkers started: 4 threads
+2025-05-11 14:58:30,032 - overlay - INFO - Fetching all CameraURLs records
+2025-05-11 14:58:30,043 - recording_session - INFO - 🎥 Recording thread started for camera 1
+2025-05-11 14:58:30,046 - overlay - INFO - Started recording for camera 1: rtsp://192.168.100.150:8547/h264
+2025-05-11 14:58:30,062 - recording_session - INFO - 🎥 Recording thread started for camera 2
+2025-05-11 14:58:30,062 - overlay - INFO - Started recording for camera 2: rtsp://192.168.100.150:8547/h264
+2025-05-11 14:58:30,070 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 1
+2025-05-11 14:58:30,070 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 2
+2025-05-11 14:58:30,072 - recording_session - INFO - 🎥 Recording thread started for camera 3
+2025-05-11 14:58:30,072 - overlay - INFO - Started recording for camera 3: rtsp://192.168.100.150:8547/h264
+2025-05-11 14:58:30,077 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 3
+2025-05-11 14:58:30,080 - recording_session - INFO - ✅ Pipeline PLAYING for camera 2
+2025-05-11 14:58:30,089 - recording_session - INFO - 🎥 Recording thread started for camera 4
+2025-05-11 14:58:30,090 - overlay - INFO - Started recording for camera 4: rtsp://192.168.100.150:8547/h264
+2025-05-11 14:58:30,096 - recording_session - INFO - ✅ Pipeline PLAYING for camera 1
+2025-05-11 14:58:30,096 - recording_session - INFO - ✅ Pipeline PLAYING for camera 3
+2025-05-11 14:58:30,124 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 4
+2025-05-11 14:58:30,145 - recording_session - INFO - ✅ Pipeline PLAYING for camera 4
+2025-05-11 14:58:30,281 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 2
+2025-05-11 14:58:30,285 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 1
+2025-05-11 14:58:30,285 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 3
+2025-05-11 14:58:30,292 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 4
+2025-05-11 14:58:30,301 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746957510.mp4
+2025-05-11 14:58:30,330 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746957510.mp4
+2025-05-11 14:58:30,350 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746957510.mp4
+2025-05-11 14:58:30,377 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746957510.mp4
+2025-05-11 14:58:39,410 - overlay - INFO - Fetching all graphics records
+2025-05-11 14:58:39,410 - overlay - INFO - Fetching all CameraURLs records
+2025-05-11 14:58:39,415 - overlay - INFO - Found 1 graphics records
+2025-05-11 14:58:39,419 - overlay - INFO - Found 4 CameraURLs records
+2025-05-11 14:58:39,535 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-11 14:58:39,536 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-11 14:58:39,592 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-11 14:58:46,102 - overlay - INFO - Loaded stream target (ID: 1): srt => srt://origin-v2.vewbie.com:7010
+2025-05-11 14:58:46,102 - overlay - INFO - Creating pipeline for srt stream to: srt://origin-v2.vewbie.com:7010
+2025-05-11 14:58:46,110 - overlay - ERROR - Unexpected error: 'RTSPtoSRTStreamer' object has no attribute 'udp_sink'
+2025-05-11 14:59:04,756 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746957510.mp4

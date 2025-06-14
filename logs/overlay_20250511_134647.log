@@ -1,0 +1,190 @@
+2025-05-11 13:46:47,144 - overlay - INFO - Fetching all CameraURLs records
+2025-05-11 13:46:47,152 - recording_session - INFO - 🚀 SlowMoWorkers started: 4 threads
+2025-05-11 13:46:47,152 - overlay - INFO - Fetching all CameraURLs records
+2025-05-11 13:46:47,168 - recording_session - INFO - 🎥 Recording thread started for camera 1
+2025-05-11 13:46:47,171 - overlay - INFO - Started recording for camera 1: rtsp://192.168.100.150:8547/h264
+2025-05-11 13:46:47,185 - recording_session - INFO - 🎥 Recording thread started for camera 2
+2025-05-11 13:46:47,185 - overlay - INFO - Started recording for camera 2: rtsp://192.168.100.150:8547/h264
+2025-05-11 13:46:47,195 - recording_session - INFO - 🎥 Recording thread started for camera 3
+2025-05-11 13:46:47,195 - overlay - INFO - Started recording for camera 3: rtsp://192.168.100.150:8547/h264
+2025-05-11 13:46:47,201 - recording_session - INFO - 🎥 Recording thread started for camera 4
+2025-05-11 13:46:47,202 - overlay - INFO - Started recording for camera 4: rtsp://192.168.100.150:8547/h264
+2025-05-11 13:46:47,212 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 4
+2025-05-11 13:46:47,212 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 3
+2025-05-11 13:46:47,213 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 1
+2025-05-11 13:46:47,213 - recording_session - INFO - 🧪 Starting GStreamer pipeline for camera 2
+2025-05-11 13:46:47,236 - recording_session - INFO - ✅ Pipeline PLAYING for camera 3
+2025-05-11 13:46:47,238 - recording_session - INFO - ✅ Pipeline PLAYING for camera 2
+2025-05-11 13:46:47,238 - recording_session - INFO - ✅ Pipeline PLAYING for camera 1
+2025-05-11 13:46:47,239 - recording_session - INFO - ✅ Pipeline PLAYING for camera 4
+2025-05-11 13:46:47,455 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 4
+2025-05-11 13:46:47,456 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 1
+2025-05-11 13:46:47,458 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 2
+2025-05-11 13:46:47,460 - recording_session - INFO - ✅ Linked rtspsrc → depay for camera 3
+2025-05-11 13:46:47,471 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746953207.mp4
+2025-05-11 13:46:47,485 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746953207.mp4
+2025-05-11 13:46:47,504 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746953207.mp4
+2025-05-11 13:46:47,522 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746953207.mp4
+2025-05-11 13:46:55,259 - overlay - INFO - Fetching all graphics records
+2025-05-11 13:46:55,259 - overlay - INFO - Fetching all CameraURLs records
+2025-05-11 13:46:55,270 - overlay - INFO - Found 1 graphics records
+2025-05-11 13:46:55,271 - overlay - INFO - Found 4 CameraURLs records
+2025-05-11 13:46:55,380 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-11 13:46:55,380 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-11 13:46:55,433 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-11 13:47:03,689 - overlay - INFO - Loaded stream target (ID: 1): srt => srt://origin-v2.vewbie.com:7010
+2025-05-11 13:47:03,689 - overlay - INFO - Creating pipeline for srt stream to: srt://origin-v2.vewbie.com:7010
+2025-05-11 13:47:03,794 - overlay - INFO - 🧩 Dynamic overlay URL set to: http://103.217.176.16:8080/scorecards/baseball/scorecard/1
+2025-05-11 13:47:03,795 - overlay - INFO - Adding overlay for position: tl
+2025-05-11 13:47:03,796 - overlay - INFO - Screenshot capture started...
+2025-05-11 13:47:03,801 - overlay - INFO - Position set to tl (X: 10, Y: 10)
+2025-05-11 13:47:03,863 - overlay - INFO - State changed: NULL -> READY
+2025-05-11 13:47:03,865 - overlay - INFO - State changed: NULL -> READY
+2025-05-11 13:47:03,865 - overlay - INFO - Pipeline thread started with state transition
+2025-05-11 13:47:03,865 - overlay - INFO - State changed: NULL -> READY
+2025-05-11 13:47:03,866 - overlay - INFO - State changed: NULL -> READY
+2025-05-11 13:47:03,866 - overlay - INFO - State changed: NULL -> READY
+2025-05-11 13:47:03,866 - overlay - INFO - State changed: NULL -> READY
+2025-05-11 13:47:03,867 - overlay - INFO - State changed: NULL -> READY
+2025-05-11 13:47:03,867 - overlay - INFO - State changed: NULL -> READY
+2025-05-11 13:47:03,867 - overlay - INFO - State changed: NULL -> READY
+2025-05-11 13:47:03,867 - overlay - INFO - State changed: NULL -> READY
+2025-05-11 13:47:03,868 - overlay - INFO - State changed: NULL -> READY
+2025-05-11 13:47:03,868 - overlay - INFO - State changed: NULL -> READY
+2025-05-11 13:47:03,868 - overlay - INFO - State changed: NULL -> READY
+2025-05-11 13:47:03,869 - overlay - INFO - State changed: NULL -> READY
+2025-05-11 13:47:03,869 - overlay - INFO - State changed: NULL -> READY
+2025-05-11 13:47:03,870 - overlay - ERROR - GStreamer ERROR: Could not open audio device for recording. Device is being used by another application.
+2025-05-11 13:47:03,870 - overlay - ERROR - Debug info: ../ext/alsa/gstalsasrc.c(785): gst_alsasrc_open (): /GstPipeline:main-pipeline/GstAlsaSrc:mic_source:
+Device 'hw:0,0' is busy
+2025-05-11 13:47:03,870 - overlay - INFO - State changed: READY -> NULL
+2025-05-11 13:47:03,870 - overlay - INFO - State changed: READY -> NULL
+2025-05-11 13:47:03,871 - overlay - INFO - State changed: READY -> NULL
+2025-05-11 13:47:03,871 - overlay - INFO - State changed: READY -> NULL
+2025-05-11 13:47:03,871 - overlay - INFO - State changed: READY -> NULL
+2025-05-11 13:47:03,872 - overlay - INFO - State changed: READY -> NULL
+2025-05-11 13:47:03,872 - overlay - INFO - State changed: READY -> NULL
+2025-05-11 13:47:03,872 - overlay - INFO - State changed: READY -> NULL
+2025-05-11 13:47:03,872 - overlay - INFO - State changed: READY -> NULL
+2025-05-11 13:47:03,873 - overlay - INFO - State changed: READY -> NULL
+2025-05-11 13:47:03,873 - overlay - INFO - State changed: READY -> NULL
+2025-05-11 13:47:03,873 - overlay - INFO - State changed: READY -> NULL
+2025-05-11 13:47:03,874 - overlay - INFO - State changed: READY -> NULL
+2025-05-11 13:47:03,874 - overlay - INFO - State changed: READY -> NULL
+2025-05-11 13:47:03,875 - overlay - INFO - State changed: READY -> NULL
+2025-05-11 13:47:04,406 - overlay - INFO - 🌐 Opening overlay URL in Playwright: http://103.217.176.16:8080/scorecards/baseball/scorecard/1
+2025-05-11 13:47:05,170 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-11 13:47:05,171 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-11 13:47:05,188 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-11 13:47:06,008 - overlay - INFO - 🔧 Injected transparent background for overlay rendering
+2025-05-11 13:47:06,076 - overlay - INFO - 📸 Screenshot captured: url_shots/733d9d4c-57c7-4951-a4be-2065fd0d1b08.png
+2025-05-11 13:47:06,865 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 1/15)
+2025-05-11 13:47:07,145 - overlay - INFO - 📸 Screenshot captured: url_shots/f596b43c-43fa-42ce-87f3-3d4058a7cf35.png
+2025-05-11 13:47:07,366 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 2/15)
+2025-05-11 13:47:07,867 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 3/15)
+2025-05-11 13:47:08,212 - overlay - INFO - 📸 Screenshot captured: url_shots/fe7976c1-9c57-42fd-8144-b09964680d2b.png
+2025-05-11 13:47:08,367 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 4/15)
+2025-05-11 13:47:08,868 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 5/15)
+2025-05-11 13:47:09,287 - overlay - INFO - 📸 Screenshot captured: url_shots/8ab4cd1a-6965-4792-9fb7-4909487e3f02.png
+2025-05-11 13:47:09,368 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 6/15)
+2025-05-11 13:47:09,869 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 7/15)
+2025-05-11 13:47:10,353 - overlay - INFO - 📸 Screenshot captured: url_shots/7af9064d-1ffb-4b93-ac6e-229a181192bb.png
+2025-05-11 13:47:10,370 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 8/15)
+2025-05-11 13:47:10,871 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 9/15)
+2025-05-11 13:47:11,372 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 10/15)
+2025-05-11 13:47:11,412 - overlay - INFO - 📸 Screenshot captured: url_shots/d7074505-9e62-4d4b-a162-122013dd6341.png
+2025-05-11 13:47:11,874 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 11/15)
+2025-05-11 13:47:12,375 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 12/15)
+2025-05-11 13:47:12,478 - overlay - INFO - 📸 Screenshot captured: url_shots/0c928444-d84d-4fae-bfb7-5f6d82cf1504.png
+2025-05-11 13:47:12,876 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 13/15)
+2025-05-11 13:47:13,377 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 14/15)
+2025-05-11 13:47:13,537 - overlay - INFO - 📸 Screenshot captured: url_shots/789ee6ec-0aef-4bd5-b214-523d76fc887e.png
+2025-05-11 13:47:13,878 - overlay - INFO - Pad for rtsp://192.168.100.150:8547/h264 not found yet (Attempt 15/15)
+2025-05-11 13:47:14,380 - overlay - ERROR - Pad for rtsp://192.168.100.150:8547/h264 not found after 15 retries
+2025-05-11 13:47:14,380 - overlay - INFO - Setting camera ID 1 as default
+2025-05-11 13:47:14,381 - overlay - ERROR - Fallback pad not found. Unable to switch stream.
+2025-05-11 13:47:14,381 - overlay - INFO - Setting camera ID 1 as default
+2025-05-11 13:47:14,397 - overlay - INFO - All cameras' Default fields set to false
+2025-05-11 13:47:14,423 - overlay - INFO - Camera ID 1 set as default
+2025-05-11 13:47:14,602 - overlay - INFO - 📸 Screenshot captured: url_shots/2b73717c-a271-4a49-bf40-c38e9ec91fd2.png
+2025-05-11 13:47:15,169 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-11 13:47:15,186 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-11 13:47:15,662 - overlay - INFO - 📸 Screenshot captured: url_shots/09f3ec51-40bd-40f8-8d43-65756ee33e99.png
+2025-05-11 13:47:16,719 - overlay - INFO - 📸 Screenshot captured: url_shots/79d7d029-5973-4cb7-b581-2e3549db6e9d.png
+2025-05-11 13:47:17,768 - overlay - INFO - 📸 Screenshot captured: url_shots/aa2cda96-747b-48e0-999f-7f744e990e3c.png
+2025-05-11 13:47:18,818 - overlay - INFO - 📸 Screenshot captured: url_shots/a9aa38d6-e984-4752-a194-9afa0aabe790.png
+2025-05-11 13:47:19,871 - overlay - INFO - 📸 Screenshot captured: url_shots/9e137f55-8a79-4dee-9e12-7e7d650d37eb.png
+2025-05-11 13:47:20,936 - overlay - INFO - 📸 Screenshot captured: url_shots/ec03bbd5-3654-43cd-bdbb-4f8f594465df.png
+2025-05-11 13:47:22,002 - overlay - INFO - 📸 Screenshot captured: url_shots/2103ef1b-5bce-4104-b0c1-6213ec4a2a05.png
+2025-05-11 13:47:23,059 - overlay - INFO - 📸 Screenshot captured: url_shots/58ffa9e1-fe90-4712-87c8-871c02130e9a.png
+2025-05-11 13:47:24,126 - overlay - INFO - 📸 Screenshot captured: url_shots/8cfe4d3a-277a-409d-b68e-d7743b0d5001.png
+2025-05-11 13:47:25,168 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-11 13:47:25,183 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-11 13:47:25,194 - overlay - INFO - 📸 Screenshot captured: url_shots/f549148f-ee9a-4067-a359-cc316f14d5bb.png
+2025-05-11 13:47:26,256 - overlay - INFO - 📸 Screenshot captured: url_shots/d13f4f17-ba66-43a5-a9af-31cb78305ec0.png
+2025-05-11 13:47:27,318 - overlay - INFO - 📸 Screenshot captured: url_shots/ab770b05-80b2-4377-a40a-3ba73190ebf0.png
+2025-05-11 13:47:28,387 - overlay - INFO - 📸 Screenshot captured: url_shots/19de7e3c-f614-427f-a7b0-3f995106a5dd.png
+2025-05-11 13:47:29,452 - overlay - INFO - 📸 Screenshot captured: url_shots/94451404-0cae-4268-921e-7a0556c6a854.png
+2025-05-11 13:47:30,511 - overlay - INFO - 📸 Screenshot captured: url_shots/f32a36a8-0202-49d7-a48c-d12e127abfbb.png
+2025-05-11 13:47:31,573 - overlay - INFO - 📸 Screenshot captured: url_shots/87c4774c-e7cb-4155-b231-2349d9867fb3.png
+2025-05-11 13:47:32,636 - overlay - INFO - 📸 Screenshot captured: url_shots/5ed4f025-ef7d-470f-aad6-282f8f00bbd5.png
+2025-05-11 13:47:33,712 - overlay - INFO - 📸 Screenshot captured: url_shots/fc611454-13f0-45dc-a10e-e1133983965b.png
+2025-05-11 13:47:34,771 - overlay - INFO - 📸 Screenshot captured: url_shots/86c31c41-2139-422e-ab11-760ec3755a6f.png
+2025-05-11 13:47:35,169 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-11 13:47:35,185 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-11 13:47:35,844 - overlay - INFO - 📸 Screenshot captured: url_shots/64af0b7a-0947-42a2-8368-e47454c649e4.png
+2025-05-11 13:47:36,911 - overlay - INFO - 📸 Screenshot captured: url_shots/7f07bbbd-bbb9-4fa0-8deb-4f6f2edce007.png
+2025-05-11 13:47:37,969 - overlay - INFO - 📸 Screenshot captured: url_shots/5725bb7e-169e-4595-b2a4-244a9eac1e43.png
+2025-05-11 13:47:39,045 - overlay - INFO - 📸 Screenshot captured: url_shots/d4e1917a-05f8-41b6-83a0-53231f666ca4.png
+2025-05-11 13:47:40,110 - overlay - INFO - 📸 Screenshot captured: url_shots/95c807af-e015-4559-b493-2340a2e237f2.png
+2025-05-11 13:47:41,176 - overlay - INFO - 📸 Screenshot captured: url_shots/5402573d-c381-4af4-8545-50bec88aceb6.png
+2025-05-11 13:47:42,235 - overlay - INFO - 📸 Screenshot captured: url_shots/46ba8a13-acd8-4ac8-9dc3-db846a953a34.png
+2025-05-11 13:47:43,303 - overlay - INFO - 📸 Screenshot captured: url_shots/b1e59e9c-b714-4240-94c2-7b8888e6c7a7.png
+2025-05-11 13:47:44,369 - overlay - INFO - 📸 Screenshot captured: url_shots/d7e1a03e-24b1-4713-9b4a-57aec6c3c17e.png
+2025-05-11 13:47:45,168 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-11 13:47:45,186 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-11 13:47:45,437 - overlay - INFO - 📸 Screenshot captured: url_shots/32d81698-9de2-49b7-a8e7-7d7fb0d58b45.png
+2025-05-11 13:47:46,511 - overlay - INFO - 📸 Screenshot captured: url_shots/3b093dc0-68e8-4d66-8b65-f97e09f192ae.png
+2025-05-11 13:47:47,569 - overlay - INFO - 📸 Screenshot captured: url_shots/87cf16cb-fafb-4e80-a104-d55f27469bef.png
+2025-05-11 13:47:47,989 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746953207.mp4
+2025-05-11 13:47:47,999 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746953267.mp4
+2025-05-11 13:47:48,011 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746953267.mp4
+2025-05-11 13:47:48,033 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746953267.mp4
+2025-05-11 13:47:48,056 - recording_session - INFO - 📁 Started recording chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746953267.mp4
+2025-05-11 13:47:48,227 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746953207.mp4
+2025-05-11 13:47:48,228 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746953207.mp4
+2025-05-11 13:47:48,430 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746953207.mp4
+2025-05-11 13:47:48,431 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746953207.mp4
+2025-05-11 13:47:48,620 - overlay - INFO - 📸 Screenshot captured: url_shots/3379b59e-c36e-4fde-bf8e-23e47c5d64f7.png
+2025-05-11 13:47:48,634 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM3/2025-05-11/1746953207.mp4
+2025-05-11 13:47:48,635 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746953207.mp4
+2025-05-11 13:47:48,863 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746953207.mp4
+2025-05-11 13:47:48,863 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746953207.mp4
+2025-05-11 13:47:48,866 - recording_session - INFO - 📤 Enqueuing for slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746953207.mp4
+2025-05-11 13:47:49,066 - ffmpeg_post_process - INFO - 🎞️ Processing slow motion: /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746953207.mp4
+2025-05-11 13:47:49,663 - overlay - INFO - 📸 Screenshot captured: url_shots/e22a7e9e-892e-4273-a22c-27b0e173f3b2.png
+2025-05-11 13:47:50,715 - overlay - INFO - 📸 Screenshot captured: url_shots/5dfd5a24-154e-4576-ac22-8dbfc8c57735.png
+2025-05-11 13:47:51,765 - overlay - INFO - 📸 Screenshot captured: url_shots/7608a9b0-ad4b-4d1e-94cc-e7372674f9f7.png
+2025-05-11 13:47:52,816 - overlay - INFO - 📸 Screenshot captured: url_shots/19242f5e-2f95-4792-8bf1-83b0da0b918c.png
+2025-05-11 13:47:53,897 - overlay - INFO - 📸 Screenshot captured: url_shots/25d9c645-62f0-4c7b-ac4b-74c3a4296908.png
+2025-05-11 13:47:54,964 - overlay - INFO - 📸 Screenshot captured: url_shots/2521edf6-5b73-487c-965b-4c5079bdde02.png
+2025-05-11 13:47:55,170 - overlay - INFO - Fetching gamestats with ID: 1
+2025-05-11 13:47:55,185 - overlay - INFO - Fetching graphics with ID: 1
+2025-05-11 13:47:56,018 - overlay - INFO - 📸 Screenshot captured: url_shots/21a6eb91-6e68-4ff1-a945-0151dda0ab2b.png
+2025-05-11 13:47:57,076 - overlay - INFO - 📸 Screenshot captured: url_shots/942e5bce-38a5-42b0-bc40-3930c644a657.png
+2025-05-11 13:47:58,144 - overlay - INFO - 📸 Screenshot captured: url_shots/4befcd4e-f48e-454d-b0e5-5dcb02896574.png
+2025-05-11 13:47:59,209 - overlay - INFO - 📸 Screenshot captured: url_shots/191fd49d-fd41-4b5d-a492-7252d04c23e6.png
+2025-05-11 13:48:00,265 - overlay - INFO - 📸 Screenshot captured: url_shots/355a531a-58c9-466f-963c-d70ff91ed9a6.png
+2025-05-11 13:48:01,331 - overlay - INFO - 📸 Screenshot captured: url_shots/a1ed66e6-44df-4229-8874-d1ce0fdeb0dc.png
+2025-05-11 13:48:02,035 - ffmpeg_post_process - ERROR - ❌ Hardware encoding failed (code 255)
+2025-05-11 13:48:02,036 - ffmpeg_post_process - WARNING - 🔁 Retrying slow motion for /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746953207.mp4 (attempt 1)
+2025-05-11 13:48:02,092 - ffmpeg_post_process - ERROR - ❌ Hardware encoding failed (code 255)
+2025-05-11 13:48:02,092 - ffmpeg_post_process - WARNING - 🔁 Retrying slow motion for /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746953207.mp4 (attempt 1)
+2025-05-11 13:48:02,122 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746953267.mp4
+2025-05-11 13:48:02,195 - recording_session - WARNING - Failed to probe file /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746953267.mp4: could not convert string to float: ''
+2025-05-11 13:48:02,196 - recording_session - WARNING - Chunk not ready or too small to process: /var/www/html/public/assets/uploads/CAM1/2025-05-11/1746953267.mp4
+2025-05-11 13:48:02,196 - recording_session - INFO - Finalizing chunk: /var/www/html/public/assets/uploads/CAM4/2025-05-11/1746953267.mp4
+2025-05-11 13:48:02,198 - ffmpeg_post_process - WARNING - ❌ Failed to get video info: could not convert string to float: ''
+2025-05-11 13:48:02,199 - ffmpeg_post_process - WARNING - ❌ Failed to get video info: could not convert string to float: ''
+2025-05-11 13:48:02,208 - ffmpeg_post_process - ERROR - ❌ Hardware encoding failed (code 255)
+2025-05-11 13:48:02,208 - ffmpeg_post_process - WARNING - 🔁 Retrying slow motion for /var/www/html/public/assets/uploads/CAM2/2025-05-11/1746953207.mp4 (attempt 1)
