@@ -8,7 +8,7 @@ from pathlib import Path
 from contextlib import suppress
 import random
 
-import gi
+
 import logging
 
 
@@ -21,6 +21,7 @@ from db_recordings import (
 
 from ffmpeg_post_process import SlowMoWorker
 
+import gi
 gi.require_version('Gst', '1.0')
 from gi.repository import Gst, GLib
 

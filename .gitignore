@@ -1,0 +1,21 @@
+git clone git@gitlab.com:devdesks.com/overlay.git
+cd overlay
+touch .gitignore
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+url_shots/
+# Ignore log files
+logs/
+*.log
+
+# Ignore recordings
+recordings/
+hls_output/
+
+overlay.db
+
+
+# Ignore IDE/Editor files
+.vscode/

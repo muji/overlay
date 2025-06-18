@@ -7,6 +7,9 @@ import queue
 import subprocess
 import logging
 from db_recordings import update_chunk_slow_path
+import gi
+gi.require_version('Gst', '1.0')
+from gi.repository import Gst, GLib
 
 logger = logging.getLogger("ffmpeg_post_process")
 
@@ -73,38 +76,31 @@ class SlowMoWorker(threading.Thread):
 
     def generate_slow_motion(self, input_path, output_path):
         try:
+            # GStreamer command for 4x slow-motion, smooth 25fps playback, using Rockchip hardware
             cmd = [
-                "ffmpeg", "-y",
-                "-v", "error",
-                "-hwaccel", "rkmpp",  # Use Rockchip HW decoder
-                "-i", input_path,
-                "-filter_complex",
-                "[0:v]setpts=2.0*PTS,fps=30,scale=trunc(iw/2)*2:trunc(ih/2)*2[v]",
-                "-map", "[v]",
-                "-c:v", "h264_rkmpp",  # Use Rockchip HW encoder
-                "-profile:v", "main",
-                "-level", "4.0",
-                "-pix_fmt", "yuv420p",
-                "-g", "60",
-                "-bf", "2",
-                "-threads", "2",  # 🧠 Light threading (save CPU for SRT streaming)
-                "-movflags", "+faststart",
-                "-an",  # no audio
-                output_path
+                "gst-launch-1.0", "-e",
+                "filesrc", f"location={input_path}", "!",
+                "qtdemux", "name=demux",
+                "demux.video_0", "!", "queue", "!",
+                "h264parse", "!", "mppvideodec", "!",
+                "videorate", "drop-only=false", "!", "video/x-raw,framerate=6/1,width=1920,height=1080", "!",
+                "videorate", "!", "video/x-raw,framerate=25/1", "!",
+                "mpph264enc", "!", "h264parse", "!", "mp4mux", "!",
+                f"filesink location={output_path}"
             ]
 
+            # For debugging, you can remove stdout/stderr suppression
             subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
-            # Post check
             if os.path.exists(output_path) and os.path.getsize(output_path) > 1024:
                 return self.validate_video(output_path)
             return False
 
         except subprocess.CalledProcessError as e:
-            logger.error(f"❌ Hardware encoding failed (code {e.returncode})")
+            logger.error(f"❌ GStreamer slow-motion failed (code {e.returncode})")
         except Exception as e:
             logger.error(f"❌ Unexpected error: {e}")
-        return False
+        return False    
 
     def validate_video(self, path):
         try:
