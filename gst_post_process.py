@@ -1,5 +1,3 @@
-# ffmpeg_post_process.py
-
 import os
 import threading
 import time
@@ -11,9 +9,9 @@ import gi
 gi.require_version('Gst', '1.0')
 from gi.repository import Gst, GLib
 
-logger = logging.getLogger("ffmpeg_post_process")
+logger = logging.getLogger("gstreamer_post_process")
 
-# 🔥 Limit 2 concurrent ffmpeg encoding processes
+# 🔥 Limit 2 concurrent GStreamer encoding processes
 semaphore = threading.Semaphore(2)
 
 class SlowMoWorker(threading.Thread):
@@ -59,38 +57,50 @@ class SlowMoWorker(threading.Thread):
     def is_valid_file(self, path):
         try:
             result = subprocess.run([
-                "ffprobe", "-v", "error",
-                "-select_streams", "v:0",
-                "-show_entries", "stream=duration",
-                "-of", "default=noprint_wrappers=1:nokey=1",
-                path
+                "gst-discoverer-1.0", path
             ], capture_output=True, text=True)
-            duration = float(result.stdout.strip())
-            if duration < 2.0:
-                logger.warning(f"⚠️ Skipping slow motion: video too short ({duration:.2f}s)")
+            if "No such file" in result.stderr or result.returncode != 0:
+                logger.warning(f"❌ File not valid or not found: {path}")
                 return False
-            return True
+
+            duration_line = next((line for line in result.stdout.splitlines() if "Duration:" in line), None)
+            if duration_line:
+                duration_str = duration_line.split("Duration:")[1].split()[0]
+                h, m, s = duration_str.split(":")
+                duration = int(h) * 3600 + int(m) * 60 + float(s)
+                if duration < 2.0:
+                    logger.warning(f"⚠️ Skipping slow motion: video too short ({duration:.2f}s)")
+                    return False
+                return True
+            else:
+                if os.path.getsize(path) < 1024:
+                    logger.warning(f"⚠️ Skipping slow motion: file too small")
+                    return False
+                return True
         except Exception as e:
             logger.warning(f"❌ Failed to get video info: {e}")
             return False
 
     def generate_slow_motion(self, input_path, output_path):
         try:
-            # GStreamer command for 4x slow-motion, smooth 25fps playback, using Rockchip hardware
-            cmd = [
-                "gst-launch-1.0", "-e",
-                "filesrc", f"location={input_path}", "!",
-                "qtdemux", "name=demux",
-                "demux.video_0", "!", "queue", "!",
-                "h264parse", "!", "mppvideodec", "!",
-                "videorate", "drop-only=false", "!", "video/x-raw,framerate=6/1,width=1920,height=1080", "!",
-                "videorate", "!", "video/x-raw,framerate=25/1", "!",
-                "mpph264enc", "!", "h264parse", "!", "mp4mux", "!",
-                f"filesink location={output_path}"
-            ]
+            # Build the GStreamer pipeline as one string!
+            gst_cmd = (
+                f'gst-launch-1.0 -e '
+                f'filesrc location="{input_path}" ! '
+                f'qtdemux name=demux '
+                f'demux.video_0 ! queue ! h264parse ! mppvideodec ! '
+                f'videorate drop-only=false ! video/x-raw,framerate=6/1,width=1920,height=1080 ! '
+                f'videorate ! video/x-raw,framerate=25/1 ! '
+                f'mpph264enc ! h264parse ! mp4mux ! '
+                f'filesink location="{output_path}"'
+            )
 
-            # For debugging, you can remove stdout/stderr suppression
-            subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            result = subprocess.run(gst_cmd, shell=True, capture_output=True, text=True)
+            if result.returncode != 0:
+                logger.error(f"❌ GStreamer slow-motion failed (code {result.returncode})")
+                logger.error(f"stdout: {result.stdout}")
+                logger.error(f"stderr: {result.stderr}")
+                return False
 
             if os.path.exists(output_path) and os.path.getsize(output_path) > 1024:
                 return self.validate_video(output_path)
@@ -98,19 +108,26 @@ class SlowMoWorker(threading.Thread):
 
         except subprocess.CalledProcessError as e:
             logger.error(f"❌ GStreamer slow-motion failed (code {e.returncode})")
+            logger.error(f"stdout: {e.stdout}")
+            logger.error(f"stderr: {e.stderr}")
         except Exception as e:
             logger.error(f"❌ Unexpected error: {e}")
         return False    
 
     def validate_video(self, path):
         try:
-            subprocess.run(
-                ["ffprobe", "-v", "error", path],
-                check=True,
-                stdout=subprocess.DEVNULL,
-                stderr=subprocess.DEVNULL
+            result = subprocess.run(
+                ["gst-discoverer-1.0", path],
+                capture_output=True, text=True
             )
-            return True
-        except Exception:
-            logger.error(f"❌ Invalid output video: {path}")
+            if result.returncode == 0 and "video" in result.stdout:
+                return True
+            else:
+                logger.error(f"❌ Invalid output video: {path}")
+                logger.error(f"stdout: {result.stdout}")
+                logger.error(f"stderr: {result.stderr}")
+                return False
+        except Exception as e:
+            logger.error(f"❌ Exception validating output video: {e}")
             return False
+
