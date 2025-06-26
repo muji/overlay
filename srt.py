@@ -39,8 +39,8 @@ logger = logging.getLogger("overlay")
 
 
 
-#BASE_URL = "http://192.168.8.47:8080"
-BASE_URL =  "http://103.217.176.16:8080"
+BASE_URL = "http://192.168.8.47:8080"
+
 
 class RTSPtoSRTStreamer:
     def __init__(self, stream_targets_id: int = 1):  # Default to ID 1
@@ -114,10 +114,6 @@ class RTSPtoSRTStreamer:
 
 
 
-
-
-
-
     def create_pipeline(self):
         with self.pipeline_lock:
             if self.pipeline:
@@ -130,22 +126,31 @@ class RTSPtoSRTStreamer:
 
             logger.info(f"Creating pipeline for {self.stream_type} stream to: {self.db_sink}")
 
-            mux_type = "mpegtsmux" if self.stream_type == 'srt' else "flvmux"
-            sink_element = "srtsink" if self.stream_type == 'srt' else "rtmpsink"
+            # Determine muxer and sink types based on stream type
+            if self.stream_type == 'srt':
+                mux_type = "mpegtsmux"
+                sink_element = "srtsink"
+            else:  # RTMP
+                mux_type = "flvmux"
+                sink_element = "rtmpsink"
 
             self.mux = Gst.ElementFactory.make(mux_type, "mux")
             self.sink = Gst.ElementFactory.make(sink_element, "stream_output")
 
-            if mux_type == "mpegtsmux":
+            # Configure muxer based on stream type
+            if self.stream_type == 'srt':
                 self.mux.set_property("alignment", 7)
+            else:  # RTMP
+                self.mux.set_property("streamable", True)  # Critical for RTMP
 
+            # Configure sink based on stream type
             if self.stream_type == 'srt':
                 self.sink.set_property("uri", self.db_sink)
                 self.sink.set_property("mode", "caller")
-                self.sink.set_property("latency", 600)    # Increase if you want, 600 ms
+                self.sink.set_property("latency", 600)
                 self.sink.set_property("sync", False)
                 self.sink.set_property("async", False)
-            else:
+            else:  # RTMP
                 self.sink.set_property("location", self.db_sink)
 
             self.source_pad_map.clear()
@@ -181,7 +186,7 @@ class RTSPtoSRTStreamer:
 
             # --- Extra queues for buffering ---
             self.queue_video1 = Gst.ElementFactory.make("queue", "queue_video1")
-            self.queue_video2 = Gst.ElementFactory.make("queue", "queue_video2")  # Before mux
+            self.queue_video2 = Gst.ElementFactory.make("queue", "queue_video2")
 
             # --- Audio Elements ---
             self.udpsrc_audio = Gst.ElementFactory.make("udpsrc", "udpsrc_audio")
@@ -190,7 +195,7 @@ class RTSPtoSRTStreamer:
             self.voaacenc = Gst.ElementFactory.make("voaacenc", "voaacenc")
             self.aacparse = Gst.ElementFactory.make("aacparse", "aacparse")
             self.audio_queue1 = Gst.ElementFactory.make("queue", "audio_queue1")
-            self.audio_queue2 = Gst.ElementFactory.make("queue", "audio_queue2")  # Before mux
+            self.audio_queue2 = Gst.ElementFactory.make("queue", "audio_queue2")
 
             # --- Set caps and encoder properties ---
             self.capsfilter_encoder.set_property(
@@ -202,14 +207,17 @@ class RTSPtoSRTStreamer:
             self.encoder.set_property("bps", 4000000)
             self.encoder.set_property("gop", 60)
             self.encoder.set_property("profile", "main")
-            self.encoder.set_property("level", 40)  # 4.0 for 1080p 30fps
+            self.encoder.set_property("level", 40)
             self.encoder.set_property("sei-mode", "one-seq")
+            
+            # Critical fix for RTMP: Add config-interval to h264parse
+            self.parser.set_property("config-interval", -1)
 
             # AUDIO CHAIN: set UDP, voaacenc, buffering
             self.udpsrc_audio.set_property("address", "239.255.12.34")
             self.udpsrc_audio.set_property("port", 5400)
             self.udpsrc_audio.set_property("auto-multicast", True)
-            self.udpsrc_audio.set_property("buffer-size", 2097152)  # 2MB buffer for UDP
+            self.udpsrc_audio.set_property("buffer-size", 524288)  # Increased to 512KB for stability
 
             self.udpsrc_audio.set_property("caps", Gst.Caps.from_string(
                 "audio/x-raw,format=S16LE,channels=2,rate=44100"
@@ -243,7 +251,7 @@ class RTSPtoSRTStreamer:
             for element in elements:
                 self.pipeline.add(element)
 
-            # --- VIDEO LINKING (add deep buffering before mux) ---
+            # --- VIDEO LINKING ---
             self.input_selector.link(self.videoconvert)
             self.videoconvert.link(self.queue_1)
             self.queue_1.link(self.videoscale)
@@ -261,16 +269,24 @@ class RTSPtoSRTStreamer:
             self.queue3.link(self.queue_video1)
             self.queue_video1.link(self.queue_video2)
 
-            if mux_type == "mpegtsmux":
+            # --- VIDEO TO MUX (stream-specific linking) ---
+            if self.stream_type == 'srt':
+                # SRT uses mpegtsmux with request pads
                 video_pad = self.mux.get_request_pad("video_%u")
                 if video_pad:
                     self.queue_video2.get_static_pad("src").link(video_pad)
                 else:
                     self.queue_video2.link(self.mux)
             else:
-                self.queue_video2.get_static_pad("src").link(self.mux.get_static_pad("video"))
+                # RTMP uses flvmux with request pad "video"
+                video_pad = self.mux.get_request_pad("video")
+                if video_pad:
+                    self.queue_video2.get_static_pad("src").link(video_pad)
+                else:
+                    logger.error("Failed to get 'video' request pad from flvmux")
+                    self.queue_video2.link(self.mux)
 
-            # --- AUDIO LINKING (add deep buffering before mux) ---
+            # --- AUDIO LINKING ---
             self.udpsrc_audio.link(self.audioconvert)
             self.audioconvert.link(self.audioresample)
             self.audioresample.link(self.voaacenc)
@@ -278,18 +294,31 @@ class RTSPtoSRTStreamer:
             self.aacparse.link(self.audio_queue1)
             self.audio_queue1.link(self.audio_queue2)
 
-            if mux_type == "mpegtsmux":
+            # --- AUDIO TO MUX (stream-specific linking) ---
+            if self.stream_type == 'srt':
                 audio_pad = self.mux.get_request_pad("audio_%u")
                 if audio_pad:
                     self.audio_queue2.get_static_pad("src").link(audio_pad)
                 else:
-                    logger.warning("mpegtsmux has no audio_%u pad – linking generically")
                     self.audio_queue2.link(self.mux)
             else:
-                self.audio_queue2.get_static_pad("src").link(self.mux.get_static_pad("audio"))
+                audio_pad = self.mux.get_request_pad("audio")
+                if audio_pad:
+                    self.audio_queue2.get_static_pad("src").link(audio_pad)
+                else:
+                    logger.error("Failed to get 'audio' request pad from flvmux")
+                    self.audio_queue2.link(self.mux)
 
+            # --- Final linking ---
             self.mux.link(self.sink)
             self.start_graphics_check_thread()
+            
+            # Log pipeline details for debugging
+            logger.info(f"Pipeline created successfully for {self.stream_type}")
+            if self.stream_type != 'srt':
+                logger.info(f"RTMP specific config: flvmux streamable=True, h264parse config-interval=-1")
+
+
 
 
 
