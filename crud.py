@@ -6,7 +6,7 @@ from models import UploadedImage
 from sqlalchemy.orm import Session
 from logging_config import logger
 from pathlib import Path  # Add this import
-
+from sqlalchemy import text
 
 
 
@@ -200,6 +200,12 @@ def delete_cameraurls(db: Session, cameraurls_id: str):
         db.rollback()
         raise e
     
+
+
+# crud.py
+
+
+
 def set_default_camera(db: Session, camera_id: int):
     logger.info(f"Setting camera ID {camera_id} as default")
 
@@ -209,22 +215,18 @@ def set_default_camera(db: Session, camera_id: int):
         logger.warning(f"Camera with ID {camera_id} not found")
         raise NotFoundException("Camera not found")
 
-    # Set all cameras' Default field to false
-    db.query(CameraURLs).update({CameraURLs.Default: False})
-    logger.info("All cameras' Default fields set to false")
-
-    # Set the selected camera's Default field to true
-    camera.Default = True
-    db.commit()
-    db.refresh(camera)
-    logger.info(f"Camera ID {camera_id} set as default")
-
-    return camera
-
-
-# crud.py
-
-
+    try:
+        # Use text() to properly format SQL statements
+        db.execute(text("UPDATE cameraurls SET \"Default\" = FALSE"))
+        db.execute(text(f"UPDATE cameraurls SET \"Default\" = TRUE WHERE id = {camera_id}"))
+        db.commit()
+        db.refresh(camera)
+        logger.info(f"Camera ID {camera_id} set as default")
+        return camera
+    except Exception as e:
+        logger.error(f"Error setting default camera: {e}")
+        db.rollback()
+        raise e
 
 def get_single_stream_target(db: Session):
     target = db.query(StreamTargets).first()

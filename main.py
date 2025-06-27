@@ -11,7 +11,7 @@ from srt import RTSPtoSRTStreamer
 
 import datetime
 from fastapi import Query
-
+from sqlalchemy import text
 
 
 
@@ -498,15 +498,61 @@ def read_stream_target(db: Session = Depends(get_db)):
     except Exception as e:
         raise HTTPException(status_code=404, detail=str(e))
 
+
+
 @app.put("/streamtarget", response_model=schemas.StreamTargetResponse)
 def update_stream_target(data: schemas.StreamTargetUpdate, db: Session = Depends(get_db)):
     try:
-        return crud.update_single_stream_target(db, data)
+        logger.info(f"Updating stream target to {data.stream_type}: {data.sink}")
+        
+        # Store current state before making changes
+        current_camera_id = None
+        was_streaming = False
+        
+        if hasattr(app.state, 'streamer') and app.state.streamer is not None:
+            # Get current camera ID if available
+            if hasattr(app.state.streamer, 'current_source_index') and app.state.streamer.current_source_index is not None:
+                current_camera_id = app.state.streamer.current_source_index + 1
+                logger.info(f"Current active camera ID: {current_camera_id}")
+                
+                # Check if streaming is active
+                try:
+                    was_streaming = app.state.streamer.is_streaming()
+                except Exception:
+                    was_streaming = False
+            
+            # Stop the stream properly
+            logger.info("Stopping current stream to release resources")
+            try:
+                app.state.streamer.stop_stream()
+                time.sleep(1)  # Small delay to ensure resources are freed
+            except Exception as e:
+                logger.error(f"Error stopping stream: {str(e)}")
+        
+        # Update the target in database
+        updated_target = crud.update_single_stream_target(db, data)
+        logger.info(f"Updated stream target in database: {updated_target.stream_type} => {updated_target.sink}")
+        
+        # Re-initialize the streamer with new target
+        app.state.streamer = RTSPtoSRTStreamer()
+        logger.info("Created new streamer instance")
+        
+        # Only restart if we were streaming before
+        if was_streaming and current_camera_id is not None:
+            try:
+                logger.info(f"Restarting stream with camera ID: {current_camera_id}")
+                # Small delay to ensure resources are properly initialized
+                time.sleep(1)
+                app.state.streamer.switch_stream(current_camera_id)
+                logger.info("Stream successfully restarted")
+            except Exception as e:
+                logger.error(f"Failed to restart stream: {str(e)}")
+                # Continue even if restart fails
+        
+        return updated_target
     except Exception as e:
-        raise HTTPException(status_code=404, detail=str(e))
-
-
-
+        logger.error(f"Error updating stream target: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Failed to update stream target: {str(e)}")
 
 @app.delete("/uploaded-images/")
 def delete_all_images_endpoint(db: Session = Depends(get_db)):
@@ -551,16 +597,52 @@ async def upload_image(file: UploadFile = File(...), db: Session = Depends(get_d
 #/var/www/html/public/assets/uploads
 ################################################
 
+
 @app.put("/cameraurls/{camera_id}/start-stream", response_model=CameraURLsResponse)
 def set_start_camera_endpoint(camera_id: int, db: Session = Depends(get_db)):
     try:
-        app.state.streamer.switch_stream(camera_id)
-        return set_default_camera(db, camera_id)
+        # First check if camera exists
+        logger.info(f"Fetching cameraurls with ID: {camera_id}")
+        camera = get_cameraurls(db, camera_id)
+        if not camera:
+            logger.error(f"Camera not found: {camera_id}")
+            raise HTTPException(status_code=404, detail=f"Camera with ID {camera_id} not found")
+        
+        # Set default camera in database using proper text() wrapper
+        try:
+            logger.info(f"Setting camera ID {camera_id} as default in database")
+            # Use text() to properly format SQL statements
+            db.execute(text("UPDATE cameraurls SET \"Default\" = FALSE"))
+            db.execute(text(f"UPDATE cameraurls SET \"Default\" = TRUE WHERE id = {camera_id}"))
+            db.commit()
+            db.refresh(camera)
+        except Exception as db_error:
+            logger.error(f"Database error: {db_error}")
+            db.rollback()
+            # Continue even if DB update fails
+        
+        # Switch the stream
+        logger.info(f"Switching to camera ID: {camera_id}")
+        
+        # Defensive handling of streamer initialization and switch_stream call
+        if not hasattr(app.state, 'streamer') or app.state.streamer is None:
+            app.state.streamer = RTSPtoSRTStreamer()
+            
+        try:
+            app.state.streamer.switch_stream(camera_id)
+        except Exception as e:
+            logger.error(f"Error switching stream: {e}")
+            # Continue and return camera even if stream switch fails
+        
+        return camera
+        
     except NotFoundException as e:
         logger.error(f"Error setting default camera: {e}")
         raise HTTPException(status_code=404, detail=str(e))
+    except HTTPException as e:
+        raise
     except Exception as e:
-        logger.error(f"Unexpected error: {e}")
+        logger.error(f"Unexpected error in set_start_camera_endpoint: {str(e)}")
         raise HTTPException(status_code=500, detail="Internal server error")
 
 @app.post("/stop-stream")
